@@ -2,13 +2,13 @@
 <resources>
 	<color name="slash_bg_left">#ff000000</color>
     <color name="slash_bg_right">#ff000000</color>
-	<color name="button_blue">#ff5b97f6</color>
+	<color name="button_blue">#ff4285f4</color>
 	<color name="material_grey_50">#ff000000</color>
 	<color name="base_black">#ff000000</color>
 	<color name="dark_background">#ff000000</color>
     <color name="dark_background_40pct_opacity">#ff000000</color>
     <color name="dark_gray">#ff000000</color>
-	<color name="blue_text">#ff5b97f6</color>
+	<color name="blue_text">#ff4285f4</color>
 	<color name="grey_background">#ff000000</color>
 	<color name="light_theme_actionbar_bg">#ff000000</color>
 	<color name="home_navbar_bg">#ff000000</color>
@@ -17,8 +17,8 @@
 	<color name="mc_divider_color">#00000000</color>
 	<color name="material_grey_900">#ff000000</color>
 	<color name="submit_indicator_bg">#ff000000</color>
-	<color name="material_deep_teal_200">#ff5b97f6</color>
-    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="material_deep_teal_200">#ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
 	<color name="lit_journal_ewok_scroll_bg">#ff000000</color>
 	<color name="horizontal_torpedo_bar_color">#ff000000</color>
 	<color name="horizontal_torpedo_line_color">#ff000000</color>

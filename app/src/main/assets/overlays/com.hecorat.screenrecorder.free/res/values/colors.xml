@@ -3,9 +3,9 @@
 	<color name="primary">#ff000000</color>
 	<color name="app_background">#ff000000</color>
     <color name="app_background2">#ff000000</color>
-	<color name="primary_accent">#ff5b97f6</color>
-	<color name="material_deep_teal_200">#ff5b97f6</color>
-    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="primary_accent">#ff4285f4</color>
+	<color name="material_deep_teal_200">#ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
 	<color name="bg_recorded_dialog_dark">#ff000000</color>
 	<color name="cardview_dark_background">#ff000000</color>
 	<color name="material_grey_900">#ff000000</color>

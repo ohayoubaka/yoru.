@@ -7,11 +7,11 @@
 	<color name="haf_divider_light">#ff000000</color>
 	<color name="haf_bg_neutral">#ff000000</color>
 	<color name="haf_bg_light">#ff000000</color>
-	<color name="material_deep_teal_200">#ff5b97f6</color>
-    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="material_deep_teal_200">#ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
 	<color name="haf_text_main">#fffafafa</color>
-	<color name="ar_bus">#ff5b97f6</color>
-	<color name="haf_prod_bus">#ff5b97f6</color>
+	<color name="ar_bus">#ff4285f4</color>
+	<color name="haf_prod_bus">#ff4285f4</color>
 	<color name="haf_message_text">#ffffffff</color>
 	<color name="haf_divider_main">#ff000000</color>
 	<color name="passenger_feedback_confirm_background">#ff000000</color>

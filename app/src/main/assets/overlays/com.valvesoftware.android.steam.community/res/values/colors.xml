@@ -3,18 +3,18 @@
     <color name="title_background">#ff000000</color>
 	<color name="secondary_background">#ff000000</color>
     <color name="secondary_background_transparent">#ff000000</color>
-	<color name="secondary_foreground">#ff5b97f6</color>
+	<color name="secondary_foreground">#ff4285f4</color>
 	<color name="primary_background">#ff000000</color>
-	<color name="material_deep_teal_200">#ff5b97f6</color>
-    <color name="material_deep_teal_500">#ff5b97f6</color>
-	<color name="teal">#ff5b97f6</color>
+	<color name="material_deep_teal_200">#ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
+	<color name="teal">#ff4285f4</color>
 	<color name="primary_foreground_dim">#ff000000</color>
 	<color name="settings_background">#ff000000</color>
 	<color name="twofactorcode_thermometer_background">#ff000000</color>
-	<color name="twofactorcode_account_name">#ff5b97f6</color>
-	<color name="twofactorcode_thermometer_normal">#ff5b97f6</color>
+	<color name="twofactorcode_account_name">#ff4285f4</color>
+	<color name="twofactorcode_thermometer_normal">#ff4285f4</color>
 	<color name="chat_text_entry_area_background">#ff000000</color>
 	<color name="chat_edittext_background">#ff000000</color>
-	<color name="button_material_light">#ff5b97f6</color>
-	<color name="button_material_dark">#ff5b97f6</color>
+	<color name="button_material_light">#ff4285f4</color>
+	<color name="button_material_dark">#ff4285f4</color>
 </resources>

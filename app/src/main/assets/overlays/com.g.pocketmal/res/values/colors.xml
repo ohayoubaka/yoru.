@@ -4,8 +4,8 @@
     <color name="main">#ff000000</color>
     <color name="main_background_dark">#ff000000</color>
     <color name="main_dark">#ff000000</color>
-	<color name="main_light">#ff5b97f6</color>
+	<color name="main_light">#ff4285f4</color>
 	<color name="divider">#ff000000</color>
-	<color name="material_deep_teal_200">#ff5b97f6</color>
-    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="material_deep_teal_200">#ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
 </resources>
