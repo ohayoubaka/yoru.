@@ -5,8 +5,17 @@
 	<dimen name="bottombar_border_top_thickness">0.0px</dimen>
 	<dimen name="bottombar_button_margin_between_icon_and_text">0.0dip</dimen>
 	<dimen name="bottombar_padding_horizontal">0.0dip</dimen>
-	<dimen name="toolbar_height">60.0dip</dimen>
+	<dimen name="toolbar_height">56.0dip</dimen>
 	<dimen name="toolbar_urlbar_margin">2.0dip</dimen>
 	<dimen name="toolbar_urlbar_border_bottom_thickness">0.0px</dimen>
+	<dimen name="toolbar_textfield_radius">1000.0dip</dimen>
+	<dimen name="toolbar_textfield_storke_width">0.0px</dimen>
 	<dimen name="toolbar_text_size_normal">16.0sp</dimen>
+	<dimen name="recents_tab_bar_height">56.0dip</dimen>
+	<dimen name="bottombar_multiwindow_count_padding_end">0.0dip</dimen>
+	<dimen name="bottombar_multiwindow_count_padding_bottom">6.0dip</dimen>
+	<dimen name="bottombar_multiwindow_count_padding_end_rtl">0.0dip</dimen>
+	<dimen name="quickaccess_icon_view_item_background_corners_radius">1000.0dip</dimen>
+	<dimen name="most_visited_icon_view_item_background_corners_radius">1000.0dip</dimen>
+	<dimen name="quickaccess_button_shape_radius">1000.0dip</dimen>
 </resources>
