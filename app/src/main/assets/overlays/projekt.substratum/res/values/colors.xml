@@ -64,5 +64,6 @@
     <color name="about_libraries_dividerLight_openSource">#00000000</color>   <!--OG:#ffdadada-->
     <color name="md_light_dividers">#00000000</color>   <!--OG:#1f000000-->
     <color name="ripple_material_light">#33ffffff</color>   <!--OG:#1f000000-->
+	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
     
 </resources>
