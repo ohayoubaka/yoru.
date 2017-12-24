@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--New-->
+    <color name="bb_inActiveBottomBarItemColor">#ffb2b2b2</color>   <!--OG:#ff747474-->
+    <color name="bottombar_bar_background">#ff000000</color>   <!--OG:@android:color/white-->
+    <color name="bottombar_icon_text_selected">#ffffffff</color>   <!--OG:@android:color/black-->
+    <color name="colorPrimary">#ff000000</color>   <!--OG:#ffffffff-->
+    <color name="colorPrimaryDark">#ff000000</color>   <!--OG:#fff4f4f4-->
+    <color name="primary_material_light">#ff000000</color>   <!--OG:@color/material_grey_100-->
+
+	<!--BG-->
+    <color name="about_libraries_card">#ff000000</color>   <!--OG:#fffafafa-->
+    <color name="about_libraries_special_button_openSource">#ffffffff</color>   <!--OG:#ff212121-->
+    <color name="about_libraries_window_background">#ff000000</color>   <!--OG:#ffececec-->
+    <color name="background_floating_material_light">#ff000000</color>   <!--OG:@android:color/white-->
+    <color name="background_material_light">#ffffffff</color>   <!--OG:@color/material_grey_50-->
+    <color name="button_material_light">#ff000000</color>   <!--OG:#ffd6d7d7-->
+    <color name="cardview_light_background">#ff000000</color>   <!--OG:#ffffffff-->
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>   <!--OG:#80323232-->
+    <color name="dim_foreground_material_light">#ffbebebe</color>   <!--OG:#ff323232-->
+    <color name="fab_menu_background_card">#ff000000</color>   <!--OG:#ffffffff-->
+    <color name="fab_menu_divider">#00000000</color>   <!--OG:#4a000000-->
+    <color name="fab_menu_icon_color">#ffffffff</color>   <!--OG:#ff000000-->
+    <color name="main_launcher_background">#ff000000</color>   <!--OG:#fffafafa-->
+    <color name="main_screen_card_background">#ff000000</color>   <!--OG:#fffafafa-->
+    <color name="material_drawer_background">#ff000000</color>   <!--OG:#ffffffff-->
+    <color name="material_drawer_selected">#00000000</color>   <!--OG:#ffe8e8e8-->
+    <color name="md_grey_200">#ff000000</color>   <!--OG:#ffeeeeee-->
+    <color name="md_light_appbar">#ff000000</color>   <!--OG:@color/md_grey_100-->
+    <color name="md_light_background">#ff000000</color>   <!--OG:@color/md_grey_50-->
+	<color name="md_light_cards">#ff000000</color>   <!--OG:@color/md_white_1000-->
+    <color name="md_light_dialogs">#ff000000</color>   <!--OG:@color/md_white_1000-->
+    <color name="md_light_disabled">#4dffffff</color>   <!--OG:#61000000-->
+    <color name="md_light_primary_icon">#b3ffffff</color>   <!--OG:#8a000000-->
+    <color name="primary_dark_material_light">#ff000000</color>   <!--@color/material_grey_600-->
+    <color name="splashscreen_background">#ff000000</color>   <!--OG:#fffafafa-->
+    <color name="theme_information_background">#ff000000</color>   <!--OG:#ffeeeeee-->
+
+	<!--Text-->
+	<color name="abc_search_url_text_pressed">#ffffffff</color>   <!--OG:@android:color/black-->
+    <color name="abc_search_url_text_selected">#ffffffff</color>   <!--OG:@android:color/black-->
+    <color name="about_libraries_text_openSource">#ffdedede</color>   <!--OG:#ff727272-->
+    <color name="about_libraries_title_openSource">#ffffffff</color>   <!--OG:#ff212121-->
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>   <!--OG:#80000000-->
+    <color name="bright_foreground_material_light">#ffffffff</color>   <!--OG:@android:color/black-->
+    <color name="fab_menu_text_color">#ffffffff</color>
+    <color name="foreground_material_light">#ffffffff</color>
+    <color name="highlighted_text_material_light">#66787878</color>
+    <color name="material_drawer_icon_color">#ffffffff</color>
+    <color name="main_screen_card_theme_author">#d0ffffff</color>   <!--OG:#d0000000-->
+    <color name="main_screen_card_theme_title">#ffffffff</color>   <!--OG:#ff000000-->
+    <color name="md_light_primary_text">#ffffffff</color>   <!--OG:#de000000-->
+    <color name="md_light_secondary">#b3ffffff</color>   <!--OG:#8a000000-->
+    <color name="overlay_not_installed_list_entry">#ffb2b2b2</color>   <!--OG:#4c000000-->
+    <color name="primary_text_default_material_light">#ffffffff</color>   <!--OG:#de000000-->
+    <color name="primary_text_disabled_material_light">#4dffffff</color>   <!--OG:#39000000-->
+    <color name="secondary_text_default_material_light">#b3ffffff</color>   <!--#8a000000-->
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>   <!--OG:#24000000-->
+
+	<!--Other-->
+	<color name="abc_input_method_navigation_guard">#ffffffff</color>   <!--OG:@android:color/black-->
+    <color name="about_libraries_dividerDark_openSource">#00000000</color>   <!--OG:#ffaaaaaa-->
+    <color name="about_libraries_dividerLight_openSource">#00000000</color>   <!--OG:#ffdadada-->
+    <color name="md_light_dividers">#00000000</color>   <!--OG:#1f000000-->
+    <color name="ripple_material_light">#33ffffff</color>   <!--OG:#1f000000-->
+    
+</resources>

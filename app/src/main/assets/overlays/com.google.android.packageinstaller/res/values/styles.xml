@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:textAppearanceMedium">@*android:style/TextAppearance.Medium</item>   <!--OG:@style/MediumText-->
+        <item name="android:textAppearanceSmall">@*android:style/TextAppearance.Small</item>   <!--OG:@style/SmallText-->
+        <item name="android:titleTextStyle">@*android:style/TextAppearance.Large</item>   <!--OG:@style/TitleText-->
+    </style>
+</resources>

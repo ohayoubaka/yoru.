@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BG-->
+    <color name="background_floating_material_light">@*android:color/primary_material_dark</color>   <!--OG:@android:color/white-->
+    <color name="directory_background">@*android:color/background_material_dark</color>   <!--OG:#fff7f7f7-->
+    <color name="drawer_background">@*android:color/primary_material_dark</color>   <!--OG:#fff1f1f1-->
+    <color name="drawer_border">@*android:color/primary_material_dark</color>   <!--OG:#ffd4d4d4-->
+    <color name="menu_search_background">@*android:color/primary_material_dark</color>   <!--OG:@*android:color/transparent-->
+    <color name="window_background">@*android:color/background_material_dark</color>   <!--OG:#fff1f1f1-->
+    <!--Item Cards-->
+    <color name="item_doc_background">@*android:color/primary_material_dark</color>   <!--OG:@android:color/white-->
+    <color name="item_doc_details">#ffffffff</color>   <!--Text - OG:#ff333333-->
+    <color name="item_doc_title">#ffffffff</color>   <!--Text - OG:#ff333333-->
+    <!--Text-->
+    <color name="primary_text_default_material_light">#ffffffff</color>   <!--OG:#de000000-->
+    <color name="primary_text_disabled_material_light">#4dffffff</color>   <!--OG:#39000000-->
+    <color name="root_details_color">#8affffff</color>   <!--OG:8a000000-->
+    <color name="root_title_color">#ffffffff</color>   <!--OG:#de000000-->
+    <color name="secondary_text_default_material_light">#b3ffffff</color>   <!--OG:#8a000000-->
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>   <!--OG:#24000000-->
+    <color name="sort_widget_text_color">#ffffffff</color>   <!--OG:#de000000-->
+    <!--Other-->
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>   <!--OG:#80000000-->
+    <color name="bright_foreground_material_light">@*android:color/white</color>   <!--OG:@android:color/black-->
+    <color name="doc_icon_color">#ffb2b2b2</color>   <!--OG:#ff5a5a5a-->
+    <color name="ripple_material_light">#33ffffff</color>   <!--OG:#1f000000-->
+    <color name="root_icon_color">#ffb2b2b2</color>   <!--OG:#ff5a5a5a-->
+    <color name="scroll_thumb">#ff3367d6</color>   <!--OG:#ffbebebe-->
+    <color name="scroll_track">#00000000</color>   <!--OG:#fff0f0f0-->
+</resources>
