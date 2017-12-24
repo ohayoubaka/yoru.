@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/fm.last.android">
     <LinearLayout android:orientation="horizontal" android:id="@*fm.last.android:id/llBar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="@*fm.last.android:dimen/now_playing_height" android:animateLayoutChanges="true">
         <ImageView android:layout_gravity="center" android:id="@*fm.last.android:id/ivAlbum" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@*fm.last.android:drawable/default_album_light_40dp" />
         <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">

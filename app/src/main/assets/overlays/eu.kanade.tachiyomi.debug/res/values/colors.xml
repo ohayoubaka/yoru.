@@ -7,18 +7,18 @@
     <color name="material_grey_800">#ff000000</color>
     <color name="material_grey_850">#ff000000</color>
     <color name="md_grey_800">#ff000000</color>
-	<color name="colorAccentDark">#ff4285f4</color>
-    <color name="colorAccentLight">#ff4285f4</color>
+	<color name="colorAccentDark">@*android:color/material_deep_teal_500</color>
+    <color name="colorAccentLight">@*android:color/material_deep_teal_500</color>
 	<color name="chglib_background_default_divider_color">#00000000</color>
     <color name="chglib_material_background_default_divider_color">#00000000</color>
 	<color name="dividerDark">#00000000</color>
     <color name="dividerLight">#00000000</color>
 	<color name="md_divider_black">#00000000</color>
     <color name="md_divider_white">#00000000</color>
-	<color name="material_deep_teal_200">#ff4285f4</color>
-    <color name="material_deep_teal_500">#ff4285f4</color>
-	<color name="material_teal_accent_100">#ff4285f4</color>
-    <color name="material_teal_accent_200">#ff4285f4</color>
-    <color name="material_teal_accent_400">#ff4285f4</color>
-    <color name="material_teal_accent_700">#ff4285f4</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+	<color name="material_teal_accent_100">@*android:color/material_deep_teal_500</color>
+    <color name="material_teal_accent_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_teal_accent_400">@*android:color/material_deep_teal_500</color>
+    <color name="material_teal_accent_700">@*android:color/material_deep_teal_500</color>
 </resources>

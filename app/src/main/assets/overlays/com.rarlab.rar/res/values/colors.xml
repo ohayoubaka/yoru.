@@ -4,6 +4,6 @@
     <color name="color_primary">#ff000000</color>
 	<color name="color_primary_dark">#ff000000</color>
 	<color name="material_grey_850">#ff000000</color>
-	<color name="material_deep_teal_200">#ff4285f4</color>
-    <color name="material_deep_teal_500">#ff4285f4</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
 </resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimaryDark">#ff000000</color>
-	<color name="colorAccent">#ff4285f4</color>
-	<color name="material_deep_teal_200">#ff4285f4</color>
-    <color name="material_deep_teal_500">#ff4285f4</color>
-	<color name="colorPrimary">#ff4285f4</color>
+	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+	<color name="colorPrimary">@*android:color/material_deep_teal_500</color>
 	<color name="material_grey_800">#ff000000</color>
     <color name="material_grey_850">#ff000000</color>
     <color name="material_grey_900">#ff000000</color>

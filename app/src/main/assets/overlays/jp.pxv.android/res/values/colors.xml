@@ -16,11 +16,11 @@
     <color name="novel_background_white">#ff000000</color>
 	<color name="sign_up_background">#ff000000</color>
 	<color name="renewal_bg_toolbar">#ff000000</color>
-	<color name="bg_follow_button">#ff4285f4</color>
-	<color name="bg_search_input">#4f4285f4</color>
-	<color name="material_deep_teal_200">#ff4285f4</color>
-    <color name="material_deep_teal_500">#ff4285f4</color>
-	<color name="md_material_blue_600">#ff4285f4</color>
+	<color name="bg_follow_button">@*android:color/material_deep_teal_500</color>
+	<color name="bg_search_input">#4fffffff</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+	<color name="md_material_blue_600">@*android:color/material_deep_teal_500</color>
 	<color name="bg_illust_edit_action">#ff000000</color>
     <color name="bg_image">#ff000000</color>
     <color name="bg_item">#ff000000</color>
