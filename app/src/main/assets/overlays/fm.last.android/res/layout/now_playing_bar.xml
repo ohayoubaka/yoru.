@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@*fm.last.android:id/llBar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="@*fm.last.android:dimen/now_playing_height" android:animateLayoutChanges="true">
+        <ImageView android:layout_gravity="center" android:id="@*fm.last.android:id/ivAlbum" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@*fm.last.android:drawable/default_album_light_40dp" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="#ffef9595" android:ellipsize="marquee" android:id="@*fm.last.android:id/tvPrimary" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <TextView android:textSize="14.0sp" android:textColor="#aaffffff" android:ellipsize="marquee" android:id="@*fm.last.android:id/tvSecondary" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <fm.last.android.ui.view.ProgressWheel android:layout_gravity="center" android:id="@*fm.last.android:id/progressWheel" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="16.0dip" android:src="@*fm.last.android:drawable/ic_indicator_red_as" android:scaleType="center" app:matProg_barColor="#ffb90000" app:matProg_rimColor="#ffdddddd" app:matProg_rimWidth="2.0dip" app:matProg_circleRadius="40.0dip" app:matProg_fillRadius="true" app:matProg_barWidth="2.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@*fm.last.android:id/flContent" android:background="@*fm.last.android:color/content_background" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

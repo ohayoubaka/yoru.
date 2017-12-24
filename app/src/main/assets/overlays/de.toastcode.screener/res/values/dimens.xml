@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_default_radius">0.0dip</dimen>
+    <dimen name="product_logo_bottom">16.0dip</dimen>
+    <dimen name="product_brand_bottom">48.0dip</dimen>
+</resources>

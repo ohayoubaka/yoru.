@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ff5b97f6</color>
+    <color name="accent_50">#ff5b97f6</color>
+    <color name="accent_dark">#ff5b97f6</color>
+    <color name="accent_material_dark">#ff5b97f6</color>
+    <color name="accent_material_light">#ff5b97f6</color>
+    <color name="accent_transparent">#ff5b97f6</color>
+    <color name="primary">#ff000000</color>
+    <color name="primary_dark">#ff000000</color>
+    <color name="ripple_material_dark">#a3b4b4b4</color>
+    <color name="ripple_material_light">#a3b4b4b4</color>
+</resources>

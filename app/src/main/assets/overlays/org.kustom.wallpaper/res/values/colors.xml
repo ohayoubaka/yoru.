@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="cardview_dark_background">#ff000000</color>
+	<color name="kustom_dark_primary">#ff000000</color>
+	<color name="kustom_dark_primary_dark">#ff000000</color>
+	<color name="kustom_dark_preview_background">#ff000000</color>
+	<color name="kustom_dark_background">#ff000000</color>
+	<color name="kustom_intro_background">#ff000000</color>
+	<color name="kustom_intro_bar">#ff000000</color>
+	<color name="design_snackbar_background_color">#ff000000</color>
+	<color name="kustom_dark_primary_light">#ff000000</color>
+	<color name="kustom_dark_divider">#ff000000</color>
+	<color name="material_grey_800">#ff000000</color>
+	<color name="md_grey_800">#ff000000</color>
+	<color name="md_grey_850">#ff000000</color>
+	<color name="md_divider_black">#ff000000</color>
+    <color name="md_divider_white">#ff000000</color>
+	<color name="md_light_dividers">#ff000000</color>
+	<color name="kustom_light_divider">#ff000000</color>
+	<color name="md_dark_dividers">#ff000000</color>
+	<color name="black25PercentColor">#ff000000</color>
+	<color name="kustom_light_primary_dark">#ff000000</color>
+</resources>

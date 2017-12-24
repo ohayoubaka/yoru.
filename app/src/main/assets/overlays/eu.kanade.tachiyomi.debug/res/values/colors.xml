@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundDark">#ff000000</color>
+    <color name="cardview_dark_background">#ff000000</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="material_grey_800">#ff000000</color>
+    <color name="material_grey_850">#ff000000</color>
+    <color name="md_grey_800">#ff000000</color>
+	<color name="colorAccentDark">#ff5b97f6</color>
+    <color name="colorAccentLight">#ff5b97f6</color>
+	<color name="chglib_background_default_divider_color">#00000000</color>
+    <color name="chglib_material_background_default_divider_color">#00000000</color>
+	<color name="dividerDark">#00000000</color>
+    <color name="dividerLight">#00000000</color>
+	<color name="md_divider_black">#00000000</color>
+    <color name="md_divider_white">#00000000</color>
+	<color name="material_deep_teal_200">#ff5b97f6</color>
+    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="material_teal_accent_100">#ff5b97f6</color>
+    <color name="material_teal_accent_200">#ff5b97f6</color>
+    <color name="material_teal_accent_400">#ff5b97f6</color>
+    <color name="material_teal_accent_700">#ff5b97f6</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background_card_dark">#ff000000</color>
+	<color name="background_drawer_dark">#ff000000</color>
+	<color name="background_drawer_amoled">#ff000000</color>
+	<color name="background_block_amoled">#ff000000</color>
+	<color name="color_accent_amoled">#ff5b97f6</color>
+	<color name="color_primary_amoled">#ff000000</color>
+</resources>

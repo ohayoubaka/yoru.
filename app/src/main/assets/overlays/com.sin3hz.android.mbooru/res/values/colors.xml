@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#ff000000</color>
+	<color name="colorAccent">#ff5b97f6</color>
+	<color name="material_deep_teal_200">#ff5b97f6</color>
+    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="colorPrimary">#ff5b97f6</color>
+	<color name="material_grey_800">#ff000000</color>
+    <color name="material_grey_850">#ff000000</color>
+    <color name="material_grey_900">#ff000000</color>
+	<color name="cardview_dark_background">#ff000000</color>
+	<color name="design_snackbar_background_color">#ff000000</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primaryColor">#ff000000</color>
+	<color name="colorAccent">#ff5b97f6</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorPrimaryLight">#ff000000</color>
+    <color name="darkPrimaryColor">#ff000000</color>
+	<color name="material_deep_teal_200">#ff5b97f6</color>
+    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="md_teal_100">#ff5b97f6</color>
+    <color name="md_teal_200">#ff5b97f6</color>
+    <color name="md_teal_300">#ff5b97f6</color>
+    <color name="md_teal_400">#ff5b97f6</color>
+    <color name="md_teal_50">#ff5b97f6</color>
+    <color name="md_teal_500">#ff5b97f6</color>
+    <color name="md_teal_600">#ff5b97f6</color>
+    <color name="md_teal_700">#ff5b97f6</color>
+    <color name="md_teal_800">#ff5b97f6</color>
+    <color name="md_teal_900">#ff5b97f6</color>
+    <color name="md_teal_A100">#ff5b97f6</color>
+    <color name="md_teal_A200">#ff5b97f6</color>
+    <color name="md_teal_A400">#ff5b97f6</color>
+    <color name="md_teal_A700">#ff5b97f6</color>
+</resources>

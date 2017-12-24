@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bottombar_textSize">0.0sp</dimen>
+	<dimen name="bottombar_height">46.0dip</dimen>
+	<dimen name="bottombar_border_top_thickness">0.0px</dimen>
+	<dimen name="bottombar_button_margin_between_icon_and_text">0.0dip</dimen>
+	<dimen name="bottombar_padding_horizontal">0.0dip</dimen>
+	<dimen name="toolbar_height">60.0dip</dimen>
+	<dimen name="toolbar_urlbar_margin">2.0dip</dimen>
+	<dimen name="toolbar_urlbar_border_bottom_thickness">0.0px</dimen>
+	<dimen name="toolbar_text_size_normal">16.0sp</dimen>
+</resources>

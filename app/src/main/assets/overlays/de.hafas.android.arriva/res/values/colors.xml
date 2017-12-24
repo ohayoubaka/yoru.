@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="haf_bg_ultra_light">#ff000000</color>
+	<color name="haf_color_SCROLLBG">#ff000000</color>
+    <color name="haf_color_SPLASHBG">#ff000000</color>
+    <color name="haf_color_SPLASHFONT">#ffffffff</color>
+	<color name="haf_divider_light">#ff000000</color>
+	<color name="haf_bg_neutral">#ff000000</color>
+	<color name="haf_bg_light">#ff000000</color>
+	<color name="material_deep_teal_200">#ff5b97f6</color>
+    <color name="material_deep_teal_500">#ff5b97f6</color>
+	<color name="haf_text_main">#fffafafa</color>
+	<color name="ar_bus">#ff5b97f6</color>
+	<color name="haf_prod_bus">#ff5b97f6</color>
+	<color name="haf_message_text">#ffffffff</color>
+	<color name="haf_divider_main">#ff000000</color>
+	<color name="passenger_feedback_confirm_background">#ff000000</color>
+	<color name="haf_color_HEADERBG">#ff000000</color>
+	<color name="haf_color_IMAGEBG">#ff000000</color>
+	<color name="haf_color_MAPBG">#ff000000</color>
+	<color name="haf_color_TICKERHEADBG">#ff000000</color>
+	<color name="haf_color_TITLEBG">#ff000000</color>
+</resources>
