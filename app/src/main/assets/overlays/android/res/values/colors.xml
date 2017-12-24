@@ -104,5 +104,28 @@
     <color name="tw_edit_text_text_color_material_light">@*android:color/material_deep_teal_500</color>
     <color name="tw_text_color_title_material_toolbar_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_text_color_title_material_toolbar">@*android:color/material_deep_teal_500</color>
-	
+	<color name="sem_color_picker_selected_color_group_background_color_dark">#ff000000</color>
+    <color name="sem_picker_dialog_window_background_color_dark">#ff000000</color>
+    <color name="sem_resolver_bg_color_dark">#ff000000</color>
+    <color name="sem_tip_popup_background_color_dark">#ff000000</color>
+    <color name="sem_tooltip_background_dark">#ff000000</color>
+    <color name="tw_dialog_circle_background_color_dark">#ff000000</color>
+    <color name="tw_dialog_window_background_color_material_dark">#ff000000</color>
+    <color name="tw_popup_background_material_dark">#ff000000</color>
+	<color name="sem_color_picker_selected_color_group_background_stroke_color">#00000000</color>
+    <color name="sem_color_picker_selected_color_group_background_stroke_color_dark">#00000000</color>
+    <color name="sem_color_picker_stroke_color">#00000000</color>
+    <color name="sem_color_picker_stroke_color_dark">#00000000</color>
+    <color name="sem_hover_popup_stroke_color_material">#00000000</color>
+    <color name="sem_resolver_bottompanel_button_show_background_stroke_color_material_light">#00000000</color>
+    <color name="sem_show_button_background_stroke_color">#00000000</color>
+    <color name="sem_show_button_background_stroke_color_disabled">#00000000</color>
+    <color name="sem_timepicker_stroke_color_dark">#00000000</color>
+    <color name="sem_timepicker_stroke_color_light">#00000000</color>
+    <color name="sem_tooltip_stroke_dark">#00000000</color>
+    <color name="sem_tooltip_stroke_light">#00000000</color>
+    <color name="tw_popup_stroke_color_material">#00000000</color>
+    <color name="tw_popup_stroke_color_material_dark">#00000000</color>
+    <color name="tw_searchview_textfiled_stroke_material">#00000000</color>
+    <color name="tw_searchview_textfiled_stroke_material_dark">#00000000</color>
 </resources>
