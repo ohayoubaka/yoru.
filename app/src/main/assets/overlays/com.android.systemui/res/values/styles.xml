@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="keyguard_carrier_label_style">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+	<style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
+	    <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	<style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_header_clock</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+	    <item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_header_date</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo" parent="@*com.android.systemui:style/TextAppearance">
+        <item name="android:textColor">#ffffffff</item>
+		<item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Button" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_200</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.android.systemui:drawable/btn_borderless_rect</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Header" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff8c8c8c</item>
+		<item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Primary" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+		<item name="android:alpha">0.87</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Radio" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+		<item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Secondary" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffb2b2b2</item>
+		<item name="android:alpha">0.54</item>
+    </style>
+    <style name="QSDetailSwitch">
+        <item name="android:theme">@*android:style/Theme.Material</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginStart">@*com.android.systemui:dimen/qs_detail_switch_start_margin</item>
+   </style>
+   <style name="systemui_theme_light" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">@*com.android.systemui:color/system_primary_color</item>
+    </style>
+    <style name="systemui_theme" parent="@*android:style/Theme.Material">
+    </style>
+	<style name="systemui_theme_remote_input" parent="@*android:style/Theme.Material">
+        <item name="android:colorAccent">@*com.android.systemui:color/remote_input_accent</item>
+    </style>
+	<style name="dialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="PopupMenuTheme" parent="@*android:style/Theme.Material">
+        <item name="android:popupMenuStyle">@*android:style/Widget.Material.Light.PopupMenu</item>
+    </style>
+	<style name="TextAppearance.QS.DetailHeader" parent="@*com.android.systemui:style/TextAppearance.QS">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_detail_header_title</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton" parent="@*com.android.systemui:style/TextAppearance.QS">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_detail_action_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="TextAppearance.Volume" parent="@*com.android.systemui:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Description" parent="@*com.android.systemui:style/TextAppearance.Volume">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_detail_secondary_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Header" parent="@*com.android.systemui:style/TextAppearance.Volume">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*com.android.systemui:color/tw_volume_title_color_light</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

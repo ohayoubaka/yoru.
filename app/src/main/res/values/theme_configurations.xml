@@ -1,0 +1,33 @@
+<resources>
+    <!-- Theme name and author name -->
+    <string name="ThemeName">yoru.</string>
+    <string name="ThemeAuthor">ohayoubaka</string>
+    <!-- Your email for bug reports (DEFAULT: empty) -->
+    <!--suppress CheckTagEmptyBody -->
+    <string name="ThemeAuthorEmail">ohayoubakatheme@gmail.com</string>
+    <!-- Do you support Stock and Theme Ready Gapps? -> all -->
+    <!-- Do you support Theme Ready but not Stock Gapps? -> ready -->
+    <!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
+    <!-- If you want to remind your user to use Theme Ready Gapps then change
+         THEME_READY_GOOGLE_APPS in Constants.kt line 7 to true -->
+    <string name="ThemeReadyRequirement">all</string>
+    <!-- Theme wallpaper source (must be raw) -->
+    <string name="ThemeWallpaperSource"></string>
+    <!-- Do your theme support substratum legacy? -->
+    <!-- If you choose not to support legacy, then change line 12 in AndroidManifest.xml -->
+    <!-- from 'false' to 'true' to hide your theme on the Play Store from any stock ROM-->
+    <bool name="ThemeSupportLegacy">true</bool>
+    <!-- Does your theme support substratum samsung? -->
+    <bool name="ThemeSupportSamsung">true</bool>
+    <!-- Do you want to override the hero image auto color assignment? -->
+    <!-- Don't force anything? -> auto -->
+    <!-- Force black/dark icons? -> dark -->
+    <!-- Force white/light icons? -> light -->
+    <string name="ThemeHeroOverride">auto</string>
+    <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
+    <string-array name="ThemeChangelog">
+        <item>yoru.</item>
+        <item>For Samsung ROMs (8.0 Oreo ONLY)</item>
+		<item>UNINSTALL ALL OVERLAYS BEFORE TAKING A SYSTEM UPDATE!</item>
+    </string-array>
+</resources>
