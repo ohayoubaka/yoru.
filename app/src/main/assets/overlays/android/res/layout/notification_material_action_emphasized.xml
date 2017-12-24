@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@*android:id/button_holder" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@*android:color/notification_default_color" android:ellipsize="end" android:gravity="center" android:id="@*android:id/action0" android:background="@*android:drawable/notification_material_action_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" style="@*android:style/Widget.Material.Light.Button.Borderless.Small" />
+</FrameLayout>
