@@ -16,9 +16,9 @@
     <color name="custom_tab_urlbar_divider_color">#ff000000</color>
     <color name="quickaccess_no_items_text_color">#ffffffff</color>
     <color name="background_gray">#ff000000</color>
-    <color name="recent_normal_tab_background">@*android:color/material_deep_teal_500</color>
-    <color name="recent_normal_tab_close_color">#ffffffff</color>
-    <color name="recent_normal_tab_title_color">#ffffffff</color>
+    <color name="recent_normal_tab_background">#ff000000</color>
+    <color name="recent_normal_tab_close_color">@*android:color/material_deep_teal_500</color>
+    <color name="recent_normal_tab_title_color">@*android:color/material_deep_teal_500</color>
     <color name="tab_manager_actionbar_menu_text_color">@*android:color/material_deep_teal_500</color>
     <color name="tab_manager_actionbar_title_text_color">@*android:color/material_deep_teal_500</color>
     <color name="tab_manager_bottom_divider">#ff000000</color>

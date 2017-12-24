@@ -98,4 +98,15 @@
 	<style name="TextAppearance.Material.Notification.Time" parent="@*android:style/TextAppearance.Material.Notification.Info">
         <item name="android:fontFamily">sans-serif</item>
     </style>
+	<style name="Widget.DeviceDefault.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:background">#ff000000</item>
+        <item name="android:titleTextStyle">@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle</item>
+        <item name="android:backgroundStacked">#ff000000</item>
+        <item name="android:backgroundSplit">#ff000000</item>
+        <item name="android:elevation">0.0dip</item>
+        <item name="android:contentInsetStart">@*android:dimen/sem_toolbar_content_inset_start</item>
+        <item name="android:contentInsetEnd">0.0dip</item>
+        <item name="android:contentInsetStartWithNavigation">0.0dip</item>
+    </style>
 </resources>
