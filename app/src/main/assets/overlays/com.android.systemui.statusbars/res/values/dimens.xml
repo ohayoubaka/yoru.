@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="signal_cluster_battery_padding">7.0dip</dimen>
+	<dimen name="no_signal_cluster_battery_padding">7.0dip</dimen>
+	<dimen name="notification_panel_carrier_label_height">0.0dip</dimen>
+    <dimen name="notification_panel_carrier_label_text_size">0.0dip</dimen>
+	<dimen name="status_bar_carrier_label_text_size">0.0dip</dimen>
+	<dimen name="carrier_label_height_spn_zvv">0.0dip</dimen>
+	<dimen name="signal_cluster_margin_start">2.5dip</dimen>
+	<dimen name="status_bar_clock_starting_padding">7.0dip</dimen>
+	<dimen name="battery_text_size">14.0dip</dimen>
+	<dimen name="battery_text_margin_end">4.0dip</dimen>
+	<dimen name="carrier_label_height">0.0dip</dimen>
+</resources>

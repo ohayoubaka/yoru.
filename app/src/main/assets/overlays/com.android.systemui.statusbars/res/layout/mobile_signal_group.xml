@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@*com.android.systemui:id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/com.android.systemui">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@*com.android.systemui:id/mobile_in" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/ic_activity_down" android:paddingEnd="0.0dip" />
+        <ImageView android:id="@*com.android.systemui:id/mobile_out" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/ic_activity_up" android:paddingEnd="0.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@*com.android.systemui:id/data_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@*com.android.systemui:id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@*com.android.systemui:id/mobile_activity" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@*com.android.systemui:id/signal_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AnimatedImageView android:theme="@*com.android.systemui:style/DualToneLightTheme" android:id="@*com.android.systemui:id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" systemui:hasOverlappingRendering="false" />
+        <com.android.systemui.statusbar.AnimatedImageView android:theme="@*com.android.systemui:style/DualToneDarkTheme" android:id="@*com.android.systemui:id/mobile_signal_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" systemui:hasOverlappingRendering="false" />
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@*com.android.systemui:id/mobile_roaming" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@*com.android.systemui:id/slot_focus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/stat_sys_signal_focus_bg" />
+        <ImageView android:id="@*com.android.systemui:id/rssi_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>
