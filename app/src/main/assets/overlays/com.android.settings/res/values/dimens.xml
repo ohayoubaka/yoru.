@@ -5,5 +5,5 @@
 	<dimen name="default_profile_image_stroke_width">0.0px</dimen>
 	<dimen name="profile_image_size">0.0dip</dimen>
 	<dimen name="profile_layout_end_padding">0.0dip</dimen>
-    <dimen name="profile_layout_width">6.0dip</dimen>
+    <dimen name="profile_layout_width">0.0dip</dimen>
 </resources>

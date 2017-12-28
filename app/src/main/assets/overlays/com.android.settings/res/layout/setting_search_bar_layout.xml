@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.widget.SearchView android:id="@*com.android.settings:id/serach_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="-6.0dip" android:layout_marginEnd="-6.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="end" android:id="@*com.android.settings:id/profile_layout" android:layout_width="@*com.android.settings:dimen/profile_layout_width" android:layout_height="fill_parent" android:paddingEnd="@*com.android.settings:dimen/profile_layout_end_padding">
+        <android.widget.QuickContactBadge android:id="@*com.android.settings:id/profile_image_button" android:focusable="true" android:clickable="true" android:layout_width="@*com.android.settings:dimen/profile_image_size" android:layout_height="@*com.android.settings:dimen/profile_image_size" android:src="@*com.android.settings:drawable/profile_default_image" android:contentDescription="@*com.android.settings:string/samsung_account_profile" />
+    </LinearLayout>
+</LinearLayout>

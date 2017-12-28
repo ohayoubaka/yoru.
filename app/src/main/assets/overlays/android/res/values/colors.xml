@@ -24,7 +24,6 @@
     <color name="tw_switch_track_off_mtrl">#4dffffff</color>
 	<color name="tw_switch_track_dim_mtrl">#ffe9e9e9</color>
 	<color name="tw_visual_effect_text_color">#fffafafa</color>
-	<color name="sem_app_bar_bg_color">#ff000000</color>
 	
 	<!--Misc. Samsung related values-->
 	<color name="tw_section_divider_color_mtrl">@*android:color/tw_preference_switch_divider_color_light</color>
@@ -34,8 +33,9 @@
 	<color name="floating_popup_divider_dark">@*android:color/tw_preference_switch_divider_color_light</color>
 	<color name="tw_floating_popup_divider_color">@*android:color/tw_preference_switch_divider_color_light</color>
 	<color name="tw_switch_dim_mtrl">@*android:color/tw_switch_off_mtrl</color>
-	<color name="tw_tab_background_color">@*android:color/sem_app_bar_bg_color</color>
-	<color name="sem_indexbar_bg_tint_color">@*android:color/sem_app_bar_bg_color</color>
+	<color name="tw_switch_dim_mtrl_dark">@*android:color/tw_switch_off_mtrl</color>
+	<color name="tw_tab_background_color_dark">#ff000000</color>
+	<color name="sem_indexbar_bg_tint_color">@*android:color/tw_tab_background_color_dark</color>
 	
 	<!--Misc. Samsung related values (accent colours)-->
     <color name="holo_blue_light">@*android:color/material_deep_teal_500</color>
@@ -85,6 +85,7 @@
     <color name="tw_color_control_normal">@*android:color/tw_color_control_activated</color>
 	<color name="tw_switch_enabled_on_text_mtrl">@*android:color/tw_color_control_activated</color>
 	<color name="tw_switch_on_mtrl">@*android:color/tw_color_control_activated</color>
+	<color name="tw_switch_on_mtrl_dark">@*android:color/tw_color_control_activated</color>
 	<color name="tw_loading_progress_color1">@*android:color/material_deep_teal_500</color>
     <color name="tw_loading_progress_color2">@*android:color/material_deep_teal_500</color>
     <color name="tw_section_divider_text_color_mtrl">@*android:color/material_deep_teal_500</color>
@@ -128,4 +129,11 @@
     <color name="tw_popup_stroke_color_material_dark">#00000000</color>
     <color name="tw_searchview_textfiled_stroke_material">#00000000</color>
     <color name="tw_searchview_textfiled_stroke_material_dark">#00000000</color>
+	<color name="tw_searchview_textfiled_normal_material_dark">#ff000000</color>
+	<color name="tw_searchview_hint_text_material">@*android:color/material_deep_teal_500</color>
+    <color name="tw_searchview_hint_text_material_dark">@*android:color/material_deep_teal_500</color>
+	<color name="tw_searchview_clear_icon_color_material">@*android:color/material_deep_teal_500</color>
+	<color name="tw_searchview_search_icon_color_material">@*android:color/material_deep_teal_500</color>
+    <color name="tw_searchview_search_icon_color_material_dark">@*android:color/material_deep_teal_500</color>
+	<color name="tw_searchview_voice_icon_color_material">@*android:color/material_deep_teal_500</color>
 </resources>

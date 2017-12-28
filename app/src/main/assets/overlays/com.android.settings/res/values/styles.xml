@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="AppBaseTheme" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="AppBaseTheme" parent="@*android:style/Theme.Material" />
 	<style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault">
 		<item name="android:statusBarColor">#ff000000</item>
         <item name="android:windowLightStatusBar">false</item>
@@ -88,4 +88,13 @@
     <style name="SettingsTheme.DialogWhenLarge" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:actionModeCloseButtonStyle">@*com.android.settings:style/NoCloseButton</item>
     </style>
+	<style name="BluetoothSettings.Picker" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+	<style name="SetupWizardWifiTheme.Light" parent="@*android:style/Theme.DeviceDefault.NoActionBar" />
+	<style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
+    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorForeground">#fffafafa</item>
+    </style>
+    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
 </resources>

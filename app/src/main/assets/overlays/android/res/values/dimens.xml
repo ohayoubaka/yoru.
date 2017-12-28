@@ -35,4 +35,13 @@
     <dimen name="notification_top_pad_large_text_narrow">-4.0dip</dimen>
     <dimen name="notification_top_pad_narrow">4.0dip</dimen>
 	<dimen name="multiwindow_samsung_freeform_decor_caption_window_height">36.0dip</dimen>
+	<dimen name="sem_action_bar_divider_height">0.0dip</dimen>
+	<dimen name="dialog_title_divider_material">0.0dip</dimen>
+	<dimen name="tw_list_divider_height">0.0px</dimen>
+	<dimen name="action_bar_default_height">56.0dip</dimen>
+	<dimen name="sem_action_bar_default_height_material">56.0dip</dimen>
+	<dimen name="tw_searchview_background_stroke_size">0.0dip</dimen>
+	<dimen name="tw_searchview_background_radius_size">1000.0dip</dimen>
+	<dimen name="sem_text_size_title_material_toolbar">18.5dip</dimen>
+	<dimen name="tw_searchview_search_end_margin">20.0dip</dimen>
 </resources>

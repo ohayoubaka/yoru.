@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch android:src="@*android:drawable/sem_action_bar_divider_mtrl" android:tint="#ff000000" android:tintMode="src_over"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
