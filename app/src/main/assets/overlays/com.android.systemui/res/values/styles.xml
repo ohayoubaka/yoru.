@@ -76,7 +76,7 @@
         <item name="android:popupMenuStyle">@*android:style/Widget.Material.Light.PopupMenu</item>
     </style>
 	<style name="TextAppearance.QS.DetailHeader" parent="@*com.android.systemui:style/TextAppearance.QS">
-        <item name="android:textSize">18.0sp</item>
+        <item name="android:textSize">18.5sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*com.android.systemui:color/qs_detail_header_title</item>
         <item name="android:fontFamily">sans-serif-medium</item>
