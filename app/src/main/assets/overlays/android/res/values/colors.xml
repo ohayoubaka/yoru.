@@ -73,11 +73,14 @@
     <color name="tw_seekbar_color_control_secondary">@*android:color/tw_seekbar_color_control_activated</color>
     <color name="tw_accessibility_focus_highlight">@*android:color/material_deep_teal_500</color>
     <color name="tw_tab_selected_color">@*android:color/material_deep_teal_500</color>
+	<color name="tw_tab_selected_color_dark">@*android:color/material_deep_teal_500</color>
+    <color name="tw_tab_selected_text_color_dark">@*android:color/material_deep_teal_500</color>
     <color name="tw_tab_selected_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="hun_button_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="sem_color_primary">@*android:color/material_deep_teal_500</color>
     <color name="sem_color_primary_dark">@*android:color/material_deep_teal_500</color>
 	<color name="sem_color_primary_dark_light">@*android:color/material_deep_teal_500</color>
+	<color name="sem_color_primary_light">@*android:color/material_deep_teal_500</color>
 	<color name="tw_color_control_activated_dark">@*android:color/tw_color_control_activated</color>
 	<color name="tw_thumb_color_control_activated">@*android:color/tw_seekbar_color_control_activated</color>
     <color name="tw_thumb_color_control_activated_dark">@*android:color/tw_seekbar_color_control_activated</color>
