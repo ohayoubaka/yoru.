@@ -35,12 +35,12 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.android.settings:preferenceTheme">@*com.android.settings:style/PreferenceTheme</item>
     </style>
-	<style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.Settings">
-        <item name="android:colorBackground">@*android:color/white</item>
+	<style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.DeviceDefault">
+        <item name="android:colorBackground">#ff000000</item>
         <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
         <item name="android:statusBarColor">@*com.android.settings:color/status_bar_color</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="*com.android.settings:preferenceBackgroundColor">@*com.android.settings:drawable/preference_background</item>
+        <item name="*com.android.settings:preferenceBackgroundColor">#ff000000</item>
     </style>
 	<style name="Theme.Settings.VzwSetupWizardWifi" parent="@*com.android.settings:style/Theme.Settings">
         <item name="android:windowDisablePreview">true</item>
