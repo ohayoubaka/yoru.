@@ -95,7 +95,7 @@
 	<style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
         <item name="android:textSize">@*android:dimen/text_size_subtitle_material_toolbar</item>
         <item name="android:textColor">@*android:color/sem_text_color_subtitle_material_toolbar</item>
-        <item name="android:fontFamily">sec-roboto-condensed</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 	<style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse">
         <item name="android:textSize">@*android:dimen/sem_text_size_title_material_toolbar</item>

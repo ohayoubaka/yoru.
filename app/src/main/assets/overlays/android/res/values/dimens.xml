@@ -43,5 +43,4 @@
 	<dimen name="tw_searchview_background_stroke_size">0.0dip</dimen>
 	<dimen name="tw_searchview_background_radius_size">1000.0dip</dimen>
 	<dimen name="sem_text_size_title_material_toolbar">18.5dip</dimen>
-	<dimen name="tw_searchview_search_end_margin">20.0dip</dimen>
 </resources>
