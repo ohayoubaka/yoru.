@@ -97,4 +97,34 @@
         <item name="android:colorForeground">#fffafafa</item>
     </style>
     <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
+	<style name="TextAppearance.Switch" parent="@*com.android.settings:style/TextAppearance">
+        <item name="android:textSize">@*com.android.settings:dimen/sub_app_bar_text_size</item>
+        <item name="android:textColor">@*com.android.settings:color/sub_app_bar_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="relative_link_description">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_link_text_size</item>
+        <item name="android:textColor">@*com.android.settings:color/body_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="relative_link_link">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_link_text_size</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="relative_link_search">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_link_search_text_size</item>
+        <item name="android:textColor">#ccffffff</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="relative_link_title">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.settings:color/relative_link_title_text_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 </resources>

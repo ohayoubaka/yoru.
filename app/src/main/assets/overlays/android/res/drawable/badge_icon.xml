@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@*com.android.settings:color/dashboard_badge_color" />
+    <size android:height="@*com.android.settings:dimen/dashboard_badge_size" android:width="@*com.android.settings:dimen/dashboard_badge_size" />
+    <stroke android:width="0.0px" android:color="#66fafafa" />
+</shape>

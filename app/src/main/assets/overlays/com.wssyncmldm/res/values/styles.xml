@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Wssyncmldm_Theme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:statusBarColor">@*com.wssyncmldm:color/status_bar_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Wssyncmldm_Theme.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Wssyncmldm_Theme.Dialog.Description" parent="@*com.wssyncmldm:style/Wssyncmldm_Theme.Description">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_description_text_size</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/dialog_description_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="Wssyncmldm_Theme.Dialog.HyperLink" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_hyper_link_text_size</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
+        <item name="android:textColorLink">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="Wssyncmldm_Theme.Dialog.PostponeTimePicker" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*com.wssyncmldm:drawable/postpone_timepicker_dialog_background_material</item>
+        <item name="android:windowAnimationStyle">@*com.wssyncmldm:style/Wssyncmldm_Theme.Dialog.PostponeTimePicker.Animation</item>
+        <item name="android:windowElevation">@*com.wssyncmldm:dimen/postpone_dialog_timepicker_window_elevation</item>
+    </style>
+	<style name="Wssyncmldm_Theme.Downloading.Text" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_description_text_size</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/downloading_info_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	 <style name="Wssyncmldm_Theme.InformationBox.BodyText" parent="@*com.wssyncmldm:style/Wssyncmldm_Theme.Description">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/information_box_body_textsize</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/information_box_body_text_color</item>
+        <item name="android:textColorLink">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Wssyncmldm_Theme.InformationBox.TitleText" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/information_box_title_textsize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Wssyncmldm_Theme.List.Text" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_list_text_size</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/activity_description_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="Wssyncmldm_Theme.Activity.Button" parent="@*android:style/Widget.DeviceDefault.Button">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/fullscreen_activity_button_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Wssyncmldm_Theme.Checking.Text" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_description_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/checking_description_text_color</item>
+        <item name="android:text">@*com.wssyncmldm:string/STR_DM_CHECKING_UPDATE</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Wssyncmldm_Theme.Description" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_description_text_size</item>
+        <item name="android:textColor">@*com.wssyncmldm:color/activity_description_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
