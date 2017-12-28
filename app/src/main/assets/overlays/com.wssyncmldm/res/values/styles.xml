@@ -47,7 +47,7 @@
     </style>
     <style name="Wssyncmldm_Theme.Checking.Text" parent="@*android:style/Widget.TextView">
         <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_description_text_size</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*com.wssyncmldm:color/checking_description_text_color</item>
         <item name="android:text">@*com.wssyncmldm:string/STR_DM_CHECKING_UPDATE</item>
         <item name="android:fontFamily">sans-serif-medium</item>
