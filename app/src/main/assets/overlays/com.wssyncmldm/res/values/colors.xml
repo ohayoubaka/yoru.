@@ -10,8 +10,8 @@
 	<color name="downloading_info_text_color">#ffffffff</color>
     <color name="fa_fullscreen_bullet_description_text_color">#ffffffff</color>
     <color name="fa_fullscreen_list_text_color">#ffffffff</color>
-	<color name="fa_desclaimer_hyperlink_color">#ff0070d2</color>
-	<color name="software_update_hyperlink_color">#ff0070d2</color>
+	<color name="fa_desclaimer_hyperlink_color">@*android:color/material_deep_teal_500</color>
+	<color name="software_update_hyperlink_color">@*android:color/material_deep_teal_500</color>
 	<color name="checking_description_text_color">#d9ffffff</color>
 	<color name="fa_fullscreen_simple_message_textcolor">#d9ffffff</color>
     <color name="fa_titlebar_textcolor_land">#e6ffffff</color>
