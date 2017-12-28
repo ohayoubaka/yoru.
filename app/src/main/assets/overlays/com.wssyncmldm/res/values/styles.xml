@@ -15,12 +15,6 @@
         <item name="android:textColor">@*com.wssyncmldm:color/dialog_description_text_color</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-	<style name="Wssyncmldm_Theme.Dialog.HyperLink" parent="@*android:style/Widget.TextView">
-        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_hyper_link_text_size</item>
-        <item name="android:textColor">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
-        <item name="android:textColorLink">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
 	<style name="Wssyncmldm_Theme.Dialog.PostponeTimePicker" parent="@*android:style/Theme.Material.Dialog">
         <item name="android:windowBackground">@*com.wssyncmldm:drawable/postpone_timepicker_dialog_background_material</item>
         <item name="android:windowAnimationStyle">@*com.wssyncmldm:style/Wssyncmldm_Theme.Dialog.PostponeTimePicker.Animation</item>
@@ -42,11 +36,6 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
         <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Wssyncmldm_Theme.List.Text" parent="@*android:style/Widget.TextView">
-        <item name="android:textSize">@*com.wssyncmldm:dimen/confirm_detail_list_text_size</item>
-        <item name="android:textColor">@*com.wssyncmldm:color/activity_description_text_color</item>
-        <item name="android:fontFamily">sans-serif</item>
     </style>
 	<style name="Wssyncmldm_Theme.Activity.Button" parent="@*android:style/Widget.DeviceDefault.Button">
         <item name="android:textSize">@*com.wssyncmldm:dimen/fullscreen_activity_button_text_size</item>
