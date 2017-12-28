@@ -135,5 +135,5 @@
 	<color name="tw_searchview_clear_icon_color_material">@*android:color/material_deep_teal_500</color>
 	<color name="tw_searchview_search_icon_color_material">@*android:color/material_deep_teal_500</color>
     <color name="tw_searchview_search_icon_color_material_dark">@*android:color/material_deep_teal_500</color>
-	<color name="tw_searchview_voice_icon_color_material">@*android:color/material_deep_teal_500</color>
+	<color name="tw_searchview_voice_icon_color_material">#00000000</color>
 </resources>
