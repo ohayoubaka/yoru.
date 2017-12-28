@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@*com.android.settings:id/top_divider" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.android.settings:dimen/sub_app_bar_divider_height" />
+    <com.android.settings.widget.SwitchBar android:theme="@*com.android.settings:style/Theme.SwitchBar.Settings" android:id="@*com.android.settings:id/switch_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>
