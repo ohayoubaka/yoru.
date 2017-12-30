@@ -7,4 +7,5 @@
 	<dimen name="profile_layout_end_padding">0.0dip</dimen>
     <dimen name="profile_layout_width">0.0dip</dimen>
 	<dimen name="sub_app_bar_divider_height">0.0dip</dimen>
+	<dimen name="list_item_end_padding">28.0dip</dimen>
 </resources>

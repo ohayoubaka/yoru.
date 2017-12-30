@@ -43,4 +43,20 @@
 	<dimen name="tw_searchview_background_stroke_size">0.0dip</dimen>
 	<dimen name="tw_searchview_background_radius_size">1000.0dip</dimen>
 	<dimen name="sem_text_size_title_material_toolbar">18.5dip</dimen>
+	<dimen name="tw_dialog_body_text_size_option_menu">15.0sp</dimen>
+    <dimen name="tw_fluid_scroller_text_size">15.0sp</dimen>
+    <dimen name="tw_global_actions_view_cover_msg_textsize">15.0sp</dimen>
+    <dimen name="tw_list_primary_text_size">15.0sp</dimen>
+    <dimen name="tw_spinner_item_text_size">15.0sp</dimen>
+	<dimen name="date_picker_year_label_size">15.0sp</dimen>
+    <dimen name="datepicker_list_year_label_size">15.0sp</dimen>
+    <dimen name="sem_datepicker_calendar_header_month_text_size_mtrl">15.0sp</dimen>
+    <dimen name="text_size_menu_material">15.0sp</dimen>
+    <dimen name="text_size_subhead_material">15.0sp</dimen>
+    <dimen name="timepicker_text_size_normal">15.0sp</dimen>
+    <dimen name="tw_context_menu_item_text_size">15.0sp</dimen>
+    <dimen name="tw_dialog_body_text_size">15.0sp</dimen>
+    <dimen name="tw_edit_text_size">15.0sp</dimen>
+    <dimen name="tw_menu_popup_text_size">15.0sp</dimen>
+    <dimen name="tw_select_dialog_list_item_text_size">15.0sp</dimen>
 </resources>

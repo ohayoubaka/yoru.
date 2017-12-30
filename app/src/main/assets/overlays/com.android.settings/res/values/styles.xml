@@ -127,4 +127,13 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+	<style name="list_title_text_style">
+        <item name="android:textAppearance">?android:textAppearanceListItem</item>
+		<item name="android:textSize">15.0sp</item>
+    </style>
+	<style name="ListTitleTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceListItem</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+		<item name="android:textSize">15.0sp</item>
+    </style>
 </resources>
