@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="winset_title_text_size">18.5sp</dimen>
+	<dimen name="subheader_no_text_divider_height">0.0px</dimen>
+    <dimen name="winset_list_divider_height">0.0px</dimen>
+    <dimen name="path_indicator_divider_height">0.0dip</dimen>
+    <dimen name="abc_dialog_title_divider_material">0.0dip</dimen>
+    <dimen name="cloud_usage_button_divider_height">0.0dip</dimen>
+    <dimen name="cloud_usage_button_divider_width">0.0px</dimen>
+    <dimen name="list_column_header_divider_height">0.0dip</dimen>
+    <dimen name="list_column_header_divider_width">0.0px</dimen>
+    <dimen name="optimize_storage_overview_divider_height">0.0dip</dimen>
+    <dimen name="split_view_divider_width">0.0dip</dimen>
+    <dimen name="tab_view_item_divider_thick">0.0px</dimen>
+    <dimen name="winset_list_section_divider_height">0.0px</dimen>
+</resources>

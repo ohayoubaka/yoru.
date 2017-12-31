@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MyFiles.Default" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textColorPrimary">@*com.sec.android.app.myfiles:color/actionbar_text_color</item>
+        <item name="android:textViewStyle">@*com.sec.android.app.myfiles:style/RobotoTextViewStyle</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.myfiles:style/Myfiles.Default.ActionButton.CloseMode</item>
+        <item name="android:activatedBackgroundIndicator">@*com.sec.android.app.myfiles:color/title_list_item_activated_background_indicator</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.myfiles:style/MyFiles.Dialog.Default</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.myfiles:drawable/myfiles_ic_ab_back</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.myfiles:color/actionbar_text_color</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.myfiles:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.myfiles:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.myfiles:color/color_primary_dark</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:progressTint">@*com.sec.android.app.myfiles:color/color_primary_app</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">@*com.sec.android.app.myfiles:color/color_primary</item>
+    </style>
+</resources>
