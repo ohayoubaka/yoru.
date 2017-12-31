@@ -34,7 +34,7 @@
     <color name="optimize_storage_group_divider">#00000000</color>
     <color name="optimize_storage_overview_divider">#00000000</color>
     <color name="path_indicator_divider">#00000000</color>
-    <color name="subheader_no_text_divider">#000000005</color>
+    <color name="subheader_no_text_divider">#00000000</color>
     <color name="tab_view_divider">#00000000</color>
     <color name="winset_actionbar_divider_color">#00000000</color>
     <color name="winset_divider_line_color">#00000000</color>
