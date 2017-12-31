@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*com.samsung.android.lool:style/AppActionBar</item>
+        <item name="android:actionModeStyle">@*com.samsung.android.lool:style/AppActionBar</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="AppActionBar" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:contentInsetStart">0.0dip</item>
+        <item name="android:contentInsetEnd">@*com.samsung.android.lool:dimen/sm_winset_2017a_title_default_margin_end</item>
+        <item name="*com.samsung.android.lool:displayOptions">homeAsUp|showTitle</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="power_saving_button_background_radius">1000.0dip</dimen>
+	<dimen name="abc_control_corner_material">1000.0dip</dimen>
+	<dimen name="simple_button_bg_radius">1000.0dip</dimen>
+	<dimen name="sm_winset_2017a_button_background_radius">1000.0dip</dimen>
+	<dimen name="widget_clean_radius">1000.0dip</dimen>
+	<dimen name="widget_radius">1000.0dip</dimen>
+</resources>

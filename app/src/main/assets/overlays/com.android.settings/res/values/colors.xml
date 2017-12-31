@@ -5,7 +5,7 @@
     <color name="navigationbar_default_color_3">#ff000000</color>
     <color name="navigationbar_default_color_4">@*android:color/material_deep_teal_500</color>
     <color name="navigationbar_default_color_5">#ff000000</color>
-    <color name="navigationbar_default_color_6">#@*android:color/material_deep_teal_500</color>
+    <color name="navigationbar_default_color_6">@*android:color/material_deep_teal_500</color>
     <color name="navigationbar_default_color_7">#ff000000</color>
 	<color name="applock_list_divider_color">#00000000</color>
     <color name="bottom_bar_divider_color">#00000000</color>
@@ -95,6 +95,4 @@
     <color name="dashboard_suggestion_stub_bg_color">#ff000000</color>
     <color name="dashboard_suggestion_stub_stroke_color">#ff000000</color>
     <color name="dashboard_suggestion_summary_color">#ffffffff</color>
-    <color name="dashboard_suggestion_title_color">@*android:color/material_deep_teal_500</color>
-	<color name="dashboard_badge_color">@*android:color/material_deep_teal_500</color>
 </resources>
