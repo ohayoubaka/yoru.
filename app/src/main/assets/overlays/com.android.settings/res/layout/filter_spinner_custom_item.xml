@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.settings.widget.SpinnerCustomTextView android:textSize="@*com.android.settings:dimen/sub_app_bar_text_size" android:textColor="@*com.android.settings:color/sub_app_bar_text_color" android:ellipsize="marquee" android:id="@*com.android.settings:android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" android:textAlignment="inherit" style="?android:spinnerItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
