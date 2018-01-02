@@ -3,6 +3,11 @@
     <color name="light_mode_icon_color_single_tone">#ffffffff</color>
     <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
     <color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>
+	<color name="light_mode_battery_icon_color_dual_tone_background">#4dffffff</color>
 	<item type="dimen" name="status_bar_battery_light_mode_alpha">1.00</item>
 	<item type="dimen" name="keyguard_carrier_label_text_alpha">1.00</item>
+	<color name="dark_mode_battery_icon_color_dual_tone_background">#3d000000</color>
+	<color name="status_bar_battery_level_background_dark_color">#3d000000</color>
+    <color name="status_bar_battery_level_background_light_color">#4dffffff</color>
+	<color name="status_bar_battery_frame_dark_color">#e6000000</color>
 </resources>
