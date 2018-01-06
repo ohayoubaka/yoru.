@@ -18,4 +18,5 @@
 	<color name="material_grey_100">#ff000000</color>
 	<color name="button_material_dark">#ff000000</color>
     <color name="button_material_light">#ff000000</color>
+	<color name="activity_description_text_color">#ffffffff</color>
 </resources>
