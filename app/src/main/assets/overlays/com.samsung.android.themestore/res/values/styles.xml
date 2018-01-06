@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleTextStyle" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18.5dip</item>
+        <item name="android:textColor">@*com.samsung.android.themestore:color/text_color_actionbar_title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="AppBarTitleTextStyle" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18.5dip</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="AppBarTitleTextStyleNormal" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18.5dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="Theme.ThemeStore.NoActionBar" parent="@*com.samsung.android.themestore:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@*com.samsung.android.themestore:color/bg_common</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollbarThumbVertical">@*com.samsung.android.themestore:drawable/tw_scrollbar_mtrl</item>
+        <item name="android:checkboxStyle">@*android:style/Widget.DeviceDefault.CompoundButton.CheckBox</item>
+        <item name="android:textViewStyle">@*com.samsung.android.themestore:style/TextViewThemeStoreDeviceDefault</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@*com.samsung.android.themestore:style/ActionBarStyle</item>
+        <item name="android:dropDownSpinnerStyle">@*com.samsung.android.themestore:style/SpinnerStyle</item>
+        <item name="android:actionButtonStyle">@*com.samsung.android.themestore:style/ActionButtonStyle</item>
+        <item name="android:actionMenuTextAppearance">@*com.samsung.android.themestore:style/MenuTextStyle</item>
+        <item name="android:actionMenuTextColor">@*com.samsung.android.themestore:drawable/option_menu_text_color</item>
+        <item name="android:textCursorDrawable">@*com.samsung.android.themestore:drawable/cursor_drawable_for_edittext</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="android:colorAccent">@*com.samsung.android.themestore:color/accent_link_color</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:statusBarColor">@*com.samsung.android.themestore:color/common_header_background_color</item>
+        <item name="android:toolbarStyle">@*com.samsung.android.themestore:style/ToolBarStyle</item>
+        <item name="android:colorEdgeEffect">@*com.samsung.android.themestore:color/detail_viewpager_edge_effect</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.samsung.android.themestore:actionBarStyle">@*com.samsung.android.themestore:style/ActionBarStyle</item>
+        <item name="*com.samsung.android.themestore:actionMenuTextAppearance">@*com.samsung.android.themestore:style/MenuTextStyle</item>
+        <item name="*com.samsung.android.themestore:actionMenuTextColor">@*com.samsung.android.themestore:drawable/option_menu_text_color</item>
+        <item name="*com.samsung.android.themestore:actionButtonStyle">@*com.samsung.android.themestore:style/ActionButtonStyle</item>
+        <item name="*com.samsung.android.themestore:toolbarStyle">@*com.samsung.android.themestore:style/ToolBarStyle</item>
+        <item name="*com.samsung.android.themestore:listPopupWindowStyle">@*com.samsung.android.themestore:style/PopupMenuOverflowStyle</item>
+        <item name="*com.samsung.android.themestore:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="*com.samsung.android.themestore:colorAccent">@*com.samsung.android.themestore:color/primary_color</item>
+    </style>
+	<style name="TransparentTheme" parent="@*com.samsung.android.themestore:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
