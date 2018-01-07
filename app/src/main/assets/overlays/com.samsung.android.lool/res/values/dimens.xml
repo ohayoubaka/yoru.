@@ -6,4 +6,7 @@
 	<dimen name="sm_winset_2017a_button_background_radius">1000.0dip</dimen>
 	<dimen name="widget_clean_radius">1000.0dip</dimen>
 	<dimen name="widget_radius">1000.0dip</dimen>
+	<dimen name="optimized_button_stroke">0.0dip</dimen>
+	<dimen name="simple_button_bg_stroke">0.0dip</dimen>
+	<dimen name="sm_winset_2017a_button_background_stroke">0.0px</dimen>
 </resources>
