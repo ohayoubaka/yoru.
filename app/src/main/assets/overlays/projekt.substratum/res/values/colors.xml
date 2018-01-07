@@ -2,9 +2,11 @@
 <resources>
 
     <!--New-->
+	<color name="showcase_activity_text">@*android:color/material_deep_teal_500</color>   <!--OG:@android:color/black-->
+	<color name="showcase_tab_text_color">@*android:color/black</color>   <!--OG:@android:color/white-->
+    <color name="showcase_tab_text_selected_color">@*android:color/black</color>   <!--OG:@android:color/white-->
     <color name="bb_inActiveBottomBarItemColor">#ffb2b2b2</color>   <!--OG:#ff747474-->
     <color name="bottombar_bar_background">#ff000000</color>   <!--OG:@android:color/white-->
-    <color name="bottombar_icon_text_selected">@*android:color/material_deep_teal_500</color>   <!--OG:@android:color/black-->
     <color name="colorPrimary">#ff000000</color>   <!--OG:#ffffffff-->
     <color name="colorPrimaryDark">#ff000000</color>   <!--OG:#fff4f4f4-->
     <color name="primary_material_light">#ff000000</color>   <!--OG:@color/material_grey_100-->
