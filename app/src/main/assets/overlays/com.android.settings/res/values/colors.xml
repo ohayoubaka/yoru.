@@ -117,4 +117,5 @@
 	<color name="bluetooth_no_nearby_dialog_text_color">#66ffffff</color>
     <color name="bluetooth_no_nearby_help_text_color">#66ffffff</color>
     <color name="bluetooth_no_nearby_text_color">#66ffffff</color>
+	<color name="add_quick_settings_bg_color">#ff000000</color>
 </resources>
