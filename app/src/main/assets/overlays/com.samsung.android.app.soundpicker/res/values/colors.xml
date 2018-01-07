@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="action_bar_background_mmapp">#ff000000</color>
+	<color name="sesl_status_bar_color">#ff000000</color>
+	<color name="action_bar_search_icon_winset">@*android:color/material_deep_teal_500</color>
+    <color name="sesl_color_primary_dark">@*android:color/material_deep_teal_500</color>
+    <color name="sesl_toolbar_text_color_menu">@*android:color/material_deep_teal_500</color>
+    <color name="sound_player_shortcut_text">@*android:color/material_deep_teal_500</color>
+	<color name="list_item_matched_text_winset">#ff2ae8ff</color>
+    <color name="list_item_playing">@*android:color/material_deep_teal_500</color>
+    <color name="tab_selected_color">@*android:color/material_deep_teal_500</color>
+	<color name="action_bar_title_winset_2016b">#ffffffff</color>
+    <color name="list_item_text1_winset">#ffffffff</color>
+    <color name="sesl_black">#ffffffff</color>
+    <color name="sound_player_title_theme">#ffffffff</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_divider_height_winset">0.0px</dimen>
+    <dimen name="list_item_search_section_divider_height">0.0px</dimen>
+    <dimen name="sesl_action_bar_divider_height">0.0px</dimen>
+    <dimen name="sesl_colorpicker_recent_color_view_divider_size">0.0px</dimen>
+    <dimen name="sesl_list_divider_height">0.0px</dimen>
+</resources>
