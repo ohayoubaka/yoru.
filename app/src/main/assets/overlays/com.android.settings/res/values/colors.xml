@@ -95,4 +95,26 @@
     <color name="dashboard_suggestion_stub_bg_color">#ff000000</color>
     <color name="dashboard_suggestion_stub_stroke_color">#ff000000</color>
     <color name="dashboard_suggestion_summary_color">#ffffffff</color>
+	<color name="font_bg_color">#ff000000</color>
+    <color name="font_bg_color_tablet">#ff000000</color>
+    <color name="font_indicator_stroke_color">#ff000000</color>
+    <color name="font_preview_bg_color">#ff000000</color>
+	<color name="font_preview_stroke_color">#ff000000</color>
+	<color name="font_preview_contact_bg">#ff000000</color>
+	<color name="seekbar_preference_seekbar_label_text_color">#ffffffff</color>
+	<color name="body_text_color">#ffffffff</color>
+	<color name="body_text_disabled_color">#64ffffff</color>
+	<color name="biometrics_lock_setup_background_color">#ff000000</color>
+	<color name="biometrics_lock_setup_desc_color">#ffffffff</color>
+	<color name="fingerprint_paypal_sub_text_color">#ffffffff</color>
+    <color name="motions_description_card_summary_text_color">#ffffffff</color>
+    <color name="motions_description_card_title_text_color">#ffffffff</color>
+    <color name="use_biometrics_lock_setting_common_dialog_text_color">#ffffffff</color>
+    <color name="wifi_ap_device_dialog_label_text_color">#ffffffff</color>
+    <color name="wifi_ap_sub_body_text_color">#ffffffff</color>
+    <color name="wifi_dialog_info_text_color">#ffffffff</color>
+	<color name="alert_dialog_text_color">#ffffffff</color>
+	<color name="bluetooth_no_nearby_dialog_text_color">#66ffffff</color>
+    <color name="bluetooth_no_nearby_help_text_color">#66ffffff</color>
+    <color name="bluetooth_no_nearby_text_color">#66ffffff</color>
 </resources>
