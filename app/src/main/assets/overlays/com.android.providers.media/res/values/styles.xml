@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CommonTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:statusBarColor">@*com.android.providers.media:color/common_statusbar</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="RingtonePickerDefault" parent="@*com.android.providers.media:style/RingtonePickerTranslucentCommon">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
