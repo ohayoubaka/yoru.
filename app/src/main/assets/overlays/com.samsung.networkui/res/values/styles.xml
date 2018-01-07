@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="EmergencyCallBack" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:colorForeground">#ffffffff</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:statusBarColor">@*com.samsung.networkui:color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="EmergencyCallListTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.samsung.networkui:style/emerCallActionBar_Light</item>
+        <item name="android:statusBarColor">@*com.samsung.networkui:color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_GlanceReply" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorAccent">@*com.samsung.networkui:color/dialer_theme_color</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_MobileNetwork" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@*com.samsung.networkui:color/status_bar_color_mobile_network</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_MobileNetwork_DialogWhenLarge" parent="@*com.samsung.networkui:style/Theme.Settings_MobileNetwork">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@*com.samsung.networkui:color/status_bar_color_mobile_network</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
