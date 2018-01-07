@@ -7,7 +7,7 @@
 
 	<!--Volume Panel-->
     <color name="material_deep_teal_200">#ffe0e0e0</color>    <!--OG:#ff80cbc4-->
-	
+		
 	<!--Samsung related values-->
 	<color name="tw_color_control_activated">#ffe0e0e0</color>
 	<color name="tw_seekbar_color_control_activated">#ffe0e0e0</color>

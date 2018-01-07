@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--Accent Colour-->
+    <color name="material_deep_teal_500">#ffd3b0da</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#ffd3b0da</color>   <!--OG:#ff607d8b-->
+
+	<!--Volume Panel-->
+    <color name="material_deep_teal_200">#ffd3b0da</color>    <!--OG:#ff80cbc4-->
+		
+	<!--Samsung related values-->
+	<color name="tw_color_control_activated">#ffd3b0da</color>
+	<color name="tw_seekbar_color_control_activated">#ffd3b0da</color>
+	<color name="tw_switch_track_on_mtrl">#40d3b0da</color>
+	
+</resources>
