@@ -104,4 +104,9 @@
         <item name="android:textColor">@*com.android.systemui:color/tw_volume_title_color_light</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+	<style name="TextAppearance.NotificationSnooze.Guide" parent="@*com.android.systemui:style/TextAppearance.NotificationSnooze">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 </resources>
