@@ -35,7 +35,7 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.android.settings:preferenceTheme">@*com.android.settings:style/PreferenceTheme</item>
     </style>
-	<style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.DeviceDefault">
+	<style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.Settings">
         <item name="android:colorBackground">#ff000000</item>
         <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
         <item name="android:statusBarColor">@*com.android.settings:color/status_bar_color</item>
@@ -93,9 +93,6 @@
     </style>
 	<style name="SetupWizardWifiTheme.Light" parent="@*android:style/Theme.DeviceDefault.NoActionBar" />
 	<style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
-    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
-        <item name="android:colorForeground">#fffafafa</item>
-    </style>
     <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
 	<style name="TextAppearance.Switch" parent="@*com.android.settings:style/TextAppearance">
         <item name="android:textSize">@*com.android.settings:dimen/sub_app_bar_text_size</item>
