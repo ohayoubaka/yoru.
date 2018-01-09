@@ -173,4 +173,6 @@
 	<color name="checkbox_tint_color">@*android:color/material_deep_teal_500</color>
 	<color name="quickaccess_all_checkbox_high_contrast_mode_on_tint_color">@*android:color/material_deep_teal_500</color>
     <color name="quickaccess_all_checkbox_night_mode_on_tint_color">@*android:color/material_deep_teal_500</color>
+	<color name="bookmark_color_primary">@*android:color/material_deep_teal_500</color>
+    <color name="bookmark_color_primary_dark">@*android:color/material_deep_teal_500</color>
 </resources>

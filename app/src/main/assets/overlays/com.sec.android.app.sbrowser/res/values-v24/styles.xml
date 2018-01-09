@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
