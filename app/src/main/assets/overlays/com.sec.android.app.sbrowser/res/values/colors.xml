@@ -175,4 +175,16 @@
     <color name="quickaccess_all_checkbox_night_mode_on_tint_color">@*android:color/material_deep_teal_500</color>
 	<color name="bookmark_color_primary">@*android:color/material_deep_teal_500</color>
     <color name="bookmark_color_primary_dark">@*android:color/material_deep_teal_500</color>
+	<color name="data_saver_data_display_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="payment_autofill_suggestion_color">@*android:color/material_deep_teal_500</color>
+    <color name="payments_completed_color">@*android:color/material_deep_teal_500</color>
+	<color name="media_notification_app_name_color">@*android:color/material_deep_teal_500</color>
+	<color name="actionbar_cancel_done_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="bookmark_theme_color">@*android:color/material_deep_teal_500</color>
+	<color name="custom_tab_button_color">@*android:color/material_deep_teal_500</color>
+	<color name="find_icon_color">@*android:color/material_deep_teal_500</color>
+	<color name="media_history_title_focused">@*android:color/material_deep_teal_500</color>
+	<color name="toolbar_pwa_on_color">@*android:color/material_deep_teal_500</color>
+	<color name="zzzz_webselect_color_primary_dark">@*android:color/material_deep_teal_500</color>
+    <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/tw_switch_track_on_mtrl</color>
 </resources>

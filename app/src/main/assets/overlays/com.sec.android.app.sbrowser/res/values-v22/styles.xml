@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="SettingsThemeBase" parent="@*android:style/Theme.Material">
+	<style name="SettingsThemeBase" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">false</item>
         <item name="android:spinnerItemStyle">@*com.sec.android.app.sbrowser:style/SettingsSpinnerItem</item>
         <item name="android:windowActionBar">true</item>

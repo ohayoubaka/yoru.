@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="media_notification_app_name_color">@*android:color/material_deep_teal_500</color>
+</resources>

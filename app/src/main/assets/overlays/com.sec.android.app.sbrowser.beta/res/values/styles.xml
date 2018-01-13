@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.Material" />
-	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
-        <item name="android:textSize">17.0sp</item>
-        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.Material">
+		<item name="android:windowLightStatusBar">false</item>
+	</style>
+	<style name="SettingsThemeForDialogBase" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
+	<style name="HelpIntroTheme" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
+    </style>
+	<style name="SBrowserActionModeStyle" parent="@*android:style/Widget.DeviceDefault.ActionMode">
+        <item name="android:background">@*com.sec.android.app.sbrowser.beta:color/toolbar_bg_color</item>
+        <item name="android:height">56.0dp</item>
     </style>
 </resources>
