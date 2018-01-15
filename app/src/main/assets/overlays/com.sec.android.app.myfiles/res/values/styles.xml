@@ -14,7 +14,7 @@
         <item name="android:colorPrimaryDark">@*com.sec.android.app.myfiles:color/color_primary_dark</item>
         <item name="android:statusBarColor">#17000000</item>
         <item name="android:progressTint">@*com.sec.android.app.myfiles:color/color_primary_app</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="*com.sec.android.app.myfiles:colorPrimary">@*com.sec.android.app.myfiles:color/color_primary</item>
         <item name="*com.sec.android.app.myfiles:colorPrimaryDark">@*com.sec.android.app.myfiles:color/color_primary_dark</item>
         <item name="*com.sec.android.app.myfiles:colorAccent">@*com.sec.android.app.myfiles:color/color_primary</item>
