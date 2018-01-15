@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorPrimary">?android:colorPrimary</item>
-        <item name="android:colorPrimaryDark">?android:colorPrimaryDark</item>
-        <item name="android:colorAccent">?android:colorAccent</item>
-        <item name="android:colorControlActivated">?android:colorControlActivated</item>
+        <item name="android:colorPrimary">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorControlActivated">@*android:color/material_deep_teal_500</item>
     </style>
 </resources>
