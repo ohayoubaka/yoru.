@@ -130,8 +130,6 @@
     <color name="sem_tooltip_stroke_light">#00000000</color>
     <color name="tw_popup_stroke_color_material">#00000000</color>
     <color name="tw_popup_stroke_color_material_dark">#00000000</color>
-    <color name="tw_searchview_textfiled_stroke_material">#00000000</color>
-    <color name="tw_searchview_textfiled_stroke_material_dark">#00000000</color>
 	<color name="tw_searchview_textfiled_normal_material_dark">#ff000000</color>
 	<color name="tw_searchview_hint_text_material">@*android:color/material_deep_teal_500</color>
     <color name="tw_searchview_hint_text_material_dark">@*android:color/material_deep_teal_500</color>
@@ -139,4 +137,6 @@
 	<color name="tw_searchview_search_icon_color_material">@*android:color/material_deep_teal_500</color>
     <color name="tw_searchview_search_icon_color_material_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_searchview_voice_icon_color_material">#00000000</color>
+	<color name="tw_searchview_textfiled_stroke_material">#00000000</color>
+    <color name="tw_searchview_textfiled_stroke_material_dark">#ff000000</color>
 </resources>
