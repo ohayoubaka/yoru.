@@ -15,4 +15,5 @@
     <color name="sesl_black">#ffffffff</color>
     <color name="sound_player_title_theme">#ffffffff</color>
 	<color name="color_primary_mmapp">@*android:color/material_deep_teal_500</color>
+	<color name="tab_background_sound_alive">#ff000000</color>
 </resources>
