@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">56.0dip</dimen>
+	<dimen name="sesl_action_bar_text_size_title">18.5sp</dimen>
+    <dimen name="text_list_item_title">15.0sp</dimen>
+	<dimen name="sesl_action_bar_default_height">56.0dip</dimen>
+</resources>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="navigationbar_default_color_1">#ff000000</color>
-    <color name="navigationbar_default_color_2">@*android:color/material_deep_teal_500</color>
-    <color name="navigationbar_default_color_3">#ff000000</color>
-    <color name="navigationbar_default_color_4">@*android:color/material_deep_teal_500</color>
-    <color name="navigationbar_default_color_5">#ff000000</color>
-    <color name="navigationbar_default_color_6">@*android:color/material_deep_teal_500</color>
+    <color name="navigationbar_default_color_5">@*android:color/material_deep_teal_500</color>
+    <color name="navigationbar_default_color_6">#ff010101</color>
     <color name="navigationbar_default_color_7">#ff000000</color>
 	<color name="applock_list_divider_color">#00000000</color>
     <color name="bottom_bar_divider_color">#00000000</color>
