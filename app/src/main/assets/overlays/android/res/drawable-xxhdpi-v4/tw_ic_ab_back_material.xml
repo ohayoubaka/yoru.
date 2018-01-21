@@ -6,7 +6,7 @@
     android:viewportHeight="96">
 
     <path
-        android:strokeWidth="0.25"
+        android:strokeWidth="0.5"
         android:strokeAlpha="0.8"
         android:strokeColor="@*android:color/material_deep_teal_500"
         android:fillColor="@*android:color/material_deep_teal_500"

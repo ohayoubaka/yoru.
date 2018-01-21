@@ -6,13 +6,13 @@
     android:viewportHeight="96">
 
     <path
-        android:strokeWidth="0.25"
+        android:strokeWidth="0.5"
         android:strokeAlpha="0.8"
         android:fillColor="@*android:color/material_deep_teal_500"
         android:strokeColor="@*android:color/material_deep_teal_500"
         android:pathData="M 48 60.3 C 51.0927945991 60.3 53.6 62.8072054009 53.6 65.9 C 53.6 68.9927945991 51.0927945991 71.5 48 71.5 C 44.9072054009 71.5 42.4 68.9927945991 42.4 65.9 C 42.4 62.8072054009 44.9072054009 60.3 48 60.3 Z" />
     <path
-        android:strokeWidth="0.25"
+        android:strokeWidth="0.5"
         android:strokeAlpha="0.8"
         android:fillColor="@*android:color/material_deep_teal_500"
         android:strokeColor="@*android:color/material_deep_teal_500"
