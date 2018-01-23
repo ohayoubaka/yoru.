@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionBarStyle">@*com.samsung.android.app.cocktailbarservice:style/AppActionBar</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="SubAppBarText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@*com.samsung.android.app.cocktailbarservice:color/sub_app_bar_text_color</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:text">@*com.samsung.android.app.cocktailbarservice:string/settings_on</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">@*com.samsung.android.app.cocktailbarservice:dimen/settings_sub_app_bar_text_start_margin</item>
+    </style>
+</resources>

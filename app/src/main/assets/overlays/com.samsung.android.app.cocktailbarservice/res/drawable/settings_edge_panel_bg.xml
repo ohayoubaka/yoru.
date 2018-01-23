@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@*com.samsung.android.app.cocktailbarservice:color/ripple_mask_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff000000" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0px" android:color="#4d000000" />
+            <solid android:color="#ff000000" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+</ripple>

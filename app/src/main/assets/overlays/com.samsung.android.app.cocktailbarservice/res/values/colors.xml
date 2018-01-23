@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="noti_toast_bg_color">#cc000000</color>
+	<color name="settings_description_color">#ffffffff</color>
+	<color name="description_divider">#00000000</color>
+    <color name="setting_vertical_divider_color">#00000000</color>
+    <color name="settings_sub_header_divider">#00000000</color>
+	<color name="settings_text_desc_color">#ffffffff</color>
+	<color name="hyperlink_color">#e6ffffff</color>
+    <color name="setting_radio_button_text">#ffffffff</color>
+    <color name="settings_panel_title_color">#ffffffff</color>
+    <color name="settings_panel_updatable_color">#80ffffff</color>
+    <color name="settings_sub_header_color">@*android:color/material_deep_teal_500</color>
+	<color name="subtext_description_color">@*android:color/material_deep_teal_500</color>
+    <color name="sub_app_bar_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="theme_font_settings_font_type_text_color">#ffffffff</color>
+    <color name="version_color">#7fffffff</color>
+    <color name="version_title_color">#ffffffff</color>
 </resources>
