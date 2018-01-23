@@ -12,7 +12,7 @@
     <color name="sub_app_bar_divider_tint">#00000000</color>
 	<color name="theme_24_A">@*android:color/material_deep_teal_500</color>
 	<color name="settings_guide_description_summary">#ffffffff</color>
-	<color name="add_tip_settings_bg_color">#fff0f0f0</color>
+	<color name="add_tip_settings_bg_color">#ff000000</color>
 	<color name="time_setting_background_color">#ff000000</color>
 	<color name="setting_clock_pack_menu_item_default">#b3ffffff</color>
     <color name="update_button_text_color">#ffffffff</color>
@@ -20,7 +20,7 @@
 	<color name="setting_clock_pack_tab_background">#ff000000</color>
 	<color name="setting_clock_pack_menu_item_background">#d9000000</color>
     <color name="setting_clock_pack_menu_item_selected">@*android:color/material_deep_teal_500</color>
-	<color name="setting_clock_pack_tab_bar">#00000000</color>
+	<color name="setting_clock_pack_tab_bar">#d9000000</color>
 	<color name="setting_clock_pack_tab_mask">@*android:color/tw_switch_track_on_mtrl</color>
     <color name="setting_clock_pack_tab_tint_selected">@*android:color/material_deep_teal_500</color>
     <color name="settings_clock_pack_color_primary">@*android:color/material_deep_teal_500</color>
