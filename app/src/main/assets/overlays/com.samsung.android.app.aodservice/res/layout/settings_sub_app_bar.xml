@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@*com.samsung.android.app.aodservice:id/sub_appbar" android:background="@*com.samsung.android.app.aodservice:drawable/tw_sub_action_bar_bg_mtrl" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@*com.samsung.android.app.aodservice:id/sub_appbar_ripple" android:background="@*com.samsung.android.app.aodservice:drawable/ripple_background_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <com.samsung.android.app.aodservice.ui.widget.VariableSizeTextView android:textSize="@*com.samsung.android.app.aodservice:dimen/settings_main_sub_app_bar_text_size" android:textColor="@*com.samsung.android.app.aodservice:color/sub_app_bar_text_color" android:layout_gravity="start|center" android:id="@*com.samsung.android.app.aodservice:id/sub_appbar_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.samsung.android.app.aodservice:string/settings_subappbar_switch_on" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:layout_marginStart="@*com.samsung.android.app.aodservice:dimen/activity_horizontal_margin" />
+        <Switch android:layout_gravity="end|center" android:id="@*com.samsung.android.app.aodservice:id/sub_appbar_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</FrameLayout>

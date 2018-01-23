@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@*com.samsung.android.app.aodservice:layout/settings_detail_menu_divider" />
+    <SemHorizontalListView android:id="@*com.samsung.android.app.aodservice:id/clock_pack_palette_gridview" android:background="#d9000000" android:focusable="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@*com.samsung.android.app.aodservice:dimen/clock_pack_palette_gridview_height" android:listSelector="@*android:color/transparent" android:divider="@null" />
+    <include layout="@*com.samsung.android.app.aodservice:layout/settings_detail_menu_divider" />
+</LinearLayout>
