@@ -21,6 +21,7 @@
     <color name="home_icon_usb_storage_color">#ff737373</color>
     <color name="home_icon_apk_color">#ff737373</color>
     <color name="home_icon_sd_card_color">#ff737373</color>
+	<color name="home_icon_one_drive_color">#ff737373</color>
     <color name="home_icon_music_bg_color">#00000000</color>
     <color name="home_icon_image_bg_color">#00000000</color>
     <color name="home_icon_download_history_bg_color">#00000000</color>
