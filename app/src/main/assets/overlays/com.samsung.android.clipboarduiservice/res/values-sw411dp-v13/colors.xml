@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clipboard_panel_bg">#ff000000</color>
+    <color name="normal_text_shadowcolor">#80ffffff</color>
+    <color name="normal_text_white">#fffafafa</color>
+    <color name="drawer_title_text_color">#80ffffff</color>
+    <color name="drawer_button_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="button_press_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="transparent_bg">#00000000</color>
+    <color name="sliding_drawer_divider">#00000000</color>
+    <color name="clipboard_arrow_button_color">@*android:color/material_deep_teal_500</color>
+    <color name="clipboard_memo_background">#ff000000</color>
+    <color name="clipboard_memo_background_1">#ff000000</color>
+    <color name="clipboard_memo_background_2">#ff000000</color>
+    <color name="clipboard_memo_background_3">#ff000000</color>
+    <color name="clipboard_memo_text_color_1">#ffffffff</color>
+    <color name="clipboard_memo_text_color_2">#ffffffff</color>
+    <color name="clipboard_memo_text_color_3">#ffffffff</color>
+    <color name="clipboard_memo_text_color_4">#ffffffff</color>
+    <color name="clipboard_memo_text_color_5">#ffffffff</color>
+    <color name="clipboard_memo_stroke">#ffaeaeae</color>
+    <color name="clipboard_item_multiple_uri_background">#ff000000</color>
+    <color name="clipboard_item_multiple_uri_title_color">#ffffffff</color>
+    <color name="clipboard_item_multiple_uri_count_color">#ffffefb6</color>
+    <color name="clipboard_item_text_color">#ffffffff</color>
+    <color name="clipboard_html_text_color">#ffffffff</color>
+    <color name="clipboard_no_item_text_color">#fffafafa</color>
+</resources>
