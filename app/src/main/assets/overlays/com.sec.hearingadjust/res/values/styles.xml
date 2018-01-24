@@ -29,4 +29,10 @@
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">0.0dip</item>
     </style>
+	<style name="preset_text_heading">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">?*android:textColorPrimary</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
