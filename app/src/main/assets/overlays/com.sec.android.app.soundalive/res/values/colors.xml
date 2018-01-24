@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bg">#ffffffff</color>
+    <color name="advanced_btn_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimaryDark">@*android:color/material_deep_teal_500</color>
+    <color name="common_text_color">#ffffffff</color>
+    <color name="common_text_focused_color">#ffcecece</color>
+    <color name="common_text_pressed_color">@*android:color/material_deep_teal_500</color>
+    <color name="common_text_selected_color">@*android:color/material_deep_teal_500</color>
+    <color name="effect_btn_divider">#44ffffff</color>
+    <color name="eq_bottom_text_color">#ccffffff</color>
+    <color name="eq_level_bold_line_color">#44434343</color>
+    <color name="eq_level_line_color">#19434343</color>
+    <color name="eq_level_line_text_color">#ccffffff</color>
+    <color name="font_accessiblity_dual_color">#ffeca638</color>
+    <color name="global_btn_bottom_text_colors">#ff86898b</color>
+    <color name="global_btn_top_text_colors">#ffffffff</color>
+    <color name="knob_btn_bottom_text_color">#ffffffff</color>
+    <color name="knob_btn_shape_big_oval_color">@*android:color/material_deep_teal_500</color>
+    <color name="knob_btn_shape_line_oval_color">#ff87898a</color>
+    <color name="knob_btn_shape_oval_color_disabled">#ff808080</color>
+    <color name="knob_btn_shape_small_oval_color">@*android:color/material_deep_teal_500</color>
+    <color name="listview_bottom_text_color">#ff86898b</color>
+    <color name="listview_preset_text_color">#ffffffff</color>
+    <color name="seekbar_progress_bg">#ffe3e0e0</color>
+    <color name="seekbar_progress_primary">#ff56c0e5</color>
+    <color name="seekbar_progress_secondary">#ff56c0e5</color>
+    <color name="soundalive_bg">#ff000000</color>
+    <color name="soundalive_system_bg">#33000000</color>
+    <color name="ssw_seekbar_bg_color">#ff000000</color>
+    <color name="tw_progress_color_control_activated">@*android:color/material_deep_teal_500</color>
+    <color name="tw_progress_color_control_normal">#ffc9c9c9</color>
+    <color name="tw_progress_color_control_secondary">@*android:color/tw_seekbar_color_control_activated</color>
+    <color name="tw_secondary_color">#ff878787</color>
+</resources>

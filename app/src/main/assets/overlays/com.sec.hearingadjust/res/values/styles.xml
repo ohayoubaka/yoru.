@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="DeviceTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.sec.hearingadjust:style/ActionBarStyle</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Listview_divider">
+        <item name="android:background">?*android:listDivider</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="bottom_button_text_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.sec.hearingadjust:color/button_text</item>
+        <item name="android:background">?*android:selectableItemBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="land_divider">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+</resources>

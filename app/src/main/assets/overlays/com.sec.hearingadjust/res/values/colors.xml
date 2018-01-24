@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="L_R">#ff696969</color>
+    <color name="bottom_button_bgcolor">#ff000000</color>
+    <color name="bottom_button_line">#12000000</color>
+    <color name="button_text">#d9ffffff</color>
+    <color name="description_text">#ff505050</color>
+    <color name="graphLine_disable">#ffadd5de</color>
+    <color name="graphLine_enable">#ff0acdfa</color>
+    <color name="progress_text">#ff545454</color>
+    <color name="sub_app_bar_text">#d9ffffff</color>
+</resources>
