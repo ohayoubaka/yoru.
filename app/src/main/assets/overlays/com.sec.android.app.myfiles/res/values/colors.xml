@@ -96,4 +96,7 @@
     <color name="secondary_text_default_material_light">#8affffff</color>
     <color name="secondary_text_disabled_material_light">#24ffffff</color>
     <color name="show_button_background_border_color">#4dffffff</color>
+	<color name="winset_subtitle_background">#ff000000</color>
+	<color name="select_all_bottom_bar_text_color">#ffffffff</color>
+	<color name="file_op_box_shadow_color">#ff000000</color>
 </resources>
