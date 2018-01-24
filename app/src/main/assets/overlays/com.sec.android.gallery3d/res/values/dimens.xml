@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="action_bar_divider_padding">0.0dip</dimen>
+    <dimen name="share_setting_divider_height">0.0dip</dimen>
+    <dimen name="slinkview_list_divider_margin_start">0.0dip</dimen>
+    <dimen name="list_album_divider_height">0.0dip</dimen>
+    <dimen name="share_dialog_divider_height">0.0px</dimen>
+    <dimen name="edit_location_action_bar_bottom_divider">0.0px</dimen>
+    <dimen name="abc_dialog_title_divider_material">0.0dip</dimen>
+    <dimen name="detail_white_divider_height">0.0dip</dimen>
+    <dimen name="details_info_divider_width">0.0dip</dimen>
+    <dimen name="gallery360viewer_playback_view_direction_divider">0.0dip</dimen>
+    <dimen name="helppage_title_divider_height">0.0dip</dimen>
+    <dimen name="list_divider_height">0.0px</dimen>
+    <dimen name="moreinfo_addtags_mytags_divider_height">0.0px</dimen>
+    <dimen name="moreinfo_divider_height">0.0px</dimen>
+    <dimen name="search_album_image_video_count_divider_height">0.0dip</dimen>
+    <dimen name="search_recommend_header_divider_height">0.0px</dimen>
+    <dimen name="sef_icon_divider_height">0.0dip</dimen>
+    <dimen name="social_story_detail_divider_size">0.0px</dimen>
+</resources>
