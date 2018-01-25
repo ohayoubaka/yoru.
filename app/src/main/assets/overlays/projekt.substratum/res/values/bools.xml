@@ -2,4 +2,6 @@
 <resources>
     <bool name="windowLightNavigationBar">false</bool>   <!--OG: true-->
     <bool name="windowLightStatusBar">false</bool>   <!--OG: true-->
+	<bool name="SplashscreenWindowLightNavigationBar">false</bool>   <!--OG: true-->
+    <bool name="SplashscreenWindowLightStatusBar">false</bool>   <!--OG: true-->
 </resources>

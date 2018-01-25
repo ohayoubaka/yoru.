@@ -39,6 +39,7 @@
     <color name="splashscreen_background">#ff000000</color>   <!--OG:#fffafafa-->
     <color name="theme_information_background">#ff000000</color>   <!--OG:#ffeeeeee-->
 	<color name="design_snackbar_background_color">#ff000000</color>   <!--OG:#ff323232-->
+	<color name="lunchbar_background">#ff000000</color>   <!--OG:@android:color/white-->
 
 	<!--Text-->
 	<color name="abc_search_url_text_pressed">#ffffffff</color>   <!--OG:@android:color/black-->
@@ -60,6 +61,7 @@
     <color name="primary_text_disabled_material_light">#4dffffff</color>   <!--OG:#39000000-->
     <color name="secondary_text_default_material_light">#b3ffffff</color>   <!--#8a000000-->
     <color name="secondary_text_disabled_material_light">#36ffffff</color>   <!--OG:#24000000-->
+	<color name="lunchbar_text">#ffffffff</color>   <!--OG:@android:color/black-->
 
 	<!--Other-->
 	<color name="abc_input_method_navigation_guard">#ffffffff</color>   <!--OG:@android:color/black-->
