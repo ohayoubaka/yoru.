@@ -186,6 +186,26 @@
 	<color name="find_icon_color">@*android:color/material_deep_teal_500</color>
 	<color name="media_history_title_focused">@*android:color/material_deep_teal_500</color>
 	<color name="toolbar_pwa_on_color">@*android:color/material_deep_teal_500</color>
+	<color name="zzzz_webselect_bg_color">#ff000000</color>
 	<color name="zzzz_webselect_color_primary_dark">@*android:color/material_deep_teal_500</color>
     <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="quick_ic_internet_bg">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="task_edge_small_icon_background_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="bookmark_samsung_account_popup_description_text_color">#ffffffff</color>
+    <color name="bookmark_samsung_account_popup_donot_show_again_checkbox_text_color">#fffafafa</color>
+    <color name="bookmark_samsung_account_popup_title_text_color">#e6fafafa</color>
+	<color name="bookmark_widget_heading_text_color_black">#ffffffff</color>
+	<color name="bookmark_widget_no_bookmark_text_color_black">#ffffffff</color>
+	<color name="download_history_item_bg_default_color">#ff000000</color>
+	<color name="history_list_text_color">#ffffffff</color>
+	<color name="history_video_view_title_color">#ffffffff</color>
+	<color name="bookmark_widget_background_color_light">#ff000000</color>
+    <color name="bookmark_widget_divider_color">#ff000000</color>
+    <color name="bookmark_widget_divider_color_light">#ff000000</color>
+	<color name="history_download_recent_header_divider_tint_color">#ff000000</color>
+	<color name="open_source_license_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="preference_switch_title_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="data_saver_all_time_divider_shadow_color">#ff000000</color>
+	    <color name="select_action_popup_divider_color">#ff000000</color>
+    <color name="select_bookmarks_folder_view_divider_shadow_color2">#ff000000</color>
 </resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="SitesActivityTheme" parent="@*com.sec.android.app.sbrowser:style/SitesActivityTheme2">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:actionMenuTextAppearance">@*com.sec.android.app.sbrowser:style/SitesActionBarMenuTextStyle</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="AddBookmarkTheme" parent="@*com.sec.android.app.sbrowser:style/AddBookmarkThemeBase">
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/add_bookmark_action_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="BookmarkTheme2" parent="@*com.sec.android.app.sbrowser:style/BookmarkTheme2Base">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="SitesActivityTheme2" parent="@*com.sec.android.app.sbrowser:style/SitesActivityTheme2Base">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/sites_color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="TabSyncActivityTheme" parent="@*com.sec.android.app.sbrowser:style/TabSyncActivityThemeBase">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="HelpIntroTheme" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/help_intro_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

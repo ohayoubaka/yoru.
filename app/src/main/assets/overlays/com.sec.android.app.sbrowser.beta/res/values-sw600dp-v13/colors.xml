@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="media_history_text_title_color">#ccffffff</color>
+    <color name="quickaccess_suggestion_popup_item_title_text_color">#80ffffff</color>
+    <color name="reader_toolbar_background_night">#ff000000</color>
+    <color name="reader_toolbar_background_secret">#ff000000</color>
+    <color name="reader_toolbar_secret_text_color_disabled">#66ffffff</color>
+    <color name="reader_toolbar_secret_text_color_enabled">#ffffffff</color>
+    <color name="reader_toolbar_shadow_night_color">#ff424242</color>
+    <color name="saved_page_list_view_bottom_divider_layout_color">#ff000000</color>
+    <color name="show_bookmarks_list_divider_shadow_color">#ffd5d5d5</color>
+    <color name="toolbar_bg_color">#ff000000</color>
+    <color name="tw_infobar_close_button_image">#ff575757</color>
+    <color name="tw_infobar_message_text">#ffffffff</color>
+    <color name="tw_infobar_notification_icon_color">#80ffffff</color>
+</resources>

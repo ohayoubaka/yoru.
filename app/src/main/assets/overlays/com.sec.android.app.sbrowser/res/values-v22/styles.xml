@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="SettingsThemeBase" parent="@*android:style/Theme.DeviceDefault">
+	<style name="SettingsThemeBase" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">false</item>
         <item name="android:spinnerItemStyle">@*com.sec.android.app.sbrowser:style/SettingsSpinnerItem</item>
         <item name="android:windowActionBar">true</item>
@@ -24,6 +24,55 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="AboutTheme" parent="@*com.sec.android.app.sbrowser:style/SettingsThemeBase">
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/AboutActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/AboutActionModeStyle</item>
+        <item name="android:colorPrimary">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/settings_color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="DataSaverThemeBase" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:spinnerItemStyle">@*com.sec.android.app.sbrowser:style/SettingsSpinnerItem</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle</item>
+        <item name="android:actionButtonStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@*com.sec.android.app.sbrowser:style/SettingsOverflowButton</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.sbrowser:style/CabModeActionButton</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/settings_action_menu_text_color</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionModeStyle</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="DownloadSaveAsTheme" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/actionbar_cancel_done_text_color</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="PaymentSheetDialog" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:colorEdgeEffect">@*com.sec.android.app.sbrowser:color/color_edge_effect</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="DataSaverTheme" parent="@*com.sec.android.app.sbrowser:style/DataSaverThemeBase">
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/AboutActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SettingsActionModeStyle</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/settings_color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

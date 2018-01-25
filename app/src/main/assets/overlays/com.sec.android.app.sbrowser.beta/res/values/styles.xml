@@ -13,8 +13,12 @@
         <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
         <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
     </style>
-	<style name="SBrowserActionModeStyle" parent="@*android:style/Widget.DeviceDefault.ActionMode">
+	<style name="SBrowserActionModeStyle" parent="@*android:style/Widget.Material.ActionMode">
         <item name="android:background">@*com.sec.android.app.sbrowser.beta:color/toolbar_bg_color</item>
         <item name="android:height">56.0dp</item>
+    </style>
+	<style name="RobotoCondensedRegular">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 </resources>
