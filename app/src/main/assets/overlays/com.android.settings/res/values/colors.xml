@@ -128,4 +128,5 @@
 	<color name="bluetooth_device_title_text_color_scandialog">#ffffffff</color>
     <color name="bluetooth_dialog_text_color">#8affffff</color>
 	<color name="bluetooth_is_visible_message_text_color_scandialog">#ffffffff</color>
+	<color name="wifi_dialog_body_text">#ffffffff</color>
 </resources>

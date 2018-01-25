@@ -130,4 +130,12 @@
         <item name="android:textColor">?android:textColorPrimary</item>
 		<item name="android:textSize">15.0sp</item>
     </style>
+	<style name="wifi_item_label">
+        <item name="android:textSize">@*com.android.settings:dimen/wifi_dialog_body_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.settings:color/wifi_dialog_body_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 </resources>

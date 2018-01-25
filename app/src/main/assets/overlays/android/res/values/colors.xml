@@ -149,4 +149,12 @@
     <color name="sem_resolver_navigation_color_unfocused">#40737373</color>
     <color name="sem_resolver_title_text_color">@*android:color/material_deep_teal_500</color>
     <color name="sem_resolver_title_text_color_dark">@*android:color/material_deep_teal_500</color>
+	<color name="holo_blue_dark">@*android:color/material_deep_teal_500</color>
+    <color name="datepicker_default_pressed_text_color_material_dark">@*android:color/material_deep_teal_500</color>
+    <color name="datepicker_default_pressed_text_color_material_light">@*android:color/material_deep_teal_500</color>
+	<color name="tw_dialog_title_text_color_material_dark">@*android:color/material_deep_teal_500</color>
+	<color name="tw_dialog_title_text_color_material_light">@*android:color/material_deep_teal_500</color>
+	<color name="tw_searchview_result_title_text_color_material">@*android:color/material_deep_teal_500</color>
+	<color name="text_color_primary">#ffffffff</color>
+	<color name="tw_primary_text_material_dark">#ffffffff</color>
 </resources>
