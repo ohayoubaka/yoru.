@@ -158,4 +158,8 @@
 	<color name="text_color_primary">#ffffffff</color>
 	<color name="tw_primary_text_material_dark">#ffffffff</color>
 	<color name="tw_primary_text_material_light">#ffffffff</color>
+	<color name="tw_primary_text_color_light">#ffffffff</color>
+	<color name="tw_popup_text_color_normal_material">#ffffffff</color>
+	<color name="tw_dialog_main_text_color_material_light">#ffffffff</color>
+	<color name="tw_dialog_body_text_color_material_light">#ffffffff</color>
 </resources>
