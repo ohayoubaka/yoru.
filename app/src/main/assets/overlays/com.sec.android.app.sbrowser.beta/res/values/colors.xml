@@ -109,6 +109,7 @@
 	<color name="bottombar_icon_high_contrast_color">@*android:color/material_deep_teal_500</color>
     <color name="bottombar_icon_night_color">@*android:color/material_deep_teal_500</color>
 	<color name="toolbar_url_hint_text_color_night">@*android:color/material_deep_teal_500</color>
+	<color name="toolbar_url_hint_text_color_high_contrast">@*android:color/material_deep_teal_500</color>
     <color name="toolbar_url_hint_text_color_secret">@*android:color/material_deep_teal_500</color>
 	<color name="toolbar_url_text_color_high_contrast">@*android:color/material_deep_teal_500</color>
     <color name="toolbar_url_text_color_night">@*android:color/material_deep_teal_500</color>
