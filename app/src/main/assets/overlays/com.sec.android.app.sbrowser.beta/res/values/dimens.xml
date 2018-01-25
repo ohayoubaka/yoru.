@@ -73,4 +73,5 @@
     <dimen name="tab_sync_divider_height">0.0px</dimen>
     <dimen name="toolbar_option_menu_blocked_contents_divider_width">0.0px</dimen>
     <dimen name="trending_keyword_view_divider_height">0.0px</dimen>
+	<dimen name="sbrowser_bookmarks_select_all_text_size">18.5sp</dimen>
 </resources>

@@ -203,9 +203,17 @@
     <color name="bookmark_widget_divider_color">#ff000000</color>
     <color name="bookmark_widget_divider_color_light">#ff000000</color>
 	<color name="history_download_recent_header_divider_tint_color">#ff000000</color>
-	<color name="open_source_license_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="open_source_license_color">@*android:color/material_deep_teal_500</color>
 	<color name="preference_switch_title_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="data_saver_all_time_divider_shadow_color">#ff000000</color>
-	    <color name="select_action_popup_divider_color">#ff000000</color>
+	<color name="select_action_popup_divider_color">#ff000000</color>
     <color name="select_bookmarks_folder_view_divider_shadow_color2">#ff000000</color>
+	<color name="download_item_title_color">#ffffffff</color>
+	<color name="media_history_text_title_color">#ffffffff</color>
+	<color name="history_group_collapsed">#ffffffff</color>
+	<color name="sbrowser_bookmarks_select_all_bg_color">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="sbrowser_bookmarks_select_all_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="download_item_date_view_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="download_item_progress_tint">@*android:color/material_deep_teal_500</color>
+	<color name="swipe_refresh_progress_view_color">@*android:color/material_deep_teal_500</color>
 </resources>
