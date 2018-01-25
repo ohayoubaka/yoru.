@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:minHeight="23.5dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@*com.samsung.android.themestore:style/font_style_roboto_condensed_bold" android:textSize="14.0dip" android:textColor="#77ffffff" android:layout_gravity="start|center" android:id="@*com.samsung.android.themestore:id/section_divider_title" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textAllCaps="true" android:textAlignment="viewStart" android:layout_marginEnd="5.0dip" />
+    <View android:layout_gravity="center_vertical" android:background="#ffd5d5d5" android:layout_width="0.0dip" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="end|center" android:id="@*com.samsung.android.themestore:id/section_divider_icon" android:background="?*android:selectableItemBackgroundBorderless" android:focusable="true" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:tint="@*com.samsung.android.themestore:color/primary_color" android:layout_marginStart="5.0dip" />
+</LinearLayout>

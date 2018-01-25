@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="TitleTextStyle" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
-        <item name="android:textSize">18.5dip</item>
+        <item name="android:textSize">20.0dip</item>
         <item name="android:textColor">@*com.samsung.android.themestore:color/text_color_actionbar_title</item>
         <item name="android:maxLines">1</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 	<style name="AppBarTitleTextStyle" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
-        <item name="android:textSize">18.5dip</item>
+        <item name="android:textSize">20.0dip</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
         <item name="android:maxLines">1</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="AppBarTitleTextStyleNormal" parent="@*com.samsung.android.themestore:style/TextAppearance.AppCompat.Title">
-        <item name="android:textSize">18.5dip</item>
+        <item name="android:textSize">20.0dip</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
         <item name="android:maxLines">1</item>
@@ -62,4 +62,29 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
+	<style name="ListOneLineTextViewItemStyle">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">14.0dip</item>
+        <item name="android:paddingBottom">14.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+	<style name="DialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog.MinWidth">
+        <item name="android:colorControlActivated">@color/primary_color</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="*com.samsung.android.themestore:colorPrimary">@color/primary_color</item>
+    </style>
+	<style name="ViewThemeForWinSet" parent="@*android:style/Theme.DeviceDefault.Dialog.MinWidth">
+        <item name="android:colorControlActivated">@color/primary_color</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="*com.samsung.android.themestore:colorPrimary">@color/primary_color</item>
+    </style>
+	<style name="Theme.Design.Light" parent="@@*com.samsung.android.themestore:style/Theme.AppCompat">
+    <style name="Theme.Design.Light.BottomSheetDialog" parent="@@*com.samsung.android.themestore:style/Theme.AppCompat.Dialog">
 </resources>
