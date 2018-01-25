@@ -15,9 +15,6 @@
 	<dimen name="bottombar_multiwindow_count_padding_end">0.0dip</dimen>
 	<dimen name="bottombar_multiwindow_count_padding_bottom">6.0dip</dimen>
 	<dimen name="bottombar_multiwindow_count_padding_end_rtl">0.0dip</dimen>
-	<dimen name="quickaccess_icon_view_item_background_corners_radius">1000.0dip</dimen>
-	<dimen name="most_visited_icon_view_item_background_corners_radius">1000.0dip</dimen>
-	<dimen name="quickaccess_button_shape_radius">1000.0dip</dimen>
 	<dimen name="abc_action_bar_stacked_max_height">56.0dip</dimen>
 	<dimen name="payments_editor_action_bar_size">56.0dip</dimen>
 	<dimen name="sbrowser_bookmark_actionbar_fixed_height">56.0dip</dimen>
