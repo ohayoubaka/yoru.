@@ -76,14 +76,14 @@
         <item name="android:paddingEnd">16.0dip</item>
     </style>
 	<style name="DialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog.MinWidth">
-        <item name="android:colorControlActivated">@color/primary_color</item>
-        <item name="android:colorPrimary">@color/primary_color</item>
-        <item name="*com.samsung.android.themestore:colorPrimary">@color/primary_color</item>
+        <item name="android:colorControlActivated">@@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="android:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="*com.samsung.android.themestore:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
     </style>
 	<style name="ViewThemeForWinSet" parent="@*android:style/Theme.DeviceDefault.Dialog.MinWidth">
-        <item name="android:colorControlActivated">@color/primary_color</item>
-        <item name="android:colorPrimary">@color/primary_color</item>
-        <item name="*com.samsung.android.themestore:colorPrimary">@color/primary_color</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="android:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
+        <item name="*com.samsung.android.themestore:colorPrimary">@*com.samsung.android.themestore:color/primary_color</item>
     </style>
 	<style name="Theme.Design.Light" parent="@*com.samsung.android.themestore:style/Theme.AppCompat">
     <style name="Theme.Design.Light.BottomSheetDialog" parent="@*com.samsung.android.themestore:style/Theme.AppCompat.Dialog">
