@@ -189,6 +189,7 @@
 	<color name="zzzz_webselect_bg_color">#ff000000</color>
 	<color name="zzzz_webselect_color_primary_dark">@*android:color/material_deep_teal_500</color>
     <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="zzzz_btn_text_color">#ffffffff</color>
 	<color name="quick_ic_internet_bg">@*android:color/tw_switch_track_on_mtrl</color>
 	<color name="task_edge_small_icon_background_color">@*android:color/tw_switch_track_on_mtrl</color>
 	<color name="bookmark_samsung_account_popup_description_text_color">#ffffffff</color>
