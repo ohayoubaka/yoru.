@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ActionBar.Transparent.TMessages.Start" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:background">#ff000000</item>
+        <item name="android:title"></item>
+        <item name="android:logo">@*org.telegram.messenger:drawable/transparent</item>
+    </style>
+	<style name="Theme.TMessages" parent="@*android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/black</item>
+        <item name="android:windowBackground">@*android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@*org.telegram.messenger:style/Theme.TMessages.ListView</item>
+        <item name="android:itemTextAppearance">@*org.telegram.messenger:style/ActionBar.Transparent.TMessages.Item</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:listChoiceBackgroundIndicator">@*org.telegram.messenger:drawable/list_selector_ex</item>
+        <item name="android:alertDialogTheme">@*org.telegram.messenger:style/Theme.TMessages.Dialog.Alert</item>
+        <item name="android:datePickerStyle">@*org.telegram.messenger:style/Theme.TMessages.DatePicker</item>
+        <item name="android:calendarViewStyle">@*org.telegram.messenger:style/Theme.TMessages.CalendarView</item>
+        <item name="android:actionBarItemBackground">@*org.telegram.messenger:drawable/bar_selector_style</item>
+        <item name="android:colorControlActivated">#ffffffff</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#33000000</item>
+        <item name="android:navigationBarColor">#ff000000</item>
+        <item name="android:timePickerStyle">@*org.telegram.messenger:style/Theme.TMessages.TimePicker</item>
+        <item name="android:timePickerDialogTheme">@*org.telegram.messenger:style/Theme.TMessages.Dialog.Alert</item>
+        <item name="android:datePickerDialogTheme">@*org.telegram.messenger:style/Theme.TMessages.Dialog.Alert</item>
+    </style>
+	<style name="Theme.TMessages.BorderLessButton" parent="@*android:style/Widget.Material.ButtonBar.AlertDialog">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+	<style name="Theme.TMessages.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+	<style name="Theme.TMessages.ListView" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:divider">@*org.telegram.messenger:color/divider</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+	<style name="Theme.TMessages.TimePicker" parent="@*android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">#ff000000</item>
+    </style>
+	<style name="Theme.TMessages.Start" parent="@*android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/black</item>
+        <item name="android:windowBackground">@*android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@*org.telegram.messenger:style/ActionBar.Transparent.TMessages.Start</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:navigationBarColor">#ff000000</item>
+    </style>
+</resources>
