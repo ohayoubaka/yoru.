@@ -139,8 +139,8 @@
     <color name="tw_searchview_textfiled_stroke_material_dark">#ff000000</color>
 	<color name="sem_resolver_bg_color">#ff000000</color>
     <color name="sem_resolver_bg_color_dark">#ff000000</color>
-	<color name="sem_resolver_bottompanel_button_show_background_color_material_light">#47000000</color>
-    <color name="sem_resolver_bottompanel_button_show_background_stroke_color_material_light">#7f000000</color>
+	<color name="sem_resolver_bottompanel_button_show_background_color_material_light">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="sem_resolver_bottompanel_button_show_background_stroke_color_material_light">@*android:color/tw_switch_track_on_mtrl</color>
     <color name="sem_resolver_item_sub_text_color">#ff737373</color>
     <color name="sem_resolver_item_sub_text_color_dark">#ff737373</color>
     <color name="sem_resolver_item_text_color">#ffe5e5e5</color>
