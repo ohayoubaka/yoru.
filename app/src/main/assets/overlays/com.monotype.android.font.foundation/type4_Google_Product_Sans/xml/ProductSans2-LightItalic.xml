@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font displayname="ProductSans2-LightItalic">
+	<sans>
+		<file>
+			<filename>ProductSans2-LightItalic.ttf</filename>
+			<droidname>DroidSans.ttf</droidname>
+		</file>
+		<file>
+			<filename>ProductSans2-LightItalic.ttf</filename>
+			<droidname>DroidSans-Bold.ttf</droidname>
+		</file>
+	</sans>
+</font>

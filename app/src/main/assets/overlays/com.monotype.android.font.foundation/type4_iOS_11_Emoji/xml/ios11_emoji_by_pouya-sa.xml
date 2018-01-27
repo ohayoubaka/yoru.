@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font displayname="ios11_emoji_by_pouya-sa">
+	<sans>
+		<file>
+			<filename>ios11_emoji_by_pouya-sa.ttf</filename>
+			<droidname>DroidSans.ttf</droidname>
+		</file>
+		<file>
+			<filename>ios11_emoji_by_pouya-sa.ttf</filename>
+			<droidname>DroidSans-Bold.ttf</droidname>
+		</file>
+	</sans>
+</font>

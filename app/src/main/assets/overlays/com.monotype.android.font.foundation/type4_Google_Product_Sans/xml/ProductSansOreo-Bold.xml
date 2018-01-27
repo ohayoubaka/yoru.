@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font displayname="ProductSansOreo-Bold">
+	<sans>
+		<file>
+			<filename>ProductSansOreo-Bold.ttf</filename>
+			<droidname>DroidSans.ttf</droidname>
+		</file>
+		<file>
+			<filename>ProductSansOreo-Bold.ttf</filename>
+			<droidname>DroidSans-Bold.ttf</droidname>
+		</file>
+	</sans>
+</font>
