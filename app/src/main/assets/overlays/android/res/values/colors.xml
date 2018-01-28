@@ -158,4 +158,5 @@
 	<color name="tw_primary_text_material_dark">#ffffffff</color>
 	<color name="tw_primary_text_material_light">#ffffffff</color>
 	<color name="tw_dialog_main_text_color_material_light">#ffffffff</color>
+	<color name="legacy_control_normal">@*android:color/tw_switch_track_on_mtrl</color>
 </resources>

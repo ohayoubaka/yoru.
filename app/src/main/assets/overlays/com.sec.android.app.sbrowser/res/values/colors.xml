@@ -188,10 +188,10 @@
 	<color name="toolbar_pwa_on_color">@*android:color/material_deep_teal_500</color>
 	<color name="zzzz_webselect_bg_color">#ff000000</color>
 	<color name="zzzz_webselect_color_primary_dark">@*android:color/material_deep_teal_500</color>
-    <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/legacy_control_normal</color>
 	<color name="zzzz_btn_text_color">#ffffffff</color>
-	<color name="quick_ic_internet_bg">@*android:color/tw_switch_track_on_mtrl</color>
-	<color name="task_edge_small_icon_background_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="quick_ic_internet_bg">@*android:color/legacy_control_normal</color>
+	<color name="task_edge_small_icon_background_color">@*android:color/legacy_control_normal</color>
 	<color name="bookmark_samsung_account_popup_description_text_color">#ffffffff</color>
     <color name="bookmark_samsung_account_popup_donot_show_again_checkbox_text_color">#fffafafa</color>
     <color name="bookmark_samsung_account_popup_title_text_color">#e6fafafa</color>
@@ -212,7 +212,7 @@
 	<color name="download_item_title_color">#ffffffff</color>
 	<color name="media_history_text_title_color">#ffffffff</color>
 	<color name="history_group_collapsed">#ffffffff</color>
-	<color name="sbrowser_bookmarks_select_all_bg_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="sbrowser_bookmarks_select_all_bg_color">@*android:color/legacy_control_normal</color>
     <color name="sbrowser_bookmarks_select_all_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="download_item_date_view_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="download_item_progress_tint">@*android:color/material_deep_teal_500</color>

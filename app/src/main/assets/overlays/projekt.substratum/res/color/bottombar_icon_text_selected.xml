@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="@*android:color/material_deep_teal_500" android:state_checked="true" />   <!--OG:@android:color/black-->
-    <item android:color="@*android:color/tw_switch_track_on_mtrl" android:state_checked="false" />   <!--OG:#99000000-->
+    <item android:color="@*android:color/legacy_control_normal" android:state_checked="false" />   <!--OG:#99000000-->
 </selector>
