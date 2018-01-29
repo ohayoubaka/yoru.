@@ -4,11 +4,13 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowDisablePreview">false</item>
         <item name="android:actionMenuTextColor">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
-        <item name="android:statusBarColor">@*com.sec.android.gallery3d:color/gallery_status_bar_background_color</item>     
+        <item name="android:statusBarColor">@*com.sec.android.gallery3d:color/gallery_status_bar_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Theme.ICS_White" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:textColorSecondary">@*com.sec.android.gallery3d:color/text_foreground_light</item>
-        <item name="android:statusBarColor">@*com.sec.android.gallery3d:color/gallery_status_bar_background_color</item>     
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="*com.sec.android.gallery3d:clearableEditBackground">@*com.sec.android.gallery3d:drawable/efsdk_tw_searchfiled_background_holo_dark</item>
         <item name="*com.sec.android.gallery3d:ListItemTextAppearance">@*com.sec.android.gallery3d:style/TextAppearance.ListItem.White</item>
         <item name="*com.sec.android.gallery3d:ListItemSecondaryTextAppearance">@*com.sec.android.gallery3d:style/TextAppearance.ListItemSecondary.White</item>
@@ -95,6 +97,12 @@
     <style name="GalleryActionBar.Title" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textSize">18.5dip</item>
         <item name="android:textColor">@*com.sec.android.gallery3d:color/actionbar_title_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="TwSubAppbarTextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.sec.android.gallery3d:color/event_sub_app_bar_text_color</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 </resources>

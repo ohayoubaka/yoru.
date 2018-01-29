@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ff000000" />
+            <size android:height="@*com.samsung.android.scloud:dimen/usage_bar_graph_size" android:width="@*com.samsung.android.scloud:dimen/usage_bar_graph_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@*com.samsung.android.scloud:dimen/usage_bar_graph_radius" android:thickness="2.0dip">
+            <solid android:color="#33737373" />
+        </shape>
+    </item>
+</layer-list>

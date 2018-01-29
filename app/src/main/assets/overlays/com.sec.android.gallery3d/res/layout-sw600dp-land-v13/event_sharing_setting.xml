@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:paddingStart="@*com.sec.android.gallery3d:dimen/share_setting_list_side_margin" android:paddingEnd="@*com.sec.android.gallery3d:dimen/share_setting_list_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*com.sec.android.gallery3d:drawable/list_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@*com.sec.android.gallery3d:drawable/sub_app_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip">
+            <RelativeLayout android:orientation="horizontal" android:id="@*com.sec.android.gallery3d:id/switch_container" android:background="?*android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@*com.sec.android.gallery3d:dimen/share_setting_sub_app_bar_height">
+                <TextView android:textAppearance="@*com.sec.android.gallery3d:style/TwSubAppbarTextAppearance" android:id="@*com.sec.android.gallery3d:id/switch_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@*com.sec.android.gallery3d:dimen/share_setting_text_start_margin" android:paddingEnd="0.0dip" android:layout_alignParentStart="true" />
+                <ProgressBar android:id="@*com.sec.android.gallery3d:id/progress" android:visibility="gone" android:layout_width="@*com.sec.android.gallery3d:dimen/share_setting_progress_width" android:layout_height="@*com.sec.android.gallery3d:dimen/share_setting_progress_height" android:layout_margin="@*com.sec.android.gallery3d:dimen/share_setting_progress_left_margin" android:layout_centerVertical="true" android:layout_toStartOf="@*com.sec.android.gallery3d:id/switch_button" style="?*android:attr/progressBarStyle" />
+                <Switch android:id="@*com.sec.android.gallery3d:id/switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="@*com.sec.android.gallery3d:dimen/share_setting_button_margin" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@*com.sec.android.gallery3d:id/event_sharing_setting_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="?*android:listDivider" android:layout_width="fill_parent" android:layout_height="@*com.sec.android.gallery3d:dimen/share_setting_divider_height" />
+    </LinearLayout>
+</LinearLayout>

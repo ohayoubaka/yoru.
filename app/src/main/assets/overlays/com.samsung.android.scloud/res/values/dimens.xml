@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="setup_wizard_divider_line">0.0px</dimen>
+    <dimen name="abc_dialog_title_divider_material">0.0dip</dimen>
+    <dimen name="billing_divider_height">0.0px</dimen>
+    <dimen name="cloud_usage_divider_height">0.0dip</dimen>
+    <dimen name="drive_notification_divider_height">0.0dip</dimen>
+    <dimen name="drive_notification_divider_width">0.0px</dimen>
+    <dimen name="drive_path_indicator_divider_height">0.0dip</dimen>
+    <dimen name="gallery_view_usage_preference_divider_height">0.0px</dimen>
+    <dimen name="home_list_view_divider_height">0.0dip</dimen>
+    <dimen name="list_divider_height">0.0px</dimen>
+    <dimen name="samsung_note_usage_preference_divider_height">0.0px</dimen>
+    <dimen name="vertical_divider_height">0.0dip</dimen>
+    <dimen name="vertical_divider_width">0.0px</dimen>
+</resources>

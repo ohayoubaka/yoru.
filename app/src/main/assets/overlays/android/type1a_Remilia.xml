@@ -11,6 +11,6 @@
 	<!--Samsung related values-->
 	<color name="tw_color_control_activated">#ffd3b0da</color>
 	<color name="tw_seekbar_color_control_activated">#ffd3b0da</color>
-	<color name="tw_switch_track_on_mtrl">#40d3b0da</color>
+	<color name="tw_switch_track_on_mtrl">#80d3b0da</color>
 	
 </resources>

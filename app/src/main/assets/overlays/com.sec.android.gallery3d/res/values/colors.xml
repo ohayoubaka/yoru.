@@ -16,7 +16,7 @@
     <color name="detailview_comments_name_text_color">#ffffffff</color>
     <color name="detailview_comments_text_color">#ccffffff</color>
     <color name="event_notification_title_text_color">#ffffffff</color>
-    <color name="event_sub_app_bar_text_color">#d9ffffff</color>
+    <color name="event_sub_app_bar_text_color">@*android:color/material_deep_teal_500</color>
     <color name="fast_menu_item_text_color">#ffffffff</color>
     <color name="fast_menu_item_text_color_support_simple_editor">#ffffffff</color>
     <color name="fastoptionview_item_ripple_color">#4cffffff</color>
@@ -85,4 +85,6 @@
 	<color name="event_notification_background_color">#ff000000</color>
     <color name="helppage_tip_box_background_color">#ff000000</color>
     <color name="tip_card_background_color">#ff000000</color>
+	<color name="comments_item_icon_bg_color">#ff000000</color>
+	<color name="notification_setting_title_selector">#ff000000</color>
 </resources>

@@ -217,4 +217,5 @@
 	<color name="download_item_date_view_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="download_item_progress_tint">@*android:color/material_deep_teal_500</color>
 	<color name="swipe_refresh_progress_view_color">@*android:color/material_deep_teal_500</color>
+	<color name="notification_setting_title_selector">#ff000000</color>
 </resources>

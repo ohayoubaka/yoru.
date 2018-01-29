@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@*com.samsung.android.scloud:id/restore_data_title" android:background="@*com.samsung.android.scloud:drawable/ssw_link_pressed_bg_color" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="23.0dip" android:text="@*com.samsung.android.scloud:string/samsung_manualrestore_selectdevice_zero" android:fontFamily="sec-roboto-light" />
+    <View android:background="@*com.samsung.android.scloud:drawable/tw_section_divider_mtrl" android:layout_width="fill_parent" android:layout_height="0.0px" android:backgroundTint="#000000" />
+</LinearLayout>
