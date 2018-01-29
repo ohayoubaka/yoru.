@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="system_icons_keyguard_padding_end">900000.0dip</dimen>
+    <dimen name="multi_user_switch_keyguard_margin">90000.0dip</dimen>
+    <dimen name="multi_user_avatar_keyguard_size">0.0dip</dimen>
+</resources>

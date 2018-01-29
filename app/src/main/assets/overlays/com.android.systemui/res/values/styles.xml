@@ -91,7 +91,7 @@
     </style>
 	<style name="TextAppearance.Volume" parent="@*com.android.systemui:style/TextAppearance">
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?*android:textColorPrimary</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.Volume.Description" parent="@*com.android.systemui:style/TextAppearance.Volume">
