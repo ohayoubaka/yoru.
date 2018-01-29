@@ -208,7 +208,7 @@
     <color name="qs_detail_description_text_color">#ffffffff</color>
     <color name="qs_detail_hyperlink_text_color">#ffffffff</color>
     <color name="qs_header_date">#ffffffff</color>
-    <color name="qs_tile_label">#ffffffff</color>
+    <color name="qs_tile_label">#99ffffff</color>
     <color name="qs_detail_label_color">#ffc8c8c8</color>
     <color name="qs_detail_item_device_icon_tint_color">#ffffffff</color>
 	<color name="qs_sound_mode_icon_default_color">#ff757575</color>
