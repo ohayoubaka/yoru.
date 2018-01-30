@@ -126,7 +126,7 @@
     <color name="handler_cue_image">#c8000000</color>
     <color name="tw_quick_panel_quick_sfinder_qconnect_tint_color">@*android:color/material_deep_teal_500</color>
     <color name="tw_quick_panel_sfinder_qconnect_button_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="qs_bottom_area_text_color">#4dffffff</color>
+    <color name="qs_bottom_area_text_color">#ff4d4d4d</color>
     <color name="tw_quick_connect_layout_bg">#c8000000</color>
     <color name="qs_bottom_area_background">#c8000000</color>
     <color name="quickpanel_button_divider_color">@*android:color/material_deep_teal_500</color>
@@ -185,13 +185,13 @@
     <color name="notification_shade_background_color">#c8000000</color>
     <color name="notification_gear_color">@*android:color/material_deep_teal_500</color>
     <color name="normal_mode_bottom_bar_bg">#ff000000</color>
-    <color name="bottom_bar_button_text_color">#4dffffff</color>
+    <color name="bottom_bar_button_text_color">#ff4d4d4d</color>
     <color name="bottom_bar_divider_color">#00000000</color>
     <color name="qs_edit_done_button_color">@*android:color/material_deep_teal_500</color>
     <color name="light_navigation_bar_background_opaque">#ff000000</color>
     <color name="qs_edit_panel_page_color">#c8000000</color>
     <color name="qs_edit_overflow_bg">#c8000000</color>
-    <color name="running_app_cue_color">#ffffffff</color>
+    <color name="running_app_cue_color">#ff000000</color>
     <color name="context_menu_text_color">#ffffffff</color>
     <color name="context_menu_notification_button_text_color">@*android:color/material_deep_teal_500</color>
     <color name="context_menu_notification_title_text_color">#ffffffff</color>

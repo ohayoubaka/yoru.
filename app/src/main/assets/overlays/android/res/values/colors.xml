@@ -12,11 +12,6 @@
     <color name="bright_foreground_light_disabled">#81000000</color>   <!--OG:##80000000-->
     <color name="background_holo_dark">#ff000000</color>
     <color name="user_icon_8">#ffffffff</color>
-
-	<!--Notification dropdown related values-->
-    <color name="notification_action_list">@*android:color/primary_material_dark</color> <!--OG:#ffeeeeee-->
-    <color name="notification_primary_text_color_light">#ffffffff</color>  <!--OG:@color/primary_text_default_material_light(#de000000)-->
-    <color name="notification_secondary_text_color_light">#ffb2b2b2</color> <!--OG:@color/secondary_text_material_light-->
 	
 	<!--Samsung related values-->
 	<color name="tw_preference_switch_divider_color_light">#00000000</color>
@@ -159,5 +154,6 @@
 	<color name="tw_primary_text_material_light">#ffffffff</color>
 	<color name="tw_dialog_main_text_color_material_light">#ffffffff</color>
 	<color name="legacy_control_normal">@*android:color/tw_switch_track_on_mtrl</color>
-	<color name="notification_material_background_color">#ff000000</color>
+	<color name="sem_app_bar_bg_color">#ff000000</color>
+	<color name="tw_tab_background_color">#ff000000</color>
 </resources>
