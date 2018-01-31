@@ -2,5 +2,5 @@
 <LinearLayout android:orientation="vertical" android:id="@*com.android.systemui:id/volume_dialog_dnd_panel" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <View android:id="@*com.android.systemui:id/volume_dnd_divider" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="0.0px" />
-    <TextView android:textAppearance="@*com.android.systemui:style/TextAppearance.Volume.Description" android:ellipsize="end" android:id="@*com.android.systemui:id/volume_dnd_text" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.android.systemui:string/quick_settings_sound_mode_detail_mixer_dnd_turned_on" android:maxLines="1" android:paddingStart="24.0dip" />
+    <TextView android:textAppearance="@*com.android.systemui:style/TextAppearance.Volume.Description" android:ellipsize="end" android:id="@*com.android.systemui:id/volume_dnd_text" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.android.systemui:string/dnd_noti_title" android:maxLines="1" android:paddingStart="24.0dip" />
 </LinearLayout>
