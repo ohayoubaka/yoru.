@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="status_bar_icon_color">false</bool>
+    <bool name="is_light_status_bar">false</bool>
+    <bool name="theme_status_bar_icon_color">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">false</bool>
+</resources>

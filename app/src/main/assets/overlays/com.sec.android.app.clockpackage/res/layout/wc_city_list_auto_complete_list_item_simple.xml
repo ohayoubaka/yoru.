@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@*com.sec.android.app.clockpackage:id/auto_list_city_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/transparent"
+        />
+
+    <TextView
+        android:id="@*com.sec.android.app.clockpackage:id/item_subheader"
+        android:textColor="@*android:color/white"
+        style="?*android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="roboto"
+        android:gravity="start|center"
+        android:minHeight="24.0dip"
+        android:paddingBottom="4.0dip"
+        android:paddingEnd="16.0dip"
+        android:paddingStart="16.0dip"
+        android:paddingTop="4.0dip"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="13.0dip"
+        android:paddingTop="13.0dip">
+
+        <TextView
+            android:id="@*com.sec.android.app.clockpackage:id/auto_list_city_name"
+            style="?*android:attr/textAppearanceListItem"
+            android:textColor="@*android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="roboto"
+            android:gravity="center_vertical"
+            android:includeFontPadding="true"
+            android:maxLines="1"
+            android:paddingEnd="38.0dip"
+            android:paddingStart="16.0dip" />
+
+        <TextView
+            android:id="@*com.sec.android.app.clockpackage:id/auto_list_city_gmt"
+            style="?*android:attr/textAppearanceListItemSecondary"
+            android:textColor="#aaffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="roboto"
+            android:gravity="center_vertical"
+            android:includeFontPadding="true"
+            android:paddingEnd="38.0dip"
+            android:paddingStart="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

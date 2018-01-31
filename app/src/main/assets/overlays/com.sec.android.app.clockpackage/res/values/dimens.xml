@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alarm_tw_fab_add_mtrl_icon_size">16.0dip</dimen>
+    <dimen name="abc_search_view_preferred_height">56.0dip</dimen>
+    <dimen name="clock_sub_appbar_height">56.0dip</dimen>
+    <dimen name="abc_action_button_min_height_material">56.0dip</dimen>
+    <dimen name="abc_action_button_min_width_material">56.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">56.0dip</dimen>
+    <dimen name="actionbar_height">56.0dip</dimen>
+    <dimen name="actionbar_bottom_line_width">0.0dip</dimen>
+    <dimen name="actionbar_divider_height">0.0px</dimen>
+</resources>
