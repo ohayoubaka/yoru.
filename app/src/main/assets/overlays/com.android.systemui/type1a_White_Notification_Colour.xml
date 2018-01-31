@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="notification_legacy_background_color">#ffffffff</color>
+
+	<color name="primary_text_default_material_light">#de000000</color>
+    <color name="secondary_text_default_material_light">@*android:color/secondary_text_material_light</color>
+    <color name="notification_material_background_low_priority_color">#ffffffff</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="notificard_ic_close_tint_color">#ff686868</color>
+	<color name="qs_bottom_area_background">#ffffffff</color>
+	<color name="notification_material_background_dimmed_color">#ffffffff</color>
+    <color name="notification_material_background_dimmed_color_white_lockscreen">#ffffffff</color>
+    <color name="notification_material_background_color_white_lockscreen">#ffffffff</color>
+    <color name="notification_stack_scroller_background_on_keyguard">#80e8e8e8</color>
+    <color name="notification_stack_scroller_background_on_white_keyguard">#66a5a5a5</color>
+</resources>

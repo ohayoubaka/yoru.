@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="notification_legacy_background_color">#ff000000</color>
+	<color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#ffb2b2b2</color>
+    <color name="notification_material_background_low_priority_color">#c8000000</color>
+    <color name="notification_material_background_media_default_color">#c8000000</color>
+    <color name="notificard_ic_close_tint_color">#c8000000</color>
+	<color name="qs_bottom_area_background">#c8000000</color>
+	<color name="notification_material_background_dimmed_color">#c8000000</color>
+    <color name="notification_material_background_dimmed_color_white_lockscreen">#c8000000</color>
+    <color name="notification_material_background_color_white_lockscreen">#c8000000</color>
+    <color name="notification_stack_scroller_background_on_keyguard">#c8000000</color>
+    <color name="notification_stack_scroller_background_on_white_keyguard">#c8000000</color>
+</resources>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="notification_header_bg">#ff000000</color>
-    <color name="notification_legacy_background_color">#ff000000</color>
-    <color name="notification_material_background_low_priority_color">#ff000000</color>
-    <color name="notification_material_background_media_default_color">#ff000000</color>
     <color name="system_bar_background_opaque">#ff000000</color>
     <color name="system_primary_color">#ff000000</color>
     <color name="notificard_ic_close_tint_color">#ff000000</color>
@@ -19,11 +16,6 @@
     <color name="tw_system_primary_color">#ff000000</color>
     <color name="tw_cover_volume_warning_popup_bg_color_light">#ff000000</color>
     <color name="navigation_bar_theme_background_color">#ff000000</color>
-    <color name="notification_material_background_dimmed_color">#ff000000</color>
-    <color name="notification_material_background_dimmed_color_white_lockscreen">#ff000000</color>
-    <color name="notification_material_background_color_white_lockscreen">#ff000000</color>
-    <color name="notification_stack_scroller_background_on_keyguard">#ff000000</color>
-    <color name="notification_stack_scroller_background_on_white_keyguard">#ff000000</color>
     <color name="notification_shade_background_color">#ff000000</color>
     <color name="qs_edit_panel_page_color">#ff000000</color>
     <color name="qs_edit_overflow_bg">#ff000000</color>

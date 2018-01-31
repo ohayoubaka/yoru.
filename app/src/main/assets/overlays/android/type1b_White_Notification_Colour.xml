@@ -5,6 +5,6 @@
     <color name="notification_action_list">#ffeeeeee</color>
     <color name="notification_primary_text_color_light">#de000000</color>
     <color name="notification_secondary_text_color_light">@*android:color/secondary_text_material_light</color>
-	<color name="notification_material_background_color">#fffafafa</color>
+	<color name="notification_material_background_color">#ffffffff</color>
 
 </resources>

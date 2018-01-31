@@ -4,9 +4,6 @@
     <color name="navigation_bar_background_opaque">#ff000000</color>
     <color name="notification_guts_bg_color">#ff000000</color>
     <color name="notification_header_bg">#e6000000</color>
-    <color name="notification_legacy_background_color">#c8000000</color>
-    <color name="notification_material_background_low_priority_color">#c8000000</color>
-    <color name="notification_material_background_media_default_color">#c8000000</color>
     <color name="system_accent_color">@*android:color/material_deep_teal_500</color>
     <color name="system_bar_background_opaque">#ff000000</color>
     <color name="system_primary_color">#c8000000</color>
@@ -37,10 +34,7 @@
     <color name="accent_material_dark">@*android:color/material_deep_teal_500</color>
     <color name="system_notification_accent_color">@*android:color/material_deep_teal_500</color>
     <color name="summary_notification_icon_tint_color">@*android:color/material_deep_teal_500</color>
-    <color name="notificard_ic_close_tint_color">#c8000000</color>
     <color name="more_cue_tint_color_for_whitebackground">#c8000000</color>
-    <color name="primary_text_default_material_light">#ffffffff</color>
-    <color name="secondary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
@@ -128,7 +122,6 @@
     <color name="tw_quick_panel_sfinder_qconnect_button_text_color">@*android:color/material_deep_teal_500</color>
     <color name="qs_bottom_area_text_color">#ff4d4d4d</color>
     <color name="tw_quick_connect_layout_bg">#c8000000</color>
-    <color name="qs_bottom_area_background">#c8000000</color>
     <color name="quickpanel_button_divider_color">@*android:color/material_deep_teal_500</color>
     <color name="qs_bottom_area_divider_color">@*android:color/material_deep_teal_500</color>
     <color name="qs_quick_connect_device_list_item_icon_color">@*android:color/material_deep_teal_500</color>
@@ -177,11 +170,6 @@
     <color name="brightness_controller_seekbar_second_boundary_bg_color">#64b03038</color>
     <color name="qs_page_indicator_tint_color">@*android:color/material_deep_teal_500</color>
     <color name="navigation_bar_theme_background_color">#ff000000</color>
-    <color name="notification_material_background_dimmed_color">#c8000000</color>
-    <color name="notification_material_background_dimmed_color_white_lockscreen">#c8000000</color>
-    <color name="notification_material_background_color_white_lockscreen">#c8000000</color>
-    <color name="notification_stack_scroller_background_on_keyguard">#c8000000</color>
-    <color name="notification_stack_scroller_background_on_white_keyguard">#c8000000</color>
     <color name="notification_shade_background_color">#c8000000</color>
     <color name="notification_gear_color">@*android:color/material_deep_teal_500</color>
     <color name="normal_mode_bottom_bar_bg">#ff000000</color>
