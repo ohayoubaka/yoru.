@@ -81,7 +81,7 @@
 	<color name="moreInfo_item_content_text_color">#ffffffff</color>
 	<color name="crop_actionbar_background_color">#bf000000</color>
     <color name="crop_background_dim_color">#66000000</color>
-	<color name="gallery_status_bar_background_color">@*android:color/material_deep_teal_500</color>
+	<color name="gallery_status_bar_background_color">#ff000000</color>
 	<color name="event_notification_background_color">#ff000000</color>
     <color name="helppage_tip_box_background_color">#ff000000</color>
     <color name="tip_card_background_color">#ff000000</color>

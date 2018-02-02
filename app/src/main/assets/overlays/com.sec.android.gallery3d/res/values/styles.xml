@@ -28,16 +28,19 @@
         <item name="*com.sec.android.gallery3d:colorPrimaryDark">@*com.sec.android.gallery3d:color/gallery_color_primary_dark</item>
         <item name="*com.sec.android.gallery3d:colorAccent">?*android:colorAccent</item>
         <item name="*com.sec.android.gallery3d:colorControlHighlight">?*android:colorControlHighlight</item>	
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="CustomAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog.Alert">
         <item name="android:colorControlActivated">@*com.sec.android.gallery3d:color/photo_id_selected_bg_color</item>
         <item name="android:colorPrimaryDark">@*com.sec.android.gallery3d:color/gallery_color_primary_dark</item>
-        <item name="android:colorEdgeEffect">@*com.sec.android.gallery3d:color/gallery_color_primary</item>	
+        <item name="android:colorEdgeEffect">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="TextInputLayoutTheme" parent="@*android:style/Theme.DeviceDefault">
         <item name="*com.sec.android.gallery3d:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
         <item name="*com.sec.android.gallery3d:colorControlActivated">?*android:colorControlActivated</item>
-        <item name="*com.sec.android.gallery3d:editTextStyle">@*com.sec.android.gallery3d:style/EditTextSamsungStyle</item>	
+        <item name="*com.sec.android.gallery3d:editTextStyle">@*com.sec.android.gallery3d:style/EditTextSamsungStyle</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.AlbumChoice" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowContentOverlay">@null</item>
@@ -45,7 +48,8 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:actionBarStyle">@*com.sec.android.gallery3d:style/GalleryActionBar</item>
         <item name="android:actionMenuTextColor">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
-        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>	
+        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.DeviceDefault" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:textColorPrimary">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
@@ -54,29 +58,35 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:actionBarStyle">@*com.sec.android.gallery3d:style/GalleryActionBar</item>
         <item name="android:actionMenuTextColor">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
-        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>	
+        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.GalleryCrop" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:windowDisablePreview">true</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:alertDialogTheme">@*com.sec.android.gallery3d:style/CustomAlertDialogTheme</item>	
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.GalleryEditLocation" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:textColorPrimary">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="android:actionMenuTextColor">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
-        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>	
+        <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.HelpPage" parent="@android:style/Theme.DeviceDefault">
         <item name="android:textColorSecondary">@*com.sec.android.gallery3d:color/helppage_actionbar_title_color</item>
         <item name="android:actionBarStyle">@*com.sec.android.gallery3d:style/Holo.HelpPageActionBar</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.ICS_White_Dialog" parent="@*android:style/Theme.DeviceDefault.Light.DialogWhenLarge">
         <item name="android:textColorSecondary">@*com.sec.android.gallery3d:color/device_default_light_list_text</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Theme.ICS_White_Dialog_No_Background" parent="@android:style/Theme.DeviceDefault.Light.DialogWhenLarge">
         <item name="android:textColorSecondary">@*com.sec.android.gallery3d:color/device_default_light_list_text</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.SettingPreference" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowContentOverlay">@null</item>
@@ -86,6 +96,7 @@
         <item name="android:actionMenuTextColor">@*com.sec.android.gallery3d:color/actionbar_menu_text_selector</item>
         <item name="android:colorControlActivated">@*com.sec.android.gallery3d:color/photo_id_selected_bg_color</item>
         <item name="android:colorPrimary">@*com.sec.android.gallery3d:color/gallery_color_primary</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="GalleryActionBar" parent="@*android:style/Widget.DeviceDefault.ActionBar">
         <item name="android:background">@*com.sec.android.gallery3d:color/actionbar_bg_color</item>
@@ -93,16 +104,19 @@
         <item name="android:actionModeCloseButtonStyle">@*com.sec.android.gallery3d:style/HideActionModeClose</item>
         <item name="android:titleTextStyle">@*com.sec.android.gallery3d:style/GalleryActionBar.Title</item>
         <item name="android:contentInsetStart">0.0dip</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="GalleryActionBar.Title" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textSize">18.5dip</item>
         <item name="android:textColor">@*com.sec.android.gallery3d:color/actionbar_title_color</item>
         <item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="TwSubAppbarTextAppearance">
         <item name="android:textSize">17.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*com.sec.android.gallery3d:color/event_sub_app_bar_text_color</item>
         <item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>
