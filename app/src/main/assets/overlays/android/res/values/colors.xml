@@ -151,7 +151,6 @@
 	<color name="tw_dialog_title_text_color_material_light">@*android:color/material_deep_teal_500</color>
 	<color name="tw_searchview_result_title_text_color_material">@*android:color/material_deep_teal_500</color>
 	<color name="tw_primary_text_material_dark">#ffffffff</color>
-	<color name="tw_primary_text_material_light">#ffffffff</color>
 	<color name="tw_dialog_main_text_color_material_light">#ffffffff</color>
 	<color name="legacy_control_normal">@*android:color/tw_switch_track_on_mtrl</color>
 	<color name="sem_app_bar_bg_color">#ff000000</color>
