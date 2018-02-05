@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="board_collapsed_color">#ff000000</color>
+    <color name="board_expanded_color">#ff000000</color>
+    <color name="board_gray_color">#ff000000</color>
+    <color name="board_tab_divider_color">#ff000000</color>
+    <color name="board_tab_icon_color">#ffffffff</color>
+    <color name="board_tab_icon_selected_color">#ffffffff</color>
+    <color name="board_tab_icon_selected_color_in_dark">#ffffffff</color>
+    <color name="board_tab_name_sub_text_color">#c8ffffff</color>
+    <color name="board_tab_name_text_color">#ffffffff</color>
+	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimary">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimaryDark">@*android:color/material_deep_teal_500</color>
+</resources>
