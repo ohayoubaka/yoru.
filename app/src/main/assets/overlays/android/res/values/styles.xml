@@ -204,4 +204,33 @@
     <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Large" parent="@*android:style/TextAppearance.Material.Widget.PopupMenu.Large">
         <item name="android:textColor">@*android:color/tw_menu_popup_text_material_light</item>
     </style>
+	<style name="Theme.DeviceDefault.Resolver" parent="@*android:style/Theme.Material">
+        <item name="android:backgroundDimAmount">0.2</item>
+        <item name="android:disabledAlpha">0.4</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*android:style/DialogWindowTitle.DeviceDefault</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustNothing</item>
+        <item name="android:activatedBackgroundIndicator">@*android:drawable/activated_background_material</item>
+        <item name="android:buttonBarStyle">@*android:style/Widget.Material.ButtonBar.AlertDialog</item>
+        <item name="android:listPreferredItemPaddingStart">?*android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?*android:dialogPreferredPadding</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:colorControlActivated">@*android:color/tw_switch_track_on_mtrl</item>
+        <item name="android:colorPrimary">@*android:color/primary_device_default_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/sem_color_primary_dark_light</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:windowEnterTransition">@empty</item>
+        <item name="android:windowExitTransition">@empty</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:buttonBarPositiveButtonStyle">@*android:style/Widget.DeviceDefault.Light.Resolver.Button.Positive</item>
+        <item name="*android:semResolverBackgroundColor">@*android:color/sem_resolver_bg_color</item>
+        <item name="*android:semResolverItemSubTextColor">@*android:color/sem_resolver_item_sub_text_color</item>
+        <item name="*android:semResolverItemTextColor">@*android:color/sem_resolver_item_text_color</item>
+        <item name="*android:semResolverTitleTextColor">@*android:color/sem_resolver_title_text_color</item>
+    </style>
 </resources>
