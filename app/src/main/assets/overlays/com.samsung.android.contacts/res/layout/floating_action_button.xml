@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*com.samsung.android.contacts:id/floating_action_button_container"
+             android:layout_width="@*com.samsung.android.contacts:dimen/w_floating_action_button_size"
+             android:layout_height="@*com.samsung.android.contacts:dimen/w_floating_action_button_size"
+             android:layout_gravity="end|bottom|center"
+             android:layout_marginBottom="@*com.samsung.android.contacts:dimen/w_floating_action_button_bottom_margin"
+             android:layout_marginEnd="@*com.samsung.android.contacts:dimen/c_floating_action_button_margin_right"
+             android:backgroundTint="@null">
+    <ImageButton android:id="@*com.samsung.android.contacts:id/floating_action_button"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_gravity="center"
+                 android:background="@*com.samsung.android.contacts:drawable/floating_action_button" android:padding="@*com.samsung.android.contacts:dimen/w_floating_action_button_padding"
+                 android:scaleType="fitCenter"
+                 android:src="@*com.samsung.android.contacts:drawable/contacts_fab_add_icon"/>
+</FrameLayout>

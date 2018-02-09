@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@*com.samsung.android.contacts:style/Base.V21.Theme.AppCompat.Dialog"/>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Theme.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Base.V21.Theme.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarStyle">@*com.samsung.android.contacts:style/Widget.AppCompat.ButtonBar</item>
+        <item name="android:buttonBarButtonStyle">@*com.samsung.android.contacts:style/Widget.AppCompat.ButtonBar</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow" parent="@*com.samsung.android.contacts:style/Base.Widget.AppCompat.Light.PopupMenu">
+    <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+    <item name="android:overlapAnchor">true</item>
+</style>
+   
+</resources>

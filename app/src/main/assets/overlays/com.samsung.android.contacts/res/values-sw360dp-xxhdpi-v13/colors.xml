@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bottom_button_text_color">#c8a8c858</color>
+    <color name="noitem_text_color">#8cffffff</color>
+    <color name="call_setting_divider_color">#00000000</color>
+    <color name="edit_text_disabled_color">#96ffffff</color>
+    <color name="edit_text_error_color">#c8ff3b30</color>
+    <color name="hint_text_color">#82828282</color>
+    <color name="input_field_text_color">#e1ffffff</color>
+    <color name="list_edit_title_color">#c8ffffff</color>
+    <color name="list_edit_counter_color">#8cffffff</color>
+    <color name="list_edit_counter_dim_color">#648c8c8c</color>
+    <color name="listview_boundary_effect">#00000000</color>
+    <color name="settings_subappbar_text_color">#96ffffff</color>
+    <color name="tty_dialog_text_color">#c8ffffff</color>
+    <color name="callsettings_preset_title_color">#e1ffffff</color>
+    <color name="chooser_categorey_text_color">#c8ffffff</color>
+    <color name="tw_tab_selected_bg_color">#1effffff</color>
+    <color name="tw_tab_unselected_text_color">#96ffffff</color>
+    <color name="tw_tab_selected_color">#1effffff</color>
+    <color name="sec_photo_stroke_background_color">#00000000</color>
+    <color name="list_icon_create_circle_color">#64000000</color>
+    <color name="list_icon_minus_circle_color">#64000000</color>
+    <color name="action_bar_text_color">#e1ffffff</color>
+    <color name="list_primary_text_color">#c8ffffff</color>
+    <color name="list_secondary_text_color">#77777777</color>
+    <color name="settings_glance_reply_sub_header">#e1000000</color>
+    <color name="settings_glance_reply_sub_header_text_color">#64000000</color>
+    <color name="status_bar_color">#ff1c3aa9</color>
+</resources>

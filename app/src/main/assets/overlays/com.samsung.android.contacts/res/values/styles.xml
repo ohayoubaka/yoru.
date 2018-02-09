@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@*com.samsung.android.contacts:style/Theme.AppCompat" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@*com.samsung.android.contacts:style/Theme.AppCompat">
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@*com.samsung.android.contacts:style/Theme.AppCompat.Dialog" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@*com.samsung.android.contacts:style/Theme.AppCompat.Dialog.Alert" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@*com.samsung.android.contacts:style/Theme.AppCompat.Dialog.MinWidth" >
+        <item name="android:background">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@*com.samsung.android.contacts:style/Theme.AppCompat.DialogWhenLarge" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@*com.samsung.android.contacts:style/Theme.AppCompat.NoActionBar" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@*com.samsung.android.contacts:style/Theme.AppCompat" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+  
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@*android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="Contact.Theme.DeviceDefault" parent="@*android:style/Theme.Material"> 
+        <item name="*android:toastTextColor">@android:color/white</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_statusbar</item>
+        <item name="android:statusBarColor">@*com.samsung.android.contacts:color/contact_color_statusbar</item>
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:searchViewStyle">@*com.samsung.android.contacts:style/Base.TextAppearance.AppCompat.Title</item>
+        <item name="*android:parentIsDeviceDefault">true</item>
+        <item name="*android:parentIsDeviceDefaultDark">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.samsung.android.contacts:empty_text_color">#77fafafa</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    
+    <style name="RobotoRegular">
+        <item name="android:fontFamily">
+            @*com.samsung.android.contacts:string/sec_roboto_light_font_family
+        </item>
+    </style>
+    <style name="RobotoCondensedBold"
+           parent="@*com.samsung.android.contacts:style/RobotoCondensedRegular">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RobotoCondensedRegular">
+        <item name="android:fontFamily">
+            @*com.samsung.android.contacts:string/sec_roboto_condensed_font_family
+        </item>
+    </style>
+    <style name="textAppearanceEasySignupTitle"
+           parent="@*com.samsung.android.contacts:style/RobotoCondensedBold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#c8ffffff</item>
+    </style>
+    <style name="textAppearanceNearbyFirstUseDiscription"
+           parent="@*com.samsung.android.contacts:style/RobotoRegular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#c8ffffff</item>
+    </style>
+
+    <style name="Dialtacts.Theme.DeviceDefault" parent="@android:style/Theme.Material">
+        <item name="*android:toastTextColor">@android:color/white</item>
+        <item name="*android:parentIsDeviceDefault">true</item>
+        <item name="*android:parentIsDeviceDefaultDark">false</item>
+        <item name="android:searchViewStyle">@*com.samsung.android.contacts:style/Base.TextAppearance.AppCompat.Title</item>
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:alertDialogTheme">@*com.samsung.android.contacts:style/CommonDialogTheme_Dialtacts</item>
+        <item name="android:actionMenuTextColor">#ff63aa4a</item>
+        <item name="android:colorControlActivated">#000000</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/dialtacts_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/dialtacts_color_primary_dark</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.samsung.android.contacts:empty_text_color">#aaaaaaaa</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme">
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorForeground">#ffbebebe</item>
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@*com.samsung.android.contacts:dimen/abc_disabled_alpha_material_dark</item>
+        <item name="android:textAppearance">@*com.samsung.android.contacts:style/TextAppearance.AppCompat</item>
+        <item name="android:textAppearanceInverse">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:textColorPrimary">#fffafafa</item>
+        <item name="android:textColorPrimaryDisableOnly">#99fafafa</item>
+        <item name="android:textColorSecondary">#aafafafa</item>
+        <item name="android:textColorPrimaryInverse">#ff999999</item>
+        <item name="android:textColorSecondaryInverse">#aa999999</item>
+        <item name="android:textColorHintInverse">#80999999</item>
+        <item name="android:textAppearanceLarge">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textAppearanceMedium">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textAppearanceSmall">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textAppearanceLargeInverse">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item name="android:windowBackground">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">#6680cbc4</item>
+        <item name="android:textColorHint">#80ffffff</item>
+        <item name="android:textColorLink">#000000</item>
+        <item name="android:colorForegroundInverse">#ff999999</item>
+        <item name="android:textColorTertiary">#77fafafa</item>
+        <item name="android:textColorTertiaryInverse">#99999999</item>
+        <item name="android:listChoiceIndicatorSingle">@*com.samsung.android.contacts:drawable/abc_btn_radio_material</item>
+        <item name="android:listChoiceIndicatorMultiple">@*com.samsung.android.contacts:drawable/abc_btn_check_material</item>
+        <item name="android:colorBackgroundCacheHint">#99fafafa</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@*android:style/Widget.Material.SearchView">
+        <item name="android:actionBarSize">64.0dip</item>
+        <item name="android:layout">@*com.samsung.android.contacts:layout/abc_action_bar_view_list_nav_layout</item>
+        <item name="android:dropDownVerticalOffset">9.0dip</item>
+        <item name="android:closeIcon">@*android:drawable/tw_ic_clear_search_api_material</item>
+        <item name="android:searchIcon">@*com.samsung.android.contacts:drawable/abc_textfield_search_activated_mtrl_alpha</item>
+        <item name="android:voiceIcon">@*android:drawable/tw_ic_voice_search_api_material</item>
+        <item name="android:suggestionRowLayout">@*android:layout/tw_search_dropdown_item_icons_2line</item>
+        <item name="android:queryBackground">@*android:drawable/tw_textfield_search_material</item>
+        <item name="android:submitBackground">@*android:drawable/tw_textfield_search_material</item>
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+    </style>
+
+    <style name="ContactEditorActivityTheme" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:textColorSecondary">#aaffffff</item>
+        <item name="android:actionBarStyle">@*com.samsung.android.contacts:style/EditorActionBarStyle</item>
+        <item name="android:actionBarSize">@*com.samsung.android.contacts:dimen/w_fixed_tabs_for_text_only_height</item>
+        <item name="android:actionBarTabStyle">@*com.samsung.android.contacts:style/ContactsTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@*com.samsung.android.contacts:style/ContactsTabTextStyle</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlActivated">#000000</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_primary_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="ContactsPreferencesTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_statusbar</item>
+        <item name="android:statusBarColor">@*com.samsung.android.contacts:color/contact_color_statusbar</item>
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+    </style>
+
+    <style name="CommonDialogTheme" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorControlActivated">#000000</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_primary_dark</item>
+    </style>
+
+    <style name="SelectableItem" parent="@*android:style/Theme.Material">
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:background">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@*com.samsung.android.contacts:style/Base.Theme.AppCompat">
+        <item name="*com.samsung.android.contacts:actionBarPopupTheme">@*com.samsung.android.contacts:style/ThemeOverlay.AppCompat</item>
+        <item name="*com.samsung.android.contacts:actionBarTheme">@*com.samsung.android.contacts:style/ThemeOverlay.AppCompat</item>
+        <item name="*com.samsung.android.contacts:actionBarWidgetTheme">@null</item>
+        <item name="*com.samsung.android.contacts:listChoiceBackgroundIndicator">@*com.samsung.android.contacts:drawable/abc_list_selector_holo_dark</item>
+        <item name="*com.samsung.android.contacts:colorPrimary">#ff212121</item>
+        <item name="*com.samsung.android.contacts:colorPrimaryDark">@*android:color/black</item>
+    </style>
+    <style name="AlertDialog.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Base.AlertDialog.AppCompat" />
+    <style name="Platform.ThemeOverlay.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Platform.ThemeOverlay.AppCompat">
+        <item name="android:autoCompleteTextViewStyle">@*com.samsung.android.contacts:style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item name="android:dropDownItemStyle">@*com.samsung.android.contacts:style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="*com.samsung.android.contacts:actionBarItemBackground">@*com.samsung.android.contacts:drawable/abc_item_background_holo_dark</item>
+        <item name="*com.samsung.android.contacts:actionDropDownStyle">@*com.samsung.android.contacts:style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item name="*com.samsung.android.contacts:selectableItemBackground">@*com.samsung.android.contacts:drawable/abc_item_background_holo_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*com.samsung.android.contacts:style/Base.Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textAppearance">@*com.samsung.android.contacts:style/TextAppearance.AppCompat.Medium.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow" parent="@*com.samsung.android.contacts:style/Base.Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="*com.samsung.android.contacts:overlapAnchor">true</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Base.V7.Theme.AppCompat" >
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@*com.samsung.android.contacts:style/Base.V7.Theme.AppCompat.Dialog" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert" parent="@*com.samsung.android.contacts:style/Base.Theme.AppCompat.Dialog">
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="*com.samsung.android.contacts:windowMinWidthMajor">@*com.samsung.android.contacts:dimen/abc_dialog_min_width_major</item>
+        <item name="*com.samsung.android.contacts:windowMinWidthMinor">@*com.samsung.android.contacts:dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth" parent="@*com.samsung.android.contacts:style/Base.Theme.AppCompat.Dialog">
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="*com.samsung.android.contacts:windowMinWidthMajor">@*com.samsung.android.contacts:dimen/abc_dialog_min_width_major</item>
+        <item name="*com.samsung.android.contacts:windowMinWidthMinor">@*com.samsung.android.contacts:dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="TwPickerDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_primary_dark</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
+    <style name="SelectMapActivityTheme" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@*com.samsung.android.contacts:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+        <item name="android:colorAccent">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:textColorSecondary">#aaffffff</item>
+        <item name="android:actionBarStyle">@*com.samsung.android.contacts:style/EditorActionBarStyle</item>
+        <item name="android:actionBarSize">@*com.samsung.android.contacts:dimen/w_fixed_tabs_for_text_only_height</item>
+        <item name="android:actionBarTabStyle">@*com.samsung.android.contacts:style/ContactsTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@*com.samsung.android.contacts:style/ContactsTabTextStyle</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlActivated">#000000</item>
+        <item name="android:colorPrimary">@*com.samsung.android.contacts:color/contact_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.contacts:color/contact_color_primary_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="NonPhoneDialogTheme" parent="@*android:style/Theme.Holo.Dialog" >
+        <item name="android:backgroundTint">@*com.samsung.android.contacts:color/background_floating_material_dark</item>
+    </style>
+</resources>

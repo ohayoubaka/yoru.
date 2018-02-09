@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*android:id/search_bar"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:orientation="horizontal">
+    <TextView android:id="@*android:id/search_badge" android:layout_width="wrap_content"
+              android:layout_height="fill_parent" android:layout_marginBottom="2.0dip"
+              android:drawablePadding="0.0dip" android:gravity="center_vertical"
+              android:textAppearance="@*com.samsung.android.contacts:style/Base.TextAppearance.AppCompat.Medium" android:textColor="@*android:color/white"
+              android:visibility="gone"/>
+    <ImageView android:id="@*android:id/search_button" style="?android:attr/actionButtonStyle"
+               android:layout_width="wrap_content" android:layout_height="fill_parent"
+               android:layout_gravity="center_vertical"
+               android:contentDescription="@*android:string/searchview_description_search"
+               android:focusable="true"/>
+    <LinearLayout android:id="@*android:id/search_edit_frame" android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" android:layout_gravity="center_vertical"
+                  android:layout_marginTop="0.0dip"
+                  android:layoutDirection="locale" android:orientation="horizontal">
+        <LinearLayout android:id="@*android:id/search_plate" android:layout_width="fill_parent"
+                      android:layout_height="48.0dip" android:layout_gravity="center_vertical"
+                      android:layout_marginBottom="0.0dip"
+                      android:layout_marginEnd="0.0dip"
+                      android:layout_marginStart="0.0dip"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal"
+                      android:weightSum="1.0">
+            <ImageView android:id="@*android:id/search_mag_icon" android:layout_width="36.0dip"
+                       android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                       android:paddingStart="3.0dip" android:scaleType="centerInside"
+                       android:visibility="gone"/>
+            <view android:id="@*android:id/search_src_text"
+                  class="android.widget.SearchView$SearchAutoComplete"
+                  android:layout_width="0.0dip"
+                  android:layout_height="fill_parent" android:layout_gravity="center_vertical"
+                  android:layout_weight="1.0" android:background="@null"
+                  android:dropDownAnchor="@*android:id/search_plate" android:dropDownHeight="wrap_content"
+                  android:dropDownHorizontalOffset="0.0dip" android:dropDownVerticalOffset="1.0dip" android:ellipsize="end"
+                  android:fontFamily="roboto"
+                  android:imeOptions="actionSearch" android:inputType="textAutoComplete|textNoSuggestions"
+                  android:maxLength="1000" android:paddingEnd="7.0dip"
+                  android:paddingStart="12.0dip" android:layout_marginStart="4.0dip" android:singleLine="true"
+                  android:textColor="@*android:color/white" android:textColorHint="#aaffffff"
+                  android:textSize="@*android:dimen/tw_searchview_search_text_size"/>
+            <ImageView android:id="@*android:id/search_close_btn" android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:layout_gravity="center_vertical" android:background="?android:selectableItemBackgroundBorderless"
+                       android:contentDescription="@*android:string/searchview_description_clear"
+                       android:focusable="true"
+                       android:paddingEnd="8.0dip" android:paddingStart="10.0dip"/>
+            <ImageView android:id="@*android:id/search_go_btn" android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:layout_gravity="center_vertical" android:background="?android:selectableItemBackgroundBorderless"
+                       android:contentDescription="@*android:string/searchview_description_submit" android:focusable="true"
+                       android:paddingEnd="8.0dip"
+                       android:paddingStart="10.0dip" android:visibility="gone"/>
+            <ImageView android:id="@*android:id/search_voice_btn" android:layout_width="wrap_content"
+                       android:layout_height="fill_parent" android:tint="@*android:color/white"
+                       android:layout_gravity="center_vertical" android:background="?android:selectableItemBackgroundBorderless"
+                       android:contentDescription="@*android:string/searchview_description_voice" android:focusable="true"
+                       android:paddingEnd="8.0dip"
+                       android:paddingStart="8.0dip" android:visibility="gone"/>
+            <LinearLayout android:id="@*android:id/submit_area" android:layout_width="wrap_content"
+                          android:layout_height="fill_parent" android:orientation="horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

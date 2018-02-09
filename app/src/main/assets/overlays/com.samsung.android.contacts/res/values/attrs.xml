@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorScheme" format="reference">
+        <enum name="auto" value="2"/>
+        <enum name="dark" value="1"/>
+        <enum name="light" value="0"/>
+    </attr>
+</resources>
