@@ -203,4 +203,7 @@
 	<color name="list_divider_color">#00000000</color>
 	<color name="theme_divider_color">#00000000</color>
 	<color name="qs_grid_selected_tint">@*android:color/material_deep_teal_500</color>
+	<color name="qs_multisim_preffered_slot_divider_color">#ff000000</color>
+	<color name="qs_multisim_popup_menu_border_color">#ff000000</color>
+    <color name="qs_multisim_preffered_slot_text_color_dim">#5dffffff</color>
 </resources>
