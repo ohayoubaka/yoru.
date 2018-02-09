@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="tw_text_color_menu_material_toolbar">@*android:color/material_deep_teal_500</color>
+	<color name="tw_color_control_activated">@*android:color/material_deep_teal_500</color>
+    <color name="action_bar_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="answering_memo_custom_seekbar">@*android:color/material_deep_teal_500</color>
+    <color name="answering_memo_playback_seek_bar_already_played">@*android:color/material_deep_teal_500</color>
+    <color name="color_primary">@*android:color/material_deep_teal_500</color>
+    <color name="tw_tab_selected_color">@*android:color/material_deep_teal_500</color>
+    <color name="tw_tab_selected_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="actionbar_background_color_for_l">#ff000000</color>
+    <color name="actionbar_background_color_dark_for_l">@*android:color/material_deep_teal_500</color>
+    <color name="status_bar_color">#ff000000</color>
+    <color name="status_bar_color_mobile_network">#ff000000</color>
+	<color name="dialer_theme_color">#ff000000</color>
+    <color name="dialer_theme_color_dark">#ff000000</color>
+	<color name="listview_boundary_effect">@*android:color/material_deep_teal_500</color>
+	<color name="settings_subappbar_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="title_text_color">@*android:color/material_deep_teal_500</color>
+</resources>

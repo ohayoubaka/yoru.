@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.Settings.WfcCallAlertDialog" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.android.phone:style/SecCallSettingActionBar</item>
+        <item name="android:actionBarTabStyle">@*com.android.phone:style/CallSettingActionBarTab</item>
+        <item name="android:actionBarTabTextStyle">@*com.android.phone:style/CallSettingTabTextStyle</item>
+        <item name="android:dialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:actionMenuTextColor">@*com.android.phone:color/tw_text_color_menu_material_toolbar</item>
+        <item name="android:actionModeStyle">@*com.android.phone:style/CallSettingsActionMode</item>
+        <item name="android:colorControlActivated">@*com.android.phone:color/tw_color_control_activated</item>
+        <item name="android:colorPrimary">@*com.android.phone:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.android.phone:color/actionbar_background_color_dark_for_l</item>
+        <item name="android:colorAccent">@*com.android.phone:color/dialer_theme_color</item>
+        <item name="android:statusBarColor">@*com.android.phone:color/status_bar_color</item>
+        <item name="android:colorEdgeEffect">@*com.android.phone:color/listview_boundary_effect</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="ThemeSettings_KDI" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.android.phone:style/SecCallSettingActionBar_KDI</item>
+        <item name="android:actionBarTabStyle">@*com.android.phone:style/CallSettingActionBarTab</item>
+        <item name="android:actionBarTabTextStyle">@*com.android.phone:style/CallSettingTabTextStyle</item>
+        <item name="android:dialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:actionMenuTextColor">@*com.android.phone:color/tw_text_color_menu_material_toolbar</item>
+        <item name="android:actionModeStyle">@*com.android.phone:style/CallSettingsActionMode</item>
+        <item name="android:colorControlActivated">@*com.android.phone:color/tw_color_control_activated</item>
+        <item name="android:colorPrimary">@*com.android.phone:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.android.phone:color/actionbar_background_color_dark_for_l</item>
+        <item name="android:colorAccent">@*com.android.phone:color/dialer_theme_color</item>
+        <item name="android:statusBarColor">@*com.android.phone:color/status_bar_color</item>
+        <item name="android:colorEdgeEffect">@*com.android.phone:color/listview_boundary_effect</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_MobileNetwork" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@*com.android.phone:color/status_bar_color_mobile_network</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_MobileNetwork_DialogWhenLarge" parent="@*style/Theme.Settings_MobileNetwork">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@*com.android.phone:color/status_bar_color_mobile_network</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="Theme.Settings_GlanceReply" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorAccent">@*com.android.phone:color/dialer_theme_color</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="SecCallSettingActionBar" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+</resources>
