@@ -5,4 +5,5 @@
 	<color name="qs_tile_icon_on_tint_color">@*android:color/material_deep_teal_500</color>
     <color name="qs_tile_icon_on_dim_tint_color">@*android:color/material_deep_teal_500</color>
     <color name="qs_tile_icon_off_tint_color">@*android:color/tw_switch_track_on_mtrl</color>
+	<color name="bottom_bar_button_text_color">@*android:color/material_deep_teal_500</color>
 </resources>
