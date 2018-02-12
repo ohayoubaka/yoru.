@@ -119,4 +119,12 @@
         <item name="android:fontFamily">sans-serif-medium</item>
 		<item name="android:windowLightStatusBar">false</item>
     </style>
+	<style name="Gallery360ViewerActionBar.MenuText" parent="@*com.sec.android.gallery3d:style/Gallery360ViewerActionBar">
+        <item name="android:textSize">@*com.sec.android.gallery3d:dimen/gallery360viewer_actionbar_menu_title_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="*com.sec.android.gallery3d:textAllCaps">false</item>
+    </style>
 </resources>

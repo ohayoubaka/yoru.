@@ -18,4 +18,5 @@
     <dimen name="search_recommend_header_divider_height">0.0px</dimen>
     <dimen name="sef_icon_divider_height">0.0dip</dimen>
     <dimen name="social_story_detail_divider_size">0.0px</dimen>
+	<dimen name="gallery360viewer_actionbar_menu_title_size">18.5sp</dimen>
 </resources>

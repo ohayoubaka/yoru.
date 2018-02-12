@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DualApp.Default" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:statusBarColor">@*com.samsung.android.da.daagent:color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="translucent" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation</item>
+        <item name="android:statusBarColor">@*com.samsung.android.da.daagent:color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AlertDialogActivity" parent="@*android:style/Theme.DeviceDefault.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
