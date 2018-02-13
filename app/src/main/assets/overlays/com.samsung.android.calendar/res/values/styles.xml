@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CalendarTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:alertDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog.Alert</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.calendar:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:timePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>
+        <item name="android:toolbarStyle">@*com.samsung.android.calendar:style/AppToolBar</item>
+        <item name="android:datePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="CalendarTheme.WithActionBar.EditEvent.Common" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*com.samsung.android.calendar:color/edit_event_window_background_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">@*com.samsung.android.calendar:bool/edit_tablet_dim_config</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:startYear">1902</item>
+        <item name="android:endYear">2036</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@*com.samsung.android.calendar:style/CalendarActionBarStyle.EditEvent</item>
+        <item name="android:actionBarTabStyle">@*com.samsung.android.calendar:style/DateTimePickerTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@*com.samsung.android.calendar:style/SPlannerActionbarTabTextStyle</item>
+        <item name="android:alertDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog.Alert</item>
+        <item name="android:dividerVertical">@null</item>
+        <item name="android:homeAsUpIndicator">@*com.samsung.android.calendar:drawable/actionbar_back_icon</item>
+        <item name="android:windowCloseOnTouchOutside">@*com.samsung.android.calendar:bool/tablet_config</item>
+        <item name="android:actionMenuTextColor">@*com.samsung.android.calendar:color/actionbar_menu_text</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.calendar:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+        <item name="android:windowEnterTransition">@*com.samsung.android.calendar:transition/open_detail_fade</item>
+        <item name="android:windowSharedElementEnterTransition">@*com.samsung.android.calendar:transition/open_detail_transition</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:statusBarColor">@*com.samsung.android.calendar:color/common_edit_app_bar_background_color</item>
+        <item name="android:timePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>
+        <item name="android:datePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>
+        <item name="android:windowReturnTransition">@*android:transition/fade</item>
+        <item name="android:windowSharedElementReturnTransition">@*com.samsung.android.calendar:transition/close_detail_transition</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="RuntimePermission_Activity_Theme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="AppTheme" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="BackgroundOnlyTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+	<style name="CalendarActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@*com.samsung.android.calendar:color/all_in_one_actionbar_background_color</item>
+        <item name="android:displayOptions">showCustom</item>
+        <item name="android:titleTextStyle">@*com.samsung.android.calendar:style/SPlannerTitleTextStyle</item>
+        <item name="android:contentInsetStart">0.0dip</item>
+    </style>
+	<style name="CalendarActionModeStyle" parent="@*android:style/Widget.DeviceDefault.ActionMode">
+        <item name="android:height">56.0dip</item>
+    </style>
+	<style name="CalendarTheme.DatePickerDialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@*com.samsung.android.calendar:drawable/winset_picker_dialog_background</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Title</item>
+        <item name="android:windowAnimationStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Animation</item>
+        <item name="android:startYear">1902</item>
+        <item name="android:endYear">2036</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
+    <style name="CalendarTheme.DateTimePickerDialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@*com.samsung.android.calendar:drawable/winset_picker_dialog_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowTitleStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Title</item>
+        <item name="android:windowAnimationStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Animation</item>
+        <item name="android:startYear">1902</item>
+        <item name="android:endYear">2036</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
+	<style name="CalendarTheme.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+    </style>
+    <style name="CalendarTheme.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+    </style>
+	<style name="CountdownPickTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+    </style>
+	<style name="LinkChooserTheme" parent="@*android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+    </style>
+	<style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+	<style name="StickerDialogSheet" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Title</item>
+        <item name="android:windowAnimationStyle">@*com.samsung.android.calendar:style/Winset_Picker_Dialog_Animation</item>
+        <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
+	<style name="hiddenClose" parent="@*android:style/Widget.DeviceDefault.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="widgetListViewStyle" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:colorEdgeEffect">@*com.samsung.android.calendar:color/widget_primary</item>
+    </style>
+	<style name="AppToolBar" parent="@*android:style/Widget.Material.Toolbar">
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:contentInsetStart">0.0dip</item>
+        <item name="android:maxButtonHeight">@*com.samsung.android.calendar:dimen/action_button_max_height</item>
+    </style>
+	<style name="Winset_Picker_Dialog_Title" parent="@*android:style/TextAppearance.Material.DialogWindowTitle">
+        <item name="android:textSize">@*com.samsung.android.calendar:dimen/winset_picker_dialog_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.samsung.android.calendar:color/winset_dialog_title_text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="RobotoCondensedBold">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="CalendarWidgetLabelStyle">
+        <item name="android:textSize">@*com.samsung.android.calendar:dimen/widget_label_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.samsung.android.calendar:color/widget_label_text_color_light_theme</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="RobotoCondensedBoldFontStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="TextAppearance.MonthView_MiniDayLabel" parent="@*com.samsung.android.calendar:style/TextAppearance">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.samsung.android.calendar:color/month_other_month_day_number</item>
+    </style>
+	<style name="WidgetTextShadow_RobotoCondensedBoldFontStyle" parent="@*com.samsung.android.calendar:style/WidgetTextShadowStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

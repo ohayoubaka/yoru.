@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="v2_title_bar_height">56.0dip</dimen>
+	<dimen name="v3_title_bar_height">56.0dip</dimen>
+	<dimen name="crossapp_webview_title_height">56.0dip</dimen>
+	<dimen name="custom_tab_urlbar_height">56.0dip</dimen>
+	<dimen name="action_button_max_height">56.0dip</dimen>
+	<dimen name="edit_card_tablet_action_bar_height">56.0dip</dimen>
+	<dimen name="edit_card_select_reminder_sub_app_bar_height">56.0dip</dimen>
+</resources>
