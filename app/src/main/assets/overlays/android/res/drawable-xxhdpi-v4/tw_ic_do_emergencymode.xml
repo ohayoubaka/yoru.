@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="210"
+    android:viewportHeight="210">
+
+    <path
+        android:strokeColor="@*android:color/material_deep_teal_500"
+        android:strokeWidth="8"
+        android:strokeMiterLimit="10"
+        android:pathData="M 105.3 67 C 126.121135069 67 143 83.8788649314 143 104.7 C 143 125.521135069 126.121135069 142.4 105.3 142.4 C 84.4788649314 142.4 67.6 125.521135069 67.6 104.7 C 67.6 83.8788649314 84.4788649314 67 105.3 67 Z" />
+    <path
+        android:fillColor="@*android:color/material_deep_teal_500"
+        android:pathData="M104.9,92.6c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5c2.5,0,4.5,2,4.5,4.5S107.4,92.6,104.9,92.6z" />
+    <path
+        android:fillColor="@*android:color/material_deep_teal_500"
+        android:pathData="M104.9,83.8c2.3,0,4.3,1.9,4.3,4.3s-1.9,4.3-4.3,4.3s-4.3-1.9-4.3-4.3S102.6,83.8,104.9,83.8
+M104.9,83.3
+c-2.6,0-4.8,2.1-4.8,4.8s2.1,4.8,4.8,4.8s4.8-2.1,4.8-4.8S107.5,83.3,104.9,83.3L104.9,83.3z" />
+    <path
+        android:strokeColor="@*android:color/material_deep_teal_500"
+        android:strokeWidth="8"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 104.9 104.2 L 104.9 121.6" />
+</vector>
