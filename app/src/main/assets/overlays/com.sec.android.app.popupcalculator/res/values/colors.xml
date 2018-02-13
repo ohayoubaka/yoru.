@@ -35,4 +35,7 @@
 	<color name="number">#ffffffff</color>
 	<color name="calc_edit_bg">#ff000000</color>
 	<color name="converter_area_text">#ffffffff</color>
+	<color name="converter_spinner_default">#ffffffff</color>
+    <color name="mtg_text_color_3">#ffffffff</color>
+	<color name="keypad_clear">@*android:color/material_deep_teal_500</color>
 </resources>
