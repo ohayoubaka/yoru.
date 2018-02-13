@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="action_bar_shadow">#bf000000</color>
+    <color name="actionbar_separator_bar_color">#ff000000</color>
+    <color name="actionbar_title_color_normal">@*android:color/material_deep_teal_500</color>
+    <color name="black">#ffffffff</color>
+    <color name="body_text_color">#ffffffff</color>
+    <color name="bottom_bar_disalbe_text_color">#ffffffff</color>
+    <color name="bottom_bar_text_color">#d9ffffff</color>
+    <color name="bottom_button_text_disable">#66ffffff</color>
+    <color name="bottom_button_text_enable">#ffffffff</color>
+    <color name="color_text_shadow_black_50">#7fffffff</color>
+    <color name="default_divider">#000000</color>
+    <color name="description_color">#ffffffff</color>
+    <color name="highlight_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="main_text_color">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#8affffff</color>
+    <color name="sub_app_bar_divider_color">#00000000</color>
+    <color name="sub_app_bar_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="tw_ab_bottom_transparent_mtrl">#ff000000</color>
+    <color name="tw_sub_action_bar_bg_mtrl">#ff000000</color>
+    <color name="white">#ff000000</color>
+</resources>
