@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="fab_background_color">#ff000000</color>
+    <color name="fab_menu_divider">#ff000000</color>
+    <color name="fab_menu_icon_color">@*android:color/material_deep_teal_500</color>
+    <color name="main_screen_card_background">#ff000000</color>
+    <color name="theme_information_background">#ff000000</color>
+</resources>

@@ -2,6 +2,7 @@
 <resources>
 
     <!--New-->
+	<color name="material_grey_900">#ff000000</color>
 	<color name="showcase_activity_text">@*android:color/material_deep_teal_500</color>   <!--OG:@android:color/black-->
 	<color name="showcase_tab_text_color">@*android:color/black</color>   <!--OG:@android:color/white-->
     <color name="showcase_tab_text_selected_color">@*android:color/black</color>   <!--OG:@android:color/white-->
