@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="grey_900">#ff000000</color>
+    <color name="material_grey_900">#ff000000</color>
+	<color name="grey_800">#ff000000</color>
+    <color name="material_grey_800">#ff000000</color>
+	<color name="green_500">@*android:color/material_deep_teal_500</color>
+	<color name="red_500">@*android:color/material_deep_teal_500</color>
+	<color name="amber_500">@*android:color/material_deep_teal_500</color>
+	<color name="blue_500">@*android:color/material_deep_teal_500</color>
+	<color name="blue_grey_500">@*android:color/material_deep_teal_500</color>
+	<color name="brown_500">@*android:color/material_deep_teal_500</color>
+	<color name="cyan_500">@*android:color/material_deep_teal_500</color>
+	<color name="dark_purple_500">@*android:color/material_deep_teal_500</color>
+	<color name="deep_orange_500">@*android:color/material_deep_teal_500</color>
+	<color name="indigo_500">@*android:color/material_deep_teal_500</color>
+	<color name="light_blue_500">@*android:color/material_deep_teal_500</color>
+    <color name="light_green_500">@*android:color/material_deep_teal_500</color>
+    <color name="lime_500">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+    <color name="orange_500">@*android:color/material_deep_teal_500</color>
+    <color name="pink_500">@*android:color/material_deep_teal_500</color>
+    <color name="pink_A400">@*android:color/material_deep_teal_500</color>
+    <color name="purple_500">@*android:color/material_deep_teal_500</color>
+	<color name="teal_500">@*android:color/material_deep_teal_500</color>
+    <color name="yellow_500">@*android:color/material_deep_teal_500</color>
+</resources>
