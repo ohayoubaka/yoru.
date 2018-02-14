@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="screenshot_saved_notification_title">Screenshot captured.</string>
+	<string name="screenshot_noti_content_text">Tap to view your screenshot.</string>
+</resources>
