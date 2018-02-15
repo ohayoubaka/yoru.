@@ -219,4 +219,14 @@
 	<color name="swipe_refresh_progress_view_color">@*android:color/material_deep_teal_500</color>
 	<color name="notification_setting_title_selector">#ff000000</color>
 	<color name="download_save_as_global_dialog_edit_text_color">#ffffffff</color>
+	<color name="tw_infobar_close_button_image">@*android:color/material_deep_teal_500</color>
+    <color name="tw_infobar_message_text">#ffffffff</color>
+    <color name="tw_infobar_notification_icon_color">@*android:color/material_deep_teal_500</color>
+	<color name="tw_infobar_ripple_color">#28ffffff</color>
+	<color name="custom_tab_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="custom_tab_button_color_dark_theme">@*android:color/material_deep_teal_500</color>
+	<color name="tab_manager_toolbar_icon_color">@*android:color/material_deep_teal_500</color>
+	<color name="default_custom_tab_primary_color">@*android:color/material_deep_teal_500</color>
+	<color name="custom_tab_primary_color">@*android:color/material_deep_teal_500</color>
+	<color name="custom_tab_button_showbutton_solid_color">@*android:color/material_deep_teal_500</color>
 </resources>
