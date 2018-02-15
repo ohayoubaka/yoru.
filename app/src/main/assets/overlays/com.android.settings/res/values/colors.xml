@@ -132,4 +132,5 @@
 	<color name="zen_mode_schedule_repeat_toggle_btn_text_color_select">@*android:color/material_deep_teal_500</color>
 	<color name="fingerprint_paypal_main_text_color">#ffffffff</color>
 	<color name="winset_reorder_drag_handler">@*android:color/material_deep_teal_500</color>
+	<color name="account_add_icon_color">@*android:color/material_deep_teal_500</color>
 </resources>
