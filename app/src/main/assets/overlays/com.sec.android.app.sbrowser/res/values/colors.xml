@@ -229,4 +229,11 @@
 	<color name="default_custom_tab_primary_color">@*android:color/material_deep_teal_500</color>
 	<color name="custom_tab_primary_color">@*android:color/material_deep_teal_500</color>
 	<color name="custom_tab_button_showbutton_solid_color">@*android:color/material_deep_teal_500</color>
+	<color name="white">#ff000000</color>
+	<color name="webpage_open_in_bg_page_color">#ff000000</color>
+    <color name="webpage_open_in_bg_page_color_nightmode">#ff000000</color>
+	<color name="tab_open_in_bg_animation_background_color">#ff000000</color>
+	<color name="tab_open_in_bg_animation_background_color_night_mode">#ff000000</color>
+	<color name="tab_open_animation_background_color_night_mode">#ff000000</color>
+	<color name="airview_grid_background">#ff000000</color>
 </resources>
