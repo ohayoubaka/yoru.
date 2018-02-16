@@ -18,8 +18,8 @@
         <item name="android:height">56.0dp</item>
     </style>
 	<style name="RobotoCondensedBold">
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="RobotoCondensedRegular">
         <item name="android:textStyle">normal</item>
