@@ -3,4 +3,5 @@
 	<string name="screenshot_saved_notification_title">Screenshot captured.</string>
 	<string name="screenshot_noti_content_text">Tap to view your screenshot.</string>
 	<string name="smart_capture">Android system</string>
+	<string name="save_in_gallery_noti_content_title">Image saved in Gallery.</string>
 </resources>
