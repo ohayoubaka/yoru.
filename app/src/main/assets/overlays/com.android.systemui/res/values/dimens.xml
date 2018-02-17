@@ -49,4 +49,5 @@
     <dimen name="notification_children_padding">0.0dip</dimen>
     <dimen name="notification_min_height">92.0dip</dimen>
     <dimen name="notification_min_height_legacy">92.0dip</dimen>
+	<dimen name="recents_empty_text_size">16.0sp</dimen>
 </resources>
