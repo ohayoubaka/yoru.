@@ -236,4 +236,5 @@
 	<color name="tab_open_in_bg_animation_background_color_night_mode">#ff000000</color>
 	<color name="tab_open_animation_background_color_night_mode">#ff000000</color>
 	<color name="airview_grid_background">#ff000000</color>
+	<color name="add_bookmark_action_bar_color">#ff000000</color>
 </resources>
