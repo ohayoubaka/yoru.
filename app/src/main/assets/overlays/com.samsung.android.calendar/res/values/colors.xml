@@ -100,4 +100,12 @@
 	<color name="widget_weekday_number_text_color">#ffffffff</color>
     <color name="zoom_year_weekday_number_text_color">#ffffffff</color>
 	<color name="date_picker_dialog_lunar_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="default_window_background_color">#ff000000</color>
+	<color name="account_background_color">#ff000000</color>
+	<color name="account_background_line_color">#ff000000</color>
+	<color name="actionbar_tab_host_bg_color">#ff000000</color>
+	<color name="common_actionbar_background_color">#ff000000</color>
+	<color name="crossapp_webview_bg_color">#ff000000</color>
+    <color name="custom_tab_urlbar_bg">#ff000000</color>
+    <color name="default_custom_tab_primary_color">#ff000000</color>
 </resources>
