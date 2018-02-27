@@ -53,8 +53,8 @@
 	<color name="multiuser_icon_color">@*android:color/material_deep_teal_500</color>
 	<color name="pull_icon_color">@*android:color/material_deep_teal_500</color>
     <color name="recents_icon_color">@*android:color/material_deep_teal_500</color>
-    <color name="ripple_material_dark">@*android:color/tw_switch_track_on_mtrl</color>
-	<color name="ripple_material_light">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="ripple_material_dark">@*android:color/legacy_control_normal</color>
+	<color name="ripple_material_light">@*android:color/legacy_control_normal</color>
 	<color name="rom_version_color">@*android:color/material_deep_teal_500</color>
     <color name="rotate_icon_color">@*android:color/material_deep_teal_500</color>
     <color name="safetynet_icon_color">@*android:color/material_deep_teal_500</color>

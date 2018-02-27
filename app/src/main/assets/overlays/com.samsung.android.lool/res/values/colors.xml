@@ -14,7 +14,7 @@
     <color name="sub_app_bar_bottom_divider_theme">#00000000</color>
     <color name="battery_fragment_charging_icon_color_in_circle">@*android:color/material_deep_teal_500</color>
     <color name="check_box_checkon_color_theme">@*android:color/material_deep_teal_500</color>
-    <color name="edge_circle_score_bg_good_color">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="edge_circle_score_bg_good_color">@*android:color/legacy_control_normal</color>
     <color name="edge_fix_button_state_good_color">@*android:color/material_deep_teal_500</color>
     <color name="fix_now_good_bg_color">@*android:color/material_deep_teal_500</color>
     <color name="power_saving_mode_button_background_pressed_color">@*android:color/material_deep_teal_500</color>
@@ -25,7 +25,7 @@
     <color name="second_depth_status_good_text_color_theme">@*android:color/material_deep_teal_500</color>
     <color name="select_all_check_box_checkon_color_theme">@*android:color/material_deep_teal_500</color>
     <color name="accent_material_dark">@*android:color/material_deep_teal_500</color>
-    <color name="edge_circle_score_bg_moderate_color">@*android:color/tw_switch_track_on_mtrl</color>
+    <color name="edge_circle_score_bg_moderate_color">@*android:color/legacy_control_normal</color>
     <color name="edge_fix_button_state_moderate_color">@*android:color/material_deep_teal_500</color>
     <color name="edge_score_ring_state_moderate_color">@*android:color/material_deep_teal_500</color>
     <color name="edge_score_state_warning_color">@*android:color/material_deep_teal_500</color>

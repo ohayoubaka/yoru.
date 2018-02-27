@@ -220,7 +220,7 @@
         <item name="android:listPreferredItemPaddingStart">?*android:dialogPreferredPadding</item>
         <item name="android:listPreferredItemPaddingEnd">?*android:dialogPreferredPadding</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:colorControlActivated">@*android:color/tw_switch_track_on_mtrl</item>
+        <item name="android:colorControlActivated">@*android:color/legacy_control_normal</item>
         <item name="android:colorPrimary">@*android:color/primary_device_default_light</item>
         <item name="android:colorPrimaryDark">@*android:color/sem_color_primary_dark_light</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>

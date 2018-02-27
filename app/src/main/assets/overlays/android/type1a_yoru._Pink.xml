@@ -11,6 +11,6 @@
 	<!--Samsung related values-->
 	<color name="tw_color_control_activated">#ffff9999</color>
 	<color name="tw_seekbar_color_control_activated">#ffff9999</color>
-	<color name="tw_switch_track_on_mtrl">#80ff9999</color>
+	<color name="legacy_control_normal">#80ff9999</color>
 	
 </resources>

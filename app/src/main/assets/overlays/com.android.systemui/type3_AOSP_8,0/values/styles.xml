@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.NotificationInfo.Secondary.Link" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo.Secondary">
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>   <!--OG:?android:colorAccent-->
+    </style>
+    <!--Notification Settings text-->
+    <style name="TextAppearance.NotificationInfo" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>   <!--OG:@android:color/black-->
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Button" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>   <!--OG:?android:colorAccent-->
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Primary" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>   <!--OG:?android:textColorPrimary-->
+        <item name="android:alpha">0.87</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Secondary" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>   <!--OG:?android:textColorPrimary-->
+        <item name="android:alpha">0.54</item>
+    </style>
+</resources>
