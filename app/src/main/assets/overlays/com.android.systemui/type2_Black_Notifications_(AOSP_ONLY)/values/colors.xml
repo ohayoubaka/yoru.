@@ -8,7 +8,7 @@
     <color name="notification_guts_bg_color">@*android:color/background_material_dark</color>   <!--OG:#ffeeeeee-->
     <color name="notification_material_background_dimmed_color">@*android:color/bright_foreground_light_disabled</color>   <!--OG:#ccffffff-->
     <color name="notification_material_background_low_priority_color">@*android:color/primary_material_dark</color>   <!--Bottom Notification - OG:#fff5f5f5-->
-    <color name="notification_shade_background_color">#ff000000</color>   <!--Divider - OG:#ffeeeeee-->
+    <color name="notification_shade_background_color">@*android:color/primary_material_dark</color>   <!--Divider - OG:#ffeeeeee-->
     <color name="qs_tile_divider">@*android:color/bright_foreground_light_disabled</color>   <!--OG:#ffeeeeee-->
 
 </resources>
