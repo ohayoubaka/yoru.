@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeDark" parent="@*com.ice.box:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorControlHighlight">@*com.ice.box:color/lighter_gray</item>
+        <item name="android:colorPrimary">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="android:colorPrimaryDark">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:navigationBarColor">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.ice.box:actionBarColor">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="*com.ice.box:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="*com.ice.box:colorControlHighlight">@*com.ice.box:color/lighter_gray</item>
+        <item name="*com.ice.box:splashscreenAnimationColor">@*com.ice.box:color/samsung_default_color</item>
+        <item name="*com.ice.box:windowNoTitle">true</item>
+    </style>
+    <style name="ThemeLight" parent="@*com.ice.box:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*com.ice.box:color/samsung_default_color</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorControlHighlight">@*com.ice.box:color/gray</item>
+        <item name="android:colorPrimary">@*com.ice.box:color/samsung_default_color</item>
+        <item name="android:colorPrimaryDark">@*com.ice.box:color/samsung_default_color</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="*com.ice.box:actionBarColor">@*com.ice.box:color/samsung_default_color</item>
+        <item name="*com.ice.box:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="*com.ice.box:colorControlHighlight">@*com.ice.box:color/gray</item>
+        <item name="*com.ice.box:splashscreenAnimationColor">@*com.ice.box:color/samsung_default_dark_color</item>
+        <item name="*com.ice.box:windowNoTitle">true</item>
+    </style>
+</resources>

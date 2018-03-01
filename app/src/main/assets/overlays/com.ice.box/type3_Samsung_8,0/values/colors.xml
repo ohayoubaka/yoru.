@@ -63,4 +63,5 @@
 	<color name="telegram_color">@*android:color/material_deep_teal_500</color>
 	<color name="usb_icon_color">@*android:color/material_deep_teal_500</color>
     <color name="xda_color">@*android:color/material_deep_teal_500</color>
+	<color name="notification_icon_color">@*android:color/material_deep_teal_500</color>
 </resources>
