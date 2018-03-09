@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Roboto">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="RobotoCondensedBold">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="RobotoCondensedRegular">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="RobotoLight">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="RobotoRegular">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="FontCondensed">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="AlertDialogStyle" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorControlNormal">@*com.samsung.android.messaging:color/theme_checkbox_off_color</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.messaging:color/theme_checkbox_on_color</item>
+    </style>
+	<style name="AppTheme" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@*com.samsung.android.messaging:drawable/window_background</item>
+        <item name="android:actionModeBackground">@*com.samsung.android.messaging:drawable/actionbar_background_with_divider</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@*com.samsung.android.messaging:style/ActionButtonOverflow</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.samsung.android.messaging:style/ActionModeCloseButton</item>
+        <item name="android:alertDialogTheme">@*com.samsung.android.messaging:style/AlertDialogStyle</item>
+        <item name="android:homeAsUpIndicator">@*com.samsung.android.messaging:drawable/actionbar_back_key</item>
+        <item name="android:fastScrollThumbDrawable">@*com.samsung.android.messaging:drawable/orc_fastscroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:actionMenuTextAppearance">@*com.samsung.android.messaging:style/ActionMenuTextStyle</item>
+        <item name="android:actionBarItemBackground">@*com.samsung.android.messaging:drawable/action_item_ripple_bg</item>
+        <item name="android:fastScrollStyle">@*com.samsung.android.messaging:style/Widget.SeslCompat.Light.FastScroll</item>
+        <item name="android:colorControlNormal">@*com.samsung.android.messaging:color/theme_checkbox_off_color</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.messaging:color/theme_checkbox_on_color</item>
+        <item name="android:statusBarColor">@*com.samsung.android.messaging:color/theme_status_bar_bg_color</item>
+        <item name="android:windowLightStatusBar">@*com.samsung.android.messaging:bool/theme_status_bar_icon_color</item>
+        <item name="*com.samsung.android.messaging:actionBarSize">@*com.samsung.android.messaging:dimen/toolbar_height</item>
+        <item name="*com.samsung.android.messaging:actionMenuTextColor">@*com.samsung.android.messaging:color/theme_toolbar_menu_text_color</item>
+        <item name="*com.samsung.android.messaging:colorPrimary">@*com.samsung.android.messaging:color/theme_primary_color</item>
+        <item name="*com.samsung.android.messaging:colorPrimaryDark">@*com.samsung.android.messaging:color/theme_primary_dark_color</item>
+        <item name="*com.samsung.android.messaging:colorAccent">@*com.samsung.android.messaging:color/colorAccent</item>
+    </style>
+    <style name="AppTheme.HasActionBar" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.samsung.android.messaging:style/ActionModeCloseButton</item>
+        <item name="*com.samsung.android.messaging:windowActionBar">true</item>
+        <item name="*com.samsung.android.messaging:windowNoTitle">false</item>
+    </style>
+	<style name="CommonDialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+        <item name="android:colorPrimary">@*com.samsung.android.messaging:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.messaging:color/msg_color_primary_dark</item>
+    </style>
+	<style name="CommonDialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+        <item name="android:colorPrimary">@*com.samsung.android.messaging:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.messaging:color/msg_color_primary_dark</item>
+    </style>
+	<style name="MsgFullDialogStyle" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@*com.samsung.android.messaging:drawable/winset_picker_dialog_background</item>
+        <item name="android:colorPrimary">@*com.samsung.android.messaging:color/new_action_bar_colour</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.messaging:color/msg_color_primary_dark</item>
+        <item name="android:colorEdgeEffect">@*com.samsung.android.messaging:color/msg_color_primary_dark</item>
+    </style>
+	<style name="Platform.SeslCompat.Light" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:colorBackground">@*com.samsung.android.messaging:color/sesl_background_color_light</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@*com.samsung.android.messaging:dimen/sesl_disabled_color_alpha</item>
+        <item name="android:textAppearance">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat</item>
+        <item name="android:textAppearanceInverse">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Inverse</item>
+        <item name="android:textColorPrimary">@*com.samsung.android.messaging:color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondary">@*com.samsung.android.messaging:color/sesl_secondary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@*com.samsung.android.messaging:color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@*com.samsung.android.messaging:color/sesl_secondary_text_dark</item>
+        <item name="android:textAppearanceLarge">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Large</item>
+        <item name="android:textAppearanceMedium">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Medium</item>
+        <item name="android:textAppearanceSmall">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Small</item>
+        <item name="android:textAppearanceLargeInverse">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@*com.samsung.android.messaging:style/TextAppearance.SeslCompat.Small.Inverse</item>
+        <item name="android:windowBackground">@*com.samsung.android.messaging:drawable/sesl_screen_background_light</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHighlight">@*com.samsung.android.messaging:color/sesl_highlighted_text_color_light</item>
+        <item name="android:listChoiceIndicatorSingle">@*com.samsung.android.messaging:drawable/sesl_list_choice_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@*com.samsung.android.messaging:drawable/sesl_list_choice_btn_check</item>
+        <item name="android:colorBackgroundCacheHint">@*com.samsung.android.messaging:color/sesl_background_cache_hint_selector_light</item>
+        <item name="android:textSelectHandleLeft">@*com.samsung.android.messaging:drawable/sesl_text_select_handle_left_light</item>
+        <item name="android:textSelectHandleRight">@*com.samsung.android.messaging:drawable/sesl_text_select_handle_right_light</item>
+        <item name="android:textSelectHandle">@*com.samsung.android.messaging:drawable/sesl_text_select_handle_middle_light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@*com.samsung.android.messaging:color/sesl_status_bar_color</item>
+        <item name="android:colorEdgeEffect">?*android:colorPrimary</item>
+    </style>
+	<style name="Toolbar.TitleText" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@*com.samsung.android.messaging:color/theme_toolbar_main_text_color</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+</resources>
