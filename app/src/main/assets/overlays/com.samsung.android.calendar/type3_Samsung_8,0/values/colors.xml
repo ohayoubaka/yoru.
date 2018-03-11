@@ -108,4 +108,9 @@
 	<color name="crossapp_webview_bg_color">#ff000000</color>
     <color name="custom_tab_urlbar_bg">#ff000000</color>
     <color name="default_custom_tab_primary_color">#ff000000</color>
+	<color name="events_popup_view_background_color">#ff000000</color>
+	<color name="events_popup_view_date_color">@*android:color/material_deep_teal_500</color>
+    <color name="events_popup_view_seperator_color">#00000000</color>
+    <color name="events_popup_view_weather_color">@*android:color/material_deep_teal_500</color>
+    <color name="events_popup_view_weekday_color">@*android:color/material_deep_teal_500</color>
 </resources>
