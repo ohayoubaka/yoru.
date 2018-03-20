@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="8.0dip" android:thickness="@*com.android.systemui:dimen/halo_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@*android:color/white" />
+    <size android:height="@*com.android.systemui:dimen/halo_diameter" android:width="@*com.android.systemui:dimen/halo_diameter" />
+</shape>
