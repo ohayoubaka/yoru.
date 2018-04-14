@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="halo_inner_radius">0.0dip</dimen>
+	<dimen name="halo_thickness">0.0dip</dimen>
+	<dimen name="opa_dot_diam">0.0dip</dimen>
+</resources>

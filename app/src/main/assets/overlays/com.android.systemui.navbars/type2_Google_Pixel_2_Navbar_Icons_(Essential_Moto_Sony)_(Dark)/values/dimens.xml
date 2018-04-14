@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<dimen name="halo_inner_radius">8.0dip</dimen>
+	<dimen name="opa_dot_diam">8.0dip</dimen>
 </resources>
