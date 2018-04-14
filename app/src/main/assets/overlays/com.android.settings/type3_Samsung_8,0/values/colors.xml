@@ -26,7 +26,7 @@
     <color name="vzw_wifi_bottom_button_divider_color">#00000000</color>
     <color name="wifi_divider">#00000000</color>
     <color name="wifi_list_divider_color">#00000000</color>
-    <color name="wifi_section_divider_expand_btn_tint_color_theme">#00000000</color>
+    <color name="wifi_section_divider_expand_btn_tint_color_theme">@*android:color/material_deep_teal_500</color>
     <color name="wifi_section_divider_expand_text_color_theme">#00000000</color>
     <color name="wifi_sub_header_divider_bg_color_theme">#00000000</color>
     <color name="actionbar_text_color">@*android:color/material_deep_teal_500</color>
