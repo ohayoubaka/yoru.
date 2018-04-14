@@ -46,7 +46,7 @@
     <color name="notification_guts_slider_color">@*android:color/material_deep_teal_500</color>
     <color name="notification_guts_disabled_slider_color">@*android:color/material_deep_teal_500</color>
     <color name="notification_guts_secondary_slider_color">#ff858383</color>
-    <color name="notification_guts_icon_tint">#c34285f4</color>
+    <color name="notification_guts_icon_tint">#c31a73e8</color>
     <color name="notification_guts_disabled_icon_tint">#4d000000</color>
     <color name="qs_text">#ffffffff</color>
     <color name="qs_subhead">#ff252525</color>
@@ -54,7 +54,7 @@
     <color name="qs_detail_button_white">#b3ffffff</color>
     <color name="qs_detail_text_disable">#3bffffff</color>
     <color name="qs_detail_transition">#66ffffff</color>
-    <color name="qs_detail_progress_track">#9a4285f4</color>
+    <color name="qs_detail_progress_track">#9a1a73e8</color>
     <color name="qs_tile_tint_inactive">#4dffffff</color>
     <color name="qs_tile_tint_active">#ffffffff</color>
     <color name="switch_bar_background">#ff37474f</color>
@@ -62,7 +62,7 @@
     <color name="theme_alarm_text_color">#fffafafa</color>
     <color name="theme_no_alarm_text_color">#b3fafafa</color>
     <color name="qs_grid_text">#ffffffff</color>
-    <color name="recents_button_ripple_color">#704285f4</color>
+    <color name="recents_button_ripple_color">#701a73e8</color>
     <color name="disabled_text_color">#66000000</color>
     <color name="wifi_ap_connecting">#ff808080</color>
     <color name="highlight_text_color">@*android:color/material_deep_teal_500</color>
@@ -71,7 +71,7 @@
     <color name="status_bar_edit_tint_color">#ff252525</color>
     <color name="volume_icon_color">#ff757575</color>
     <color name="volume_settings_icon_color">#ffffffff</color>
-    <color name="volume_slider_inactive">#754285f4</color>
+    <color name="volume_slider_inactive">#751a73e8</color>
     <color name="sview_cover_wallpaper_title_text_color">@*android:color/material_deep_teal_500</color>
     <color name="sview_cover_theme_charging_text_font_color">@*android:color/material_deep_teal_500</color>
     <color name="clear_cover_font_color">@*android:color/material_deep_teal_500</color>

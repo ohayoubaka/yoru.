@@ -96,7 +96,7 @@
 	<color name="sem_text_color_subtitle_material_toolbar_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_text_color_menu_material_toolbar">@*android:color/material_deep_teal_500</color>
 	<color name="tw_text_color_menu_material_toolbar_dark">@*android:color/material_deep_teal_500</color>
-	<color name="tw_edit_text_bg_tint_color_focused_false_material_light">#994285f4</color>
+	<color name="tw_edit_text_bg_tint_color_focused_false_material_light">#991a73e8</color>
     <color name="tw_edit_text_bg_tint_color_enabled_false_material_light">@*android:color/tw_edit_text_bg_tint_color_focused_false_material_light</color>
     <color name="tw_edit_text_hint_text_color_enabled_true_material_light">@*android:color/tw_edit_text_bg_tint_color_focused_false_material_light</color>
     <color name="tw_edit_text_hint_text_color_enabled_false_material_light">@*android:color/tw_edit_text_bg_tint_color_focused_false_material_light</color>

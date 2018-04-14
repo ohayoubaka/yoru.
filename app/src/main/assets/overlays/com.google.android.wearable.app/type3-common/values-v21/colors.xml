@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="fragment_background">#ffffffff</color>
-    <color name="watch_face_selected_outer_background">#ff4285f4</color>
-    <color name="action_bar_nav_item_ripple_color">#404285f4</color>
+    <color name="watch_face_selected_outer_background">#ff1a73e8</color>
+    <color name="action_bar_nav_item_ripple_color">#401a73e8</color>
 </resources>
