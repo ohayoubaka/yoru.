@@ -4,7 +4,7 @@
     <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>

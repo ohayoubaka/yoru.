@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@*android:color/background_floating_material_dark" android:orientation="horizontal" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?*android:listPreferredItemHeight" android:paddingStart="8.0dip" android:paddingEnd="16.0dip"
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="92.0dip" android:minHeight="92.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:tint="@*android:color/material_deep_teal_500" android:layout_width="56.0dip" android:layout_height="56.0dip" android:scaleType="center" android:layout_marginEnd="8.0dip" />
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
-        <TextView android:textAppearance="?*android:textAppearanceLargeInverse" android:gravity="start|center" android:layout_gravity="start|center|top" android:id="@*android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textAppearance="?*android:textAppearanceSmallInverse" android:layout_gravity="start|bottom|center" android:id="@*android:id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="26.0dip" />
-    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" />
+    <TextView android:textAppearance="?*android:textAppearanceLargeInverse" android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center|top" android:id="@*android:id/message" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?*android:textAppearanceSmallInverse" android:textColor="?*android:textColorTertiary" android:gravity="center" android:layout_gravity="center|top" android:id="@*android:id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 </LinearLayout>

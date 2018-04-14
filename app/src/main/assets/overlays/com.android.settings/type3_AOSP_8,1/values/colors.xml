@@ -8,5 +8,5 @@
     <color name="cardview_shadow_start_color">#00000000</color>   <!--OG:37000000-->
     <color name="condition_card_background">@*android:color/background_holo_dark</color>   <!--OG:#fff8f8f8-->
     <color name="material_grey_300">@*android:color/background_material_dark</color>   <!--OG:#ffe0e0e0-->
-    <color name="suggestion_condition_background">@*android:color/primary_material_dark</color>   <!--OG:#fff2f2f2-->
+    <color name="suggestion_condition_background">@*android:color/background_floating_material_dark</color>   <!--OG:#fff2f2f2-->
 </resources>

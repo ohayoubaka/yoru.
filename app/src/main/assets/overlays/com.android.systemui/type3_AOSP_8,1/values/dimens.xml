@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_gutter_height">0dp</dimen>
+    <dimen name="notification_divider_height">0dp</dimen>
+    <dimen name="z_distance_between_notifications">0dp</dimen>
+</resources>
