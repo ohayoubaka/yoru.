@@ -20,4 +20,15 @@
 	<color name="haf_color_MAPBG">#ff000000</color>
 	<color name="haf_color_TICKERHEADBG">#ff000000</color>
 	<color name="haf_color_TITLEBG">#ff000000</color>
+	<color name="haf_background_window">#ff000000</color>
+	<color name="haf_text_main_hint">#99ffffff</color>
+	<color name="haf_bg_ultra_light_transparent">#cc000000</color>
+	<color name="haf_bg_color">#ff000000</color>
+    <color name="haf_bg_dark">#ff000000</color>
+    <color name="haf_bg_main">#ff000000</color>
+    <color name="haf_bg_medium">#ff000000</color>
+	<color name="haf_bargraph_waiting">#ff000000</color>
+    <color name="haf_perl_replacement">#ff000000</color>
+    <color name="haf_text_strong">#ffffffff</color>
+	<color name="haf_primary_text">#ffffffff</color>
 </resources>
