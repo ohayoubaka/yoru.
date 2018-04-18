@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="qs_edit_item_decoration_bg">#00000000</color> <!-- OG: @*android:color/secondary_device_default_settings_light -->
 </resources>
