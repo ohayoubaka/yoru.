@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseLauncherTheme" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:keyboardLayout">@*com.google.android.apps.nexuslauncher:layout/search_container_all_apps</item>
+        <item name="android:colorEdgeEffect">#ff000000</item>
+    </style>
+    <style name="LauncherTheme" parent="@*com.google.android.apps.nexuslauncher:style/BaseLauncherThemeWithCustomAttrs">
+	<item name="android:textColorPrimary">@*com.google.android.apps.nexuslauncher:color/primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@*com.google.android.apps.nexuslauncher:color/secondary_text_material_dark</item>
+        <item name="android:textColorHint">#a0ffffff</item>
+        <item name="android:textColorTertiary">#ccffffff</item>
+        <item name="android:colorControlHighlight">#a0ffffff</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="*com.google.android.apps.nexuslauncher:allAppsNavBarScrimColor">#80000000</item>
+        <item name="*com.google.android.apps.nexuslauncher:allAppsScrimColor">#7a212121</item>
+        <item name="*com.google.android.apps.nexuslauncher:isMainColorDark">true</item>
+        <item name="*com.google.android.apps.nexuslauncher:popupColorPrimary">?*android:colorPrimary</item>
+        <item name="*com.google.android.apps.nexuslauncher:popupColorSecondary">#ff424242</item>
+        <item name="*com.google.android.apps.nexuslauncher:popupColorTertiary">#ff757575</item>
+        <item name="*com.google.android.apps.nexuslauncher:widgetsTheme">@*com.google.android.apps.nexuslauncher:style/WidgetContainerTheme.Dark</item>
+        <item name="*com.google.android.apps.nexuslauncher:workspaceStatusBarScrim">@*com.google.android.apps.nexuslauncher:drawable/workspace_bg_dark</item>
+    </style>
+	<style name="SettingsTheme" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarTheme">@*com.google.android.apps.nexuslauncher:style/SettingsTheme.ActionBar</item>
+        <item name="android:colorPrimary">@*com.google.android.apps.nexuslauncher:color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.apps.nexuslauncher:color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@*com.google.android.apps.nexuslauncher:color/colorAccent</item>
+        <item name="android:statusBarColor">@*com.google.android.apps.nexuslauncher:color/lollipopStatusBar</item>
+    </style>
+	<style name="WidgetContainerTheme" parent="@*android:style/Theme.Material">
+        <item name="android:textColorPrimary">?*android:textColorPrimaryInverse</item>
+        <item name="android:textColorSecondary">?*android:textColorSecondaryInverse</item>
+        <item name="android:textColorPrimaryInverse">@*com.google.android.apps.nexuslauncher:color/primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@*com.google.android.apps.nexuslauncher:color/secondary_text_material_light</item>
+        <item name="android:colorPrimary">@*com.google.android.apps.nexuslauncher:color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.apps.nexuslauncher:color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@*com.google.android.apps.nexuslauncher:color/colorAccent</item>
+        <item name="android:colorEdgeEffect">?*android:textColorSecondaryInverse</item>
+        <item name="*com.google.android.apps.nexuslauncher:bottomSheetNavBarColor">@*com.google.android.apps.nexuslauncher:color/all_apps_navbar_color</item>
+    </style>
+</resources>
