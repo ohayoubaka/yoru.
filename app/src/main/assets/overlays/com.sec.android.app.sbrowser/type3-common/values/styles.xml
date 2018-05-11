@@ -8,13 +8,13 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
-        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
-        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
-        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
     </style>
 	<style name="SBrowserActionModeStyle" parent="@*android:style/Widget.Material.ActionMode">
-        <item name="android:background">@*com.sec.android.app.sbrowser:color/toolbar_bg_color</item>
+        <item name="android:background">@*com.sec.android.app.sbrowser.beta:color/toolbar_bg_color</item>
         <item name="android:height">56.0dp</item>
     </style>
 	<style name="RobotoCondensedBold">

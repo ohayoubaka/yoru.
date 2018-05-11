@@ -14,7 +14,6 @@
     <color name="bottombar_border_color">#ff000000</color>
     <color name="custom_tab_urlbar_bg">#ff000000</color>
     <color name="custom_tab_urlbar_divider_color">#ff000000</color>
-    <color name="quickaccess_no_items_text_color">#ffffffff</color>
     <color name="background_gray">#ff000000</color>
     <color name="recent_normal_tab_background">#ff000000</color>
     <color name="recent_normal_tab_close_color">@*android:color/material_deep_teal_500</color>
@@ -237,4 +236,17 @@
 	<color name="tab_open_animation_background_color_night_mode">#ff000000</color>
 	<color name="airview_grid_background">#ff000000</color>
 	<color name="add_bookmark_action_bar_color">#ff000000</color>
+	<color name="show_bookmarks_path_button_text_dim_color">#80ffffff</color>
+	<color name="bookmarks_additional_description_no_item_text_color">#66ffffff</color>
+    <color name="closeby_no_item_text_color">#66ffffff</color>
+    <color name="history_no_found_item_text_color">#66ffffff</color>
+    <color name="media_history_text_no_history_color">#66ffffff</color>
+    <color name="no_download_text_color">#66ffffff</color>
+    <color name="no_found_item_text_color_manage">#66ffffff</color>
+    <color name="quickaccess_no_items_text_color">#66ffffff</color>
+    <color name="saved_page_additional_description_no_item_text_color">#66ffffff</color>
+    <color name="saved_page_list_no_text_color">#66ffffff</color>
+    <color name="show_no_bookmark_item_text_color">#66ffffff</color>
+    <color name="sites_no_recent_searches_text_color">#66ffffff</color>
+    <color name="tab_bar_no_tabs_content_text_color">#66ffffff</color>
 </resources>
