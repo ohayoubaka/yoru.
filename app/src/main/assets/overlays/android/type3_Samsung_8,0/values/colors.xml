@@ -123,7 +123,6 @@
     <color name="sem_tooltip_stroke_light">#00000000</color>
     <color name="tw_popup_stroke_color_material">#00000000</color>
     <color name="tw_popup_stroke_color_material_dark">#00000000</color>
-	<color name="tw_searchview_textfiled_normal_material_dark">#ff000000</color>
 	<color name="tw_searchview_hint_text_material">@*android:color/material_deep_teal_500</color>
     <color name="tw_searchview_hint_text_material_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_searchview_clear_icon_color_material">@*android:color/material_deep_teal_500</color>
@@ -155,4 +154,5 @@
 	<color name="tw_switch_track_on_mtrl">@*android:color/legacy_control_normal</color>
 	<color name="sem_app_bar_bg_color">#ff000000</color>
 	<color name="tw_tab_background_color">#ff000000</color>
+	<color name="tw_searchview_textfiled_normal_material_dark">#10ffffff</color>
 </resources>
