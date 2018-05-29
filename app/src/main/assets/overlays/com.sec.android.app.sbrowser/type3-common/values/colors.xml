@@ -249,4 +249,7 @@
     <color name="show_no_bookmark_item_text_color">#66ffffff</color>
     <color name="sites_no_recent_searches_text_color">#66ffffff</color>
     <color name="tab_bar_no_tabs_content_text_color">#66ffffff</color>
+	<color name="download_history_spinner_bar_bg_color">#ff000000</color>
+    <color name="download_history_spinner_divider_color">#ff000000</color>
+    <color name="download_history_spinner_header_text_color">@*android:color/material_deep_teal_500</color>
 </resources>
