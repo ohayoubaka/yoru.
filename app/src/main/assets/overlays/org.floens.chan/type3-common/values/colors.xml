@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorDarker">#ff000000</color>
-	<color name="colorPrimaryDarker">#ff000000</color>
-	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
-    <color name="colorAccentDark">@*android:color/material_deep_teal_500</color>
-	<color name="highlighted_text_material_light">#66000000</color>
+    <color name="primary">@*android:color/material_deep_teal_500</color>
+	<color name="primary_dark">@*android:color/material_deep_teal_500</color>
+	<color name="material_grey_900">#ff000000</color>
+    <color name="browser_actions_divider_color">#00000000</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-    <color name="teal">@*android:color/material_deep_teal_500</color>
-	<color name="cardview_dark_background">#ff000000</color>
-    <color name="colorTextDark">#ff000000</color>
-    <color name="material_grey_800">#ff000000</color>
-    <color name="notification_material_background_media_default_color">#ff000000</color>
+	<color name="design_snackbar_background_color">#ff000000</color>
 </resources>
