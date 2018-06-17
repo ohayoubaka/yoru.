@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="task_view_header_height">44.0dip</dimen>
+	<dimen name="task_view_rounded_corners_radius">6.0dip</dimen>
+	<dimen name="task_view_header_title_font_size">16.0dip</dimen>
+</resources>

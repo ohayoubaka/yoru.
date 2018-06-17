@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@*com.samsung.android.pluginrecents:id/root_view" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@*com.samsung.android.pluginrecents:id/item_toggle" layout="@*com.samsung.android.pluginrecents:layout/setting_item_toggle" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@*com.samsung.android.pluginrecents:id/detail_setting" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@*com.samsung.android.pluginrecents:drawable/setting_foreground_detail_setting">
+            <include layout="@*com.samsung.android.pluginrecents:layout/setting_preview" />
+            <View android:background="?*android:listDivider" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            <include android:id="@*com.samsung.android.pluginrecents:id/item_scroll" layout="@*com.samsung.android.pluginrecents:layout/setting_item_list_dialog" />
+            <View android:background="?*android:listDivider" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            <include android:id="@*com.samsung.android.pluginrecents:id/item_small_layout" layout="@*com.samsung.android.pluginrecents:layout/setting_item_toggle" />
+            <View android:background="?*android:listDivider" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

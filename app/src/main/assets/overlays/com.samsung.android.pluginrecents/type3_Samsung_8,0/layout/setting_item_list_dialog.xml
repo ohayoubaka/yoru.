@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.pluginrecents.setting.SettingListDialogItem android:orientation="vertical" android:id="@*com.samsung.android.pluginrecents:id/wrapper" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*com.samsung.android.pluginrecents:style/Base.Widget.AppCompat.Button.Borderless"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@*com.samsung.android.pluginrecents:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="title" android:layout_weight="0.0" android:fontFamily="sans-serif" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:gravity="center|left" android:id="@*com.samsung.android.pluginrecents:id/sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="sub title" android:layout_weight="0.0" android:fontFamily="sans-serif" />
+</com.samsung.android.pluginrecents.setting.SettingListDialogItem>

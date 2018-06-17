@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="task_view_background_color">#ff000000</color>
+    <color name="recents_close_all_button_text_color">#ffffffff</color>
+	<color name="recents_task_view_default_background_color">#ff000000</color>
+	<color name="cardview_light_background">#ff000000</color>
+</resources>

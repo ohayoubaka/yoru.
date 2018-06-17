@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.pluginrecents.setting.SettingToggleItem android:orientation="horizontal" android:id="@*com.samsung.android.pluginrecents:id/wrapper" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*com.samsung.android.pluginrecents:style/Base.Widget.AppCompat.Button.Borderless" android:background="#ff000000" android:backgroundTint="#ff000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@*com.samsung.android.pluginrecents:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="title" android:fontFamily="sans-serif" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:gravity="center|left" android:id="@*com.samsung.android.pluginrecents:id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sub title" android:fontFamily="sans-serif" android:layout_marginEnd="15.0dip" />
+    </LinearLayout>
+    <Switch android:layout_gravity="end|center" android:id="@*com.samsung.android.pluginrecents:id/toggle_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginEnd="10.0dip" />
+</com.samsung.android.pluginrecents.setting.SettingToggleItem>

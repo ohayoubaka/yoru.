@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="DragAreaTextStyle">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@*com.samsung.android.pluginrecents:color/drag_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.samsung.android.pluginrecents:drawable/recents_drag_background</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:shadowColor">@*com.samsung.android.pluginrecents:color/drag_text_shadow_color</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="MoreContainerButtonStyle" parent="@*com.samsung.android.pluginrecents:style/Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@*com.samsung.android.pluginrecents:dimen/recents_more_container_button_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">200.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
