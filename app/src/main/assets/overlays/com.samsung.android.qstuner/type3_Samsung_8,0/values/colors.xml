@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qsc_color_primary">@*android:color/material_deep_teal_500</color>
+	<color name="material_grey_600">#ff000000</color>
+    <color name="material_grey_800">#ff000000</color>
+    <color name="material_grey_850">#ff000000</color>
+    <color name="material_grey_900">#ff000000</color>
+	<color name="material_grey_100">#ff000000</color>
+	<color name="si_row_main_title_color">#ffffffff</color>
+    <color name="si_row_sub_title_color">#ff666666</color>
+	<color name="si_row_divider_color">#00000000</color>
+	<color name="si_row_switch_track_off_color">#ff4d4d4d</color>
+    <color name="si_row_switch_track_on_color">@*android:color/legacy_control_normal</color>
+	<color name="material_grey_50">#ff000000</color>
+    <color name="qsc_dashboard_recommand_coloring_background_color_1">#ff000000</color>
+    <color name="si_row_switch_thumb_color">@*android:color/material_deep_teal_500</color>
+    <color name="system_primary_color">#ff000000</color>
+	<color name="qsc_preview_notification_title_text_color">#ffffffff</color>
+    <color name="qsc_tile_label_color">#ffffffff</color>
+	<color name="qsc_bottom_bar_button_normal">@*android:color/material_deep_teal_500</color>
+	<color name="qsc_slider_bar_activated_color">@*android:color/material_deep_teal_500</color>
+	<color name="qt_main_icon_color_info">#ffffffff</color>
+    <color name="qt_main_icon_color_nmw">#ffffffff</color>
+    <color name="qt_main_icon_color_qc">#ffffffff</color>
+    <color name="qt_main_icon_color_si">#ffffffff</color>
+	<color name="button_material_dark">#ff000000</color>
+</resources>
