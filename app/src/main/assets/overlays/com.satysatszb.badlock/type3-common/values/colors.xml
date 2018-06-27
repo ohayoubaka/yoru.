@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_dark_background">#ff000000</color>
+    <color name="cardview_shadow_end_color">#00000000</color>
+    <color name="cardview_shadow_start_color">#00000000</color>
+    <color name="colorAccent">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="ic_launcher_background">#ff000000</color>
+    <color name="ripple_material_light">@*android:color/legacy_control_normal</color>
+</resources>
