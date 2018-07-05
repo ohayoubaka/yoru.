@@ -168,8 +168,4 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*com.samsung.android.calendar:color/month_other_month_day_number</item>
     </style>
-	<style name="WidgetTextShadow_RobotoCondensedBoldFontStyle" parent="@*com.samsung.android.calendar:style/WidgetTextShadowStyle">
-        <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
 </resources>
