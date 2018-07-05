@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@*android:style/Theme.Material">
+        <item name="android:textColorPrimary">#fffafafa</item>
+        <item name="android:textColorSecondary">#ffcacaca</item>
+        <item name="android:windowBackground">@*com.satysatszb.badlock:color/colorPrimary</item>
+        <item name="android:colorPrimary">@*com.satysatszb.badlock:color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@*com.satysatszb.badlock:color/colorPrimary</item>
+        <item name="android:statusBarColor">@*com.satysatszb.badlock:color/colorPrimary</item>
+        <item name="android:navigationBarColor">@*com.satysatszb.badlock:color/colorPrimary</item>
+    </style>
+</resources>

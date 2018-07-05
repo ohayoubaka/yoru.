@@ -8,4 +8,5 @@
     <color name="colorPrimaryDark">#ff000000</color>
     <color name="ic_launcher_background">#ff000000</color>
     <color name="ripple_material_light">@*android:color/legacy_control_normal</color>
+	<color name="cardview_light_background">#ff000000</color>
 </resources>
