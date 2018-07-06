@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LockStarSettingsActivity" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="CircleProgressStyle" parent="@*android:style/Theme.DeviceDefault.Panel">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:fullDark">@*android:color/transparent</item>
+        <item name="android:topDark">@*android:color/transparent</item>
+        <item name="android:centerDark">@*android:color/transparent</item>
+        <item name="android:bottomDark">@*android:color/transparent</item>
+        <item name="android:fullBright">@*android:color/transparent</item>
+        <item name="android:topBright">@*android:color/transparent</item>
+        <item name="android:centerBright">@*android:color/transparent</item>
+        <item name="android:bottomBright">@*android:color/transparent</item>
+        <item name="android:bottomMedium">@*android:color/transparent</item>
+        <item name="android:centerMedium">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:layout_marginStart">4.0dip</item>
+    </style>
+</resources>

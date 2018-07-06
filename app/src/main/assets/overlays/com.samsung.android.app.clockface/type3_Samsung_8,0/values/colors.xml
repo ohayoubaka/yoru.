@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="setting_status_bar_color">#ff000000</color>
+	<color name="colorPrimary">@*android:color/material_deep_teal_500</color>
+	<color name="lock_while_default_color">#ffffffff</color>
+</resources>
