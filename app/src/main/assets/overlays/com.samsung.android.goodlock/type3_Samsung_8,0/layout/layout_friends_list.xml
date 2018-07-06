@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/layout_friends_list_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <TextView android:textSize="14.0sp" android:textColor="@*android:color/material_deep_teal_500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@*com.samsung.android.goodlock:string/recommendation" android:fontFamily="sans-serif-medium" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView android:id="@*com.samsung.android.goodlock:id/friends_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|right" android:id="@*com.samsung.android.goodlock:id/view_all" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="15.0dip" android:src="@*com.samsung.android.goodlock:drawable/ic_wallpapers_view_all_more" />
+    </FrameLayout>
+</LinearLayout>

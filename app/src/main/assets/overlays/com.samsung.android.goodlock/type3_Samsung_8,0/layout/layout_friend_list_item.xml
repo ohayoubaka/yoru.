@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_friend_list_item_0" android:background="@*com.samsung.android.goodlock:drawable/shape_round_rect" android:layout_width="100.0dip" android:layout_height="115.0dip" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.samsung.android.goodlock">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@*com.samsung.android.goodlock:id/item_layout" android:background="?*android:selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|top" android:tag="binding_1" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" />
+        <FrameLayout android:layout_gravity="center|right|top" android:id="@*com.samsung.android.goodlock:id/update_badge" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="22.0dip">
+            <View android:layout_gravity="center|right|top" android:background="@*com.samsung.android.goodlock:drawable/shape_badge" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+            <TextView android:textSize="11.0dip" android:textColor="#fffafafa" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:layout_marginHorizontal="5.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

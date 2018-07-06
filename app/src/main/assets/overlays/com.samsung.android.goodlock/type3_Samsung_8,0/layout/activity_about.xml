@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_about_0" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.samsung.android.goodlock">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@*com.samsung.android.goodlock:id/action_bar_back" android:background="?*android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="56.0dip" android:minWidth="200.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@*com.samsung.android.goodlock:drawable/ic_tw_ic_ab_back_mtrl2" />
+                <TextView android:textSize="18.5dip" android:textColor="@*android:color/material_deep_teal_500" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@*com.samsung.android.goodlock:string/about" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <ImageView android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="11.0dip" android:textColor="#88ffffff" android:layout_gravity="center_horizontal" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="11.0dip" android:textColor="#88ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.samsung.android.goodlock:string/app_name" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@*com.samsung.android.goodlock:id/open_source_license" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.samsung.android.goodlock:string/open_source_license" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

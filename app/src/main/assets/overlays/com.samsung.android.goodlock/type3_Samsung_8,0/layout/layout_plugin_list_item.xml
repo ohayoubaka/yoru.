@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/layout_plugin_list_item_0" android:background="@*com.samsung.android.goodlock:drawable/shape_round_rect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:minHeight="100.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:tag="binding_1" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <CheckBox android:id="@*com.samsung.android.goodlock:id/item_checkbox" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@*com.samsung.android.goodlock:id/item_layout" android:background="?*android:selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip">
+        <LinearLayout android:gravity="top" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="0.85">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:tag="binding_3" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="5.0dip" />
+                    <TextView android:textSize="21.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="center|left" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_gravity="left" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff7f7f7f" android:ellipsize="marquee" android:layout_gravity="left" android:id="@*com.samsung.android.goodlock:id/need_setting_text" android:tag="binding_6" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center|right|top" android:id="@*com.samsung.android.goodlock:id/installed_button" android:tag="binding_7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:layout_weight="0.15">
+            <FrameLayout android:layout_gravity="center|right|top" android:id="@*com.samsung.android.goodlock:id/more" android:tag="binding_8" android:background="?*android:selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@*com.samsung.android.goodlock:drawable/ic_ac_details_2" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="bottom|center|right" android:id="@*com.samsung.android.goodlock:id/app_status" android:background="?*android:selectableItemBackgroundBorderless" android:layout_width="40.0dip" android:layout_height="30.0dip">
+                <ImageView android:layout_gravity="bottom|center|left" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="8.0dip" android:src="@*com.samsung.android.goodlock:drawable/check_icon" android:scaleType="fitXY" />
+                <FrameLayout android:layout_gravity="center|right|top" android:id="@*com.samsung.android.goodlock:id/update_badge" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:layout_gravity="center|right|top" android:background="@*com.samsung.android.goodlock:drawable/shape_badge" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+                    <TextView android:textSize="11.0dip" android:textColor="#fffafafa" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

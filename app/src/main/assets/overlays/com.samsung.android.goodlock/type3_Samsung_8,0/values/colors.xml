@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">@*android:color/material_deep_teal_500</color>
+    <color name="colorPrimaryDark">@*android:color/material_deep_teal_500</color>
+	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
+</resources>
