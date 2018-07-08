@@ -37,29 +37,30 @@
         android:scaleType="center"
         android:visibility="gone" />
 
-    <com.android.keyguard.AlphaOptimizedLinearLayout
-        android:id="@*com.android.systemui:id/system_icon_area"
-        android:gravity="center|center_vertical"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-        <com.android.systemui.statusbar.policy.Clock
-            android:id="@*com.android.systemui:id/clock"
-            android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
-            android:gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:singleLine="true" />
-
-    </com.android.keyguard.AlphaOptimizedLinearLayout>
-
     <LinearLayout android:id="@*com.android.systemui:id/status_bar_contents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingStart="4dp"
         android:paddingEnd="8dp"
         android:orientation="horizontal" >
+
+        <com.android.keyguard.AlphaOptimizedLinearLayout
+            android:id="@*com.android.systemui:id/system_icon_area"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <com.android.systemui.statusbar.policy.Clock
+                android:id="@*com.android.systemui:id/clock"
+                android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
+                android:gravity="start|center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:padding="2dp" />
+
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
 
         <!-- The alpha of this area is controlled from both PhoneStatusBarTransitions and
              PhoneStatusBar (DISABLE_NOTIFICATION_ICONS). -->
