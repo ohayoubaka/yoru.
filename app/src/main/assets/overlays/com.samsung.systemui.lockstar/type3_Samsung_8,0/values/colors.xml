@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="switch_background">#ff000000</color>
+	<color name="about_text_color">#ffffffff</color>
+	<color name="about_info_text_color">#88ffffff</color>
 </resources>
