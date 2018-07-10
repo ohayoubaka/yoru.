@@ -24,4 +24,5 @@
     <color name="qt_main_icon_color_qc">#ffffffff</color>
     <color name="qt_main_icon_color_si">#ffffffff</color>
 	<color name="button_material_dark">#ff000000</color>
+	<color name="qsc_bottom_bar_button_disabled">#ff000000</color>
 </resources>
