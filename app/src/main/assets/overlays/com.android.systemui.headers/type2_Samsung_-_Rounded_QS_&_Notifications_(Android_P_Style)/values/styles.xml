@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="systemui_theme_remote_input" parent="@*android:style/Theme.Material">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:backgroundTint">@*android:color/legacy_light_primary_dark</item>
+        <item name="android:colorControlActivated">@*android:color/material_deep_teal_500</item>
+    </style>
+
+</resources>
