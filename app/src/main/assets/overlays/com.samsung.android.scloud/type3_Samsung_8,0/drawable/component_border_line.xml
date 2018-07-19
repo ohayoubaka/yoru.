@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple android:color="@*com.samsung.android.scloud:color/drive_floating_action_button_touch_tint"
+<ripple android:color="@*com.samsung.android.scloud:color/o16_000000_no_theme"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
             <solid android:color="#ff000000" />
             <corners android:radius="1000.0dip" />
-            <stroke android:width="2.0px" android:color="@*com.samsung.android.scloud:color/no_item_text_color" />
+            <stroke android:width="2.0px" android:color="@*com.samsung.android.scloud:color/o100_979797_24_b" />
         </shape>
     </item>
 </ripple>

@@ -12,12 +12,12 @@
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 	 <style name="ClockComponentButton.Custom" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorControlActivated">@*com.samsung.android.scloud:color/primary_checkBox</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.scloud:color/o100_48bccd_no_theme</item>
     </style>
     <style name="CustomAlertDialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog">
         <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
         <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
-        <item name="android:colorPrimaryDark">@*com.samsung.android.scloud:color/gallery_color_primary_dark</item>
+        <item name="android:colorPrimaryDark">@*com.samsung.android.scloud:color/o100_ed920f_no_theme</item>
     </style>
 	<style name="DriveTheme" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowDisablePreview">true</item>
@@ -26,7 +26,7 @@
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="GalleryActionBar" parent="@*android:style/Widget.DeviceDefault.ActionBar">
-        <item name="android:background">@*com.samsung.android.scloud:color/actionbar_bg_color</item>
+        <item name="android:background">@*com.samsung.android.scloud:color/o100_fafafa_no_theme</item>
         <item name="android:actionModeCloseDrawable">@null</item>
         <item name="android:actionModeCloseButtonStyle">@*com.samsung.android.scloud:style/HideActionModeClose</item>
         <item name="android:titleTextStyle">@*com.samsung.android.scloud:style/GalleryActionBar.Title</item>
@@ -72,9 +72,9 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:actionBarStyle">@*com.samsung.android.scloud:style/GalleryActionBar</item>
         <item name="android:alertDialogTheme">@*com.samsung.android.scloud:style/CustomAlertDialogTheme</item>
-        <item name="android:actionMenuTextColor">@*com.samsung.android.scloud:color/actionbar_back_icon_color</item>
-        <item name="android:colorControlActivated">@*com.samsung.android.scloud:color/gallery_color_primary</item>
-        <item name="android:colorPrimary">@*com.samsung.android.scloud:color/gallery_color_primary</item>
+        <item name="android:actionMenuTextColor">@*com.samsung.android.scloud:color/o100_ed920f_no_theme</item>
+        <item name="android:colorControlActivated">@*com.samsung.android.scloud:color/o100_ed920f_no_theme</item>
+        <item name="android:colorPrimary">@*com.samsung.android.scloud:color/o100_ed920f_no_theme</item>
         <item name="android:statusBarColor">#ff000000</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>

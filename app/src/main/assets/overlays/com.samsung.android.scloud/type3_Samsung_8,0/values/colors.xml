@@ -87,4 +87,25 @@
     <color name="usage_item_text_color">#ff686868</color>
 	<color name="cardview_dark_background">#ff000000</color>
     <color name="cardview_light_background">#ff000000</color>
+	<color name="o100_979797_24_b">#ff686868</color>
+	<color name="o07_000000_no_theme">#00000000</color>
+	<color name="o85_252525_no_theme">#d9ffffff</color>
+	<color name="o100_48bccd_no_theme">@*android:color/material_deep_teal_500</color>
+	<color name="o100_ed920f_no_theme">@*android:color/material_deep_teal_500</color>
+	<color name="o100_fafafa_no_theme">#ff000000</color>
+	<color name="o100_252525_24_a">@*android:color/material_deep_teal_500</color>
+	<color name="o100_f2f2f2_no_theme">#ff000000</color>
+	<color name="o100_252525_no_theme">#ffffffff</color>
+	<color name="o100_252525_1_10_3">#ffffffff</color>
+    <color name="o100_252525_1_14_2">#ffffffff</color>
+    <color name="o100_252525_1_1_3">#ffffffff</color>
+    <color name="o100_252525_1_39_2">#ffffffff</color>
+    <color name="o100_252525_1_7_2">#ffffffff</color>
+    <color name="o100_252525_1_9_3">#ffffffff</color>
+	<color name="o100_72b5e4_no_theme">@*android:color/material_deep_teal_500</color>
+    <color name="o80_72b5e4_no_theme">@*android:color/material_deep_teal_500</color>
+    <color name="o85_72b5e4_no_theme">@*android:color/material_deep_teal_500</color>
+	<color name="o100_595959_no_theme">#ffffffff</color>
+	<color name="sesl_list_divider_color">#ff000000</color>
+	<color name="o100_505050_no_theme">#ffffffff</color>
 </resources>
