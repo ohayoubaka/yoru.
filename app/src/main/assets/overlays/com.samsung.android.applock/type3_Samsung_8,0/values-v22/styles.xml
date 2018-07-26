@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppLockTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.samsung.android.applock:style/AppLock.ActionbarWithUpIndicator</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.samsung.android.applock:style/NoCloseButton</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:maxFileSize">@*com.samsung.android.applock:style/LockPatternStyle</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.applock.checkservice.AppLockIrisView android:orientation="horizontal" android:id="@*com.samsung.android.applock:id/iris_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@*com.samsung.android.applock:id/iris_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@*com.samsung.android.applock:dimen/irises_preview_height" />
+    <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@*com.samsung.android.applock:id/iris_help_text" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@*com.samsung.android.applock:dimen/irises_status_bar_height" android:fontFamily="sans-serif" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+</com.samsung.android.applock.checkservice.AppLockIrisView>

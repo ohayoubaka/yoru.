@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="applock_list_text_color">#ffffffff</color>
+    <color name="applock_list_divider_color">#00000000</color>
+    <color name="applock_list_ripple_material_light">#1effffff</color>
+    <color name="sub_app_bar_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="actionbar_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="bottom_bar_divider_color">#00000000</color>
+    <color name="bottom_bar_bg_color">#ff000000</color>
+    <color name="bottom_bar_button_text_color">@*android:color/material_deep_teal_500</color>
+</resources>

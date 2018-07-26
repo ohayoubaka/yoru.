@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppLockActivityThemeWhite" parent="@*android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+	<style name="AppLockDefaultTheme" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="AppLockTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@*com.samsung.android.applock:style/AppLock.ActionbarWithUpIndicator</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.samsung.android.applock:style/NoCloseButton</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:maxFileSize">@*com.samsung.android.applock:style/LockPatternStyle</item>
+    </style>
+</resources>
