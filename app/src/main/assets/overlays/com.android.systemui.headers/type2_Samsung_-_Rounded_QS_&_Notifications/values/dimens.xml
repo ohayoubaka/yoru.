@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<dimen name="notification_divider_height">3.5dip</dimen>
-	<dimen name="notification_shadow_radius">15.0dip</dimen>
-	<dimen name="z_distance_between_notifications">299.0dip</dimen>
-	<dimen name="normal_mode_bottom_bar_height">28.0dip</dimen>
-</resources>
