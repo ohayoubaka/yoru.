@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@*com.android.systemui:color/notification_ripple_untinted_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="3.5dip" android:right="3.5dip">
+        <shape>
+            <solid android:color="@*com.android.systemui:color/notification_material_background_color" />
+			<corners android:radius="10.0dip" />
+        </shape>
+    </item>
+</ripple>

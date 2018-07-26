@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.AlphaOptimizedView android:id="@*com.android.systemui:id/notification_more_divider" android:background="@null" android:layout_width="fill_parent" android:layout_height="@*com.android.systemui:dimen/notification_divider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

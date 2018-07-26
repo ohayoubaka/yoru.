@@ -151,4 +151,7 @@
     <color name="dial_button_text_pressed">@*android:color/material_deep_teal_500</color>
     <color name="card_view_background_color">#ff000000</color>
     <color name="sticker_subtitle_underline_color">#ff000000</color>
+	<color name="detail_name_title_text_color">#ffc8c8c8</color>
+	<color name="places_item_main_text_color">#ffc8c8c8</color>
+	<color name="places_item_sub_text_color">#b3ffffff</color>
 </resources>
