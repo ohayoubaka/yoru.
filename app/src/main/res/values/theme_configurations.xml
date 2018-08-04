@@ -21,7 +21,7 @@
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
         <item>yoru.</item>
-        <item>For Samsung ROMs (8.0), and AOSP (8.1)</item>
+        <item>For Samsung ROMs (Android 8.0), limited support on other Android 8.0+ devices/ROMs</item>
 		<item>UNINSTALL ALL OVERLAYS BEFORE TAKING A SYSTEM UPDATE!</item>
     </string-array>
 </resources>

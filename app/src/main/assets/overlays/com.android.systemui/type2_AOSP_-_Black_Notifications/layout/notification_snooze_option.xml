@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="14.0sp" android:textColor="#ddffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="@*android:dimen/notification_content_margin_start" android:layout_marginEnd="@*android:dimen/notification_content_margin_end"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
