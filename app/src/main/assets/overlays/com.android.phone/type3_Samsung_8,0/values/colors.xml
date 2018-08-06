@@ -17,4 +17,9 @@
 	<color name="listview_boundary_effect">@*android:color/material_deep_teal_500</color>
 	<color name="settings_subappbar_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="title_text_color">@*android:color/material_deep_teal_500</color>
+	<color name="list_primary_text_color">#ffffffff</color>
+    <color name="list_secondary_text_color">#ff94908d</color>
+	<color name="input_field_text_color">#ffffffff</color>
+	<color name="list_icon_create_circle_color">#ff000000</color>
+    <color name="list_icon_minus_circle_color">#ff000000</color>
 </resources>
