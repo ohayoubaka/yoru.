@@ -27,9 +27,7 @@
     <color name="gallery_color_primary">@*android:color/material_deep_teal_500</color>
     <color name="gallery_color_primary_dark">@*android:color/material_deep_teal_500</color>
     <color name="hint_text_color">#ffffffff</color>
-    <color name="moreInfo_item_title_text_color">#e5ffffff</color>
     <color name="moreinfo_divider_color">#00000000</color>
-    <color name="moreinfo_title_color">#d9ffffff</color>
     <color name="noitem_detail_text_color">#99ffffff</color>
     <color name="noitem_text_color_for_grace">#66ffffff</color>
     <color name="quick_panel_slideshow_sub_title">#ffffffff</color>
@@ -78,7 +76,6 @@
     <color name="photo_id_selected_bg_color">@*android:color/material_deep_teal_500</color>
     <color name="spinner_item_selected_color">@*android:color/material_deep_teal_500</color>
     <color name="story_sharing_eos_dialog_lower_text_color">@*android:color/material_deep_teal_500</color>
-	<color name="moreInfo_item_content_text_color">#ffffffff</color>
 	<color name="crop_actionbar_background_color">#bf000000</color>
     <color name="crop_background_dim_color">#66000000</color>
 	<color name="gallery_status_bar_background_color">#ff000000</color>
@@ -87,4 +84,5 @@
     <color name="tip_card_background_color">#ff000000</color>
 	<color name="comments_item_icon_bg_color">#ff000000</color>
 	<color name="notification_setting_title_selector">#ff000000</color>
+	<color name="moreinfo_title_color">#d9ffffff</color>
 </resources>
