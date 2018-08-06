@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (InFlames03)
+-->
+<resources>
+    <!--Accent Colour-->
+    <color name="accent_device_default_light">#ff12dc4e</color>
+    <color name="material_deep_teal_500">#ff12dc4e</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#ff12dc4e</color>   <!--OG:#ff607d8b-->
+
+    <!--Volume Panel-->
+    <color name="material_deep_teal_200">#ff12dc4e</color>    <!--OG:#ff80cbc4-->
+	
+	<!--Samsung related values-->
+	<color name="tw_color_control_activated">#ff12dc4e</color>
+	<color name="tw_seekbar_color_control_activated">#ff12dc4e</color>
+	<color name="legacy_control_normal">#8012dc4e</color>
+</resources>
