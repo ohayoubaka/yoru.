@@ -9,8 +9,8 @@
     <color name="material_deep_teal_200">#ff1a73e8</color>    <!--OG:#ff80cbc4-->
 	
 	<!--Samsung related values-->
-	<color name="tw_color_control_activated">#ff4282ee</color>
-	<color name="tw_seekbar_color_control_activated">#ff6294f1</color>
-	<color name="legacy_control_normal">#804282ee</color>
+	<color name="tw_color_control_activated">#ff1a73e8</color>
+	<color name="tw_seekbar_color_control_activated">#ff1a73e8</color>
+	<color name="legacy_control_normal">#801a73e8</color>
 	
 </resources>
