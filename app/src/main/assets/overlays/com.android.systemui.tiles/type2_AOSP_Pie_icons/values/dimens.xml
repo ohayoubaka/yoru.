@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_panel_handler_height">48.0dip</dimen>
+	<dimen name="qs_handler_image_height">4.0dip</dimen>
+    <dimen name="qs_handler_image_width">25.0dip</dimen>
+</resources>
