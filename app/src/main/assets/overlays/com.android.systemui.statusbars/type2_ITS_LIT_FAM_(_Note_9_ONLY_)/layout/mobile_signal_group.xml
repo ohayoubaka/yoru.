@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@*com.android.systemui:id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/com.android.systemui">
+    <ImageView android:id="@*com.android.systemui:id/ims" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:id="@*com.android.systemui:id/mobile_in" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/ic_activity_down" android:paddingEnd="0.0dip" />
         <ImageView android:id="@*com.android.systemui:id/mobile_out" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/ic_activity_up" android:paddingEnd="0.0dip" />
