@@ -47,8 +47,8 @@ android {
         minSdkVersion 26
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 20
-        versionName "20"
+        versionCode 21
+        versionName "21"
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
