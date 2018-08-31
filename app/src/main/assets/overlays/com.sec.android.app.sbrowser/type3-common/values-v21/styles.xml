@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="toolbarSwipeTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:colorEdgeEffect">@*com.sec.android.app.sbrowser:color/color_edge_effect</item>
+    </style>
+</resources>

@@ -33,4 +33,5 @@
         <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+	<style name="toolbarSwipeTheme" parent="@*android:style/Theme.DeviceDefault" />
 </resources>

@@ -210,7 +210,6 @@
     <color name="select_bookmarks_folder_view_divider_shadow_color2">#ff000000</color>
 	<color name="download_item_title_color">#ffffffff</color>
 	<color name="media_history_text_title_color">#ffffffff</color>
-	<color name="history_group_collapsed">#ffffffff</color>
 	<color name="sbrowser_bookmarks_select_all_bg_color">@*android:color/legacy_control_normal</color>
     <color name="sbrowser_bookmarks_select_all_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="download_item_date_view_text_color">@*android:color/material_deep_teal_500</color>
