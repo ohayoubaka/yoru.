@@ -3,4 +3,5 @@
 	<color name="switch_background">#ff000000</color>
 	<color name="about_text_color">#ffffffff</color>
 	<color name="about_info_text_color">#88ffffff</color>
+	<color name="switch_text_enabled">@*android:color/material_deep_teal_500</color>
 </resources>
