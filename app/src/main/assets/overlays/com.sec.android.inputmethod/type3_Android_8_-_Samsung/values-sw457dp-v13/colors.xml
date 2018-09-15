@@ -108,7 +108,7 @@
     <color name="phonepad_text_labelcolor_press">#80ffffff</color>
     <color name="keypad_high_contrast_bg_color_02">#ff000000</color>
     <color name="keypad_high_contrast_bg_color_03">#ff000000</color>
-    <color name="knob_bg_color">@*android:color/material_deep_teal_500</color>
+    <color name="knob_bg_color">#ff1a73e8</color>
 	<color name="candidate_horizontal_auto_replace_line_color">#ff000000</color>
     <color name="expand_candidate_view_divider_color">#ff000000</color>
     <color name="toolbar_toggle_right_divider_color">#ff000000</color>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="pressedkey_extra_labelcolor_tft">@*android:color/material_deep_teal_500</color>
-    <color name="drawable_color_shift_capslock">@*android:color/material_deep_teal_500</color>
-    <color name="drawable_color_shift_shifted">@*android:color/material_deep_teal_500</color>
-    <color name="gesture_guide_button_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="candidate_highlight_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="drawable_color_emoticon_category_selected">@*android:color/material_deep_teal_500</color>
-    <color name="emoticon_indicator_color">@*android:color/material_deep_teal_500</color>
-    <color name="emoticon_page_indicator_dot_activated">@*android:color/material_deep_teal_500</color>
-    <color name="textinput_download_light_mtrl_color">@*android:color/material_deep_teal_500</color>
-    <color name="kaomoji_indicator_text_selected_color">@*android:color/material_deep_teal_500</color>
-    <color name="download_popup_button_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="enterkey_labelcolor">@*android:color/material_deep_teal_500</color>
-    <color name="settings_terms_pressed_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="settings_terms_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="trans_discover_popup_regional_string_text_color">@*android:color/material_deep_teal_500</color>
+    <color name="pressedkey_extra_labelcolor_tft">#ff1a73e8</color>
+    <color name="drawable_color_shift_capslock">#ff1a73e8</color>
+    <color name="drawable_color_shift_shifted">#ff1a73e8</color>
+    <color name="gesture_guide_button_text_color">#ff1a73e8</color>
+    <color name="candidate_highlight_text_color">#ff1a73e8</color>
+    <color name="drawable_color_emoticon_category_selected">#ff1a73e8</color>
+    <color name="emoticon_indicator_color">#ff1a73e8</color>
+    <color name="emoticon_page_indicator_dot_activated">#ff1a73e8</color>
+    <color name="textinput_download_light_mtrl_color">#ff1a73e8</color>
+    <color name="kaomoji_indicator_text_selected_color">#ff1a73e8</color>
+    <color name="download_popup_button_text_color">#ff1a73e8</color>
+    <color name="enterkey_labelcolor">#ff1a73e8</color>
+    <color name="settings_terms_pressed_text_color">#ff1a73e8</color>
+    <color name="settings_terms_text_color">#ff1a73e8</color>
+    <color name="trans_discover_popup_regional_string_text_color">#ff1a73e8</color>
 </resources>
 
