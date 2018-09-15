@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@*com.adguard.android.contentblocker:id/left_drawer" android:background="#ff000000" android:layout_width="250.0dip" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@*com.adguard.android.contentblocker:id/drawer_list" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:divider="@*android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
-</LinearLayout>

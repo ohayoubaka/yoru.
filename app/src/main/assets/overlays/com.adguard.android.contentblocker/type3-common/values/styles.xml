@@ -5,18 +5,35 @@
         <item name="*com.adguard.android.contentblocker:windowNoTitle">true</item>
     </style>
 	<style name="AppTheme" parent="@*com.adguard.android.contentblocker:style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">@*com.adguard.android.contentblocker:color/white</item>
-        <item name="android:textColorPrimaryInverse">#ff000000</item>
+        <item name="android:textColorPrimaryInverse">#ffe0e0e0</item>
         <item name="android:alertDialogTheme">@*com.adguard.android.contentblocker:style/AlertDialog</item>
         <item name="android:editTextColor">#ff4caf50</item>
-        <item name="android:colorButtonNormal">#ffff0000</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:colorControlNormal">#ff4caf50</item>
+        <item name="android:colorControlActivated">#ff4caf50</item>
+        <item name="android:colorButtonNormal">#ff4caf50</item>
         <item name="android:colorControlHighlight">#ff4caf50</item>
-        <item name="*com.adguard.android.contentblocker:actionBarTheme">@*com.adguard.android.contentblocker:style/Theme.AppCompat.Light.NoActionBar</item>
+        <item name="android:colorAccent">#ff4caf50</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@*com.adguard.android.contentblocker:color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@*com.adguard.android.contentblocker:color/colorPrimaryDark</item>
+        <item name="android:indeterminateTint">#ff4caf50</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="*com.adguard.android.contentblocker:actionBarTheme">@*com.adguard.android.contentblocker:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="*com.adguard.android.contentblocker:colorPrimary">@*com.adguard.android.contentblocker:color/colorPrimary</item>
         <item name="*com.adguard.android.contentblocker:colorPrimaryDark">@*com.adguard.android.contentblocker:color/colorPrimaryDark</item>
-        <item name="*com.adguard.android.contentblocker:colorAccent">@*com.adguard.android.contentblocker:color/colorAccent</item>
-        <item name="*com.adguard.android.contentblocker:colorButtonNormal">#ffff0000</item>
+        <item name="*com.adguard.android.contentblocker:colorAccent">#ff4caf50</item>
+        <item name="*com.adguard.android.contentblocker:colorButtonNormal">#ff4caf50</item>
+		<item name="*com.adguard.android.contentblocker:popupTheme">@*com.adguard.android.contentblocker:style/ThemeOverlay.AppCompat</item>
+    </style>
+    <style name="AppTheme.Toolbar" parent="@*com.adguard.android.contentblocker:style/AppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@*com.adguard.android.contentblocker:color/colorPrimaryDark</item>
+        <item name="*com.adguard.android.contentblocker:windowActionBar">true</item>
+        <item name="*com.adguard.android.contentblocker:windowNoTitle">false</item>
     </style>
 	<style name="AlertDialog" parent="@*android:style/Theme.Material.Dialog.FixedSize">
         <item name="android:colorBackground">#ff000000</item>
