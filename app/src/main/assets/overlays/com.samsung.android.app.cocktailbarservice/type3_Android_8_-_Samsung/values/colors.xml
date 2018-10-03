@@ -16,4 +16,5 @@
     <color name="theme_font_settings_font_type_text_color">#ffffffff</color>
     <color name="version_color">#7fffffff</color>
     <color name="version_title_color">#ffffffff</color>
+	<color name="verification_code_color">@*android:color/material_deep_teal_500</color>
 </resources>
