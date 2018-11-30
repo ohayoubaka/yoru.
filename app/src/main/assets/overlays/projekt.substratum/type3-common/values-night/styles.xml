@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTheme">
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:textColorPrimary">@*android:color/material_deep_teal_500</item>
+        <item name="android:textColorSecondary">@*android:color/material_deep_teal_500</item>
+    </style>
+</resources>
