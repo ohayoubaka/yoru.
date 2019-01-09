@@ -75,4 +75,19 @@
         <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
+	<style name="SettingsTheme" parent="@*com.sec.android.app.sbrowser.beta:style/SettingsThemeBase">
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser.beta:style/SettingsActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/tw_ic_ab_back_material</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser.beta:style/SettingsActionModeStyle</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/settings_color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="CupActivityTheme" parent="@*com.sec.android.app.sbrowser.beta:style/SettingsThemeBase">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/internet_btn_backward</item>
+        <item name="android:actionMenuTextAppearance">@*com.sec.android.app.sbrowser.beta:style/SettingsActionMenuTextAppearance</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
