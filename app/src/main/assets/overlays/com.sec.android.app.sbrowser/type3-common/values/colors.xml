@@ -333,4 +333,6 @@
     <color name="saved_page_list_no_text_color">#66ffffff</color>
     <color name="saved_page_progress_dialog_text_color">#ffffffff</color>
     <color name="saved_page_search_edit_text_color">#ffffffff</color>
+	<color name="set_as_default_card_behind_bg">#ff000000</color>
+	<color name="update_card_behind_bg">#ff000000</color>
 </resources>
