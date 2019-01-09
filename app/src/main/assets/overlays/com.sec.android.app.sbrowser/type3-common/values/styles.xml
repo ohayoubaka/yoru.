@@ -34,4 +34,12 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 	<style name="toolbarSwipeTheme" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+    </style>
+	<style name="SettingsTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+    </style>
 </resources>
