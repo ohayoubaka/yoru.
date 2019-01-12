@@ -310,9 +310,7 @@
 	<color name="bookmark_folder_list_background_color">#ff000000</color>
 	<color name="action_popup_background_color">#ff000000</color>
 	<color name="bookmark_widget_item_favicon_text_color_light">#ffffffff</color>
-    <color name="connection_info_popup_text">#ffffffff</color>
     <color name="crash_tab_message_text_color">#ffffffff</color>
-    <color name="page_info_popup_text">#ffffffff</color>
     <color name="text_color_primary">@*android:color/material_deep_teal_500</color>
     <color name="sites_search_box_background_stroke">#ff000000</color>
     <color name="sites_search_clear_button_tint">@*android:color/material_deep_teal_500</color>
@@ -335,4 +333,11 @@
     <color name="saved_page_search_edit_text_color">#ffffffff</color>
 	<color name="set_as_default_card_behind_bg">#ff000000</color>
 	<color name="update_card_behind_bg">#ff000000</color>
+	<color name="page_info_popup_permission_spinner_text">#ffffffff</color>
+    <color name="page_info_popup_text">#ffffffff</color>
+    <color name="page_info_popup_text_link">@*android:color/material_deep_teal_500</color>
+    <color name="page_info_popup_text_link_focus">#1fffffff</color>
+    <color name="page_info_popup_url_emphasis_default_text">#ffffffff</color>
+	<color name="infobar_light_active_color">@*android:color/material_deep_teal_500</color>
+    <color name="light_active_color">@*android:color/material_deep_teal_500</color>
 </resources>
