@@ -36,6 +36,7 @@
     <color name="reader_mode_on_night_color">#ffffffff</color>
     <color name="reader_mode_on_secret_color">#ffffffff</color>
     <color name="quickaccess_view_background">#ff000000</color>
+	<color name="icon_view_item_background_dark_mode_color">#00000000</color>
     <color name="bottombar_bg_color">#ff000000</color>
     <color name="bottombar_border_color">#ff000000</color>
 	<color name="bottombar_border_secret_color">#ff000000</color>
@@ -60,6 +61,8 @@
     <color name="history_group_divider">#00000000</color>
     <color name="history_line_divider_color">#00000000</color>
     <color name="suggestion_item_icon">@*android:color/material_deep_teal_500</color>
+	<color name="suggestion_item_find_divider_color">#00000000</color>
+    <color name="suggestion_item_url_tint">@*android:color/material_deep_teal_500</color>
     <color name="search_engine_popup_list_bg_color">#ff000000</color>
     <color name="search_engine_popup_list_border_stroke_color">#ff000000</color>
     <color name="searchbox_background_color">#ff000000</color>
@@ -105,6 +108,7 @@
 	<color name="quickaccess_suggestion_popup_background_solid_high_contrast_color">#ff000000</color>
 	<color name="quickaccess_view_background_high_contrast_mode">#ff000000</color>
     <color name="quickaccess_view_background_night_mode">#ff000000</color>
+	<color name="quickaccess_view_title_color">@*android:color/material_deep_teal_500</color>
 	<color name="tab_bar_night_mode_tint_color">#ff000000</color>
 	<color name="toolbar_bg_border_bottom_night_color">#ff000000</color>
 	<color name="toolbar_statusbar_night_color">#ff000000</color>
@@ -389,4 +393,6 @@
 	<color name="infobar_accent_blue">@*android:color/material_deep_teal_500</color>
     <color name="infobar_accent_color">@*android:color/material_deep_teal_500</color>
 	<color name="quick_ic_internet_bg">@*android:color/material_deep_teal_500</color>
+	<color name="bookmark_star_on_color">@*android:color/material_deep_teal_500</color>
+    <color name="suggestion_item_bookmark_tint">@*android:color/material_deep_teal_500</color>
 </resources>
