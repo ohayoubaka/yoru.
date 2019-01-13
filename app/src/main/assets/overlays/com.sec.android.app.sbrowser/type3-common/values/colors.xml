@@ -217,7 +217,6 @@
 	<color name="swipe_refresh_progress_view_color">@*android:color/material_deep_teal_500</color>
 	<color name="notification_setting_title_selector">#ff000000</color>
 	<color name="download_save_as_global_dialog_edit_text_color">#ffffffff</color>
-	<color name="tw_infobar_close_button_image">@*android:color/material_deep_teal_500</color>
     <color name="tw_infobar_message_text">#ffffffff</color>
     <color name="tw_infobar_notification_icon_color">@*android:color/material_deep_teal_500</color>
 	<color name="tw_infobar_ripple_color">#28ffffff</color>
@@ -282,7 +281,7 @@
     <color name="download_dangerous_dialog_text_color">#ffafafaf</color>
     <color name="download_save_as_global_dialog_total_size_text_color">#ffafafaf</color>
     <color name="explanation_text_color">#ffafafaf</color>
-    <color name="infobar_close_button_image">#ffafafaf</color>
+    <color name="infobar_close_button_image">@*android:color/material_deep_teal_500</color>
     <color name="otp_autofill_suggestion_text_color">#ffafafaf</color>
     <color name="payments_jump_to_setting_text_color">#ffafafaf</color>
     <color name="quick_menu_help_text_color">#ffafafaf</color>
@@ -338,6 +337,24 @@
     <color name="page_info_popup_text_link">@*android:color/material_deep_teal_500</color>
     <color name="page_info_popup_text_link_focus">#1fffffff</color>
     <color name="page_info_popup_url_emphasis_default_text">#ffffffff</color>
-	<color name="infobar_light_active_color">@*android:color/material_deep_teal_500</color>
+	<color name="google_blue_500">@*android:color/material_deep_teal_500</color>
+    <color name="infobar_light_active_color">@*android:color/material_deep_teal_500</color>
+    <color name="keyboard_accessory_hint_icon">@*android:color/material_deep_teal_500</color>
     <color name="light_active_color">@*android:color/material_deep_teal_500</color>
+	<color name="app_banner_infobar_close_button_image">@*android:color/material_deep_teal_500</color>
+    <color name="tw_infobar_close_button_image">@*android:color/material_deep_teal_500</color>
+    <color name="history_list_summary_color">@*android:color/material_deep_teal_500</color>
+    <color name="homescreen_shortcut_suggestion_infobar_close_button_tint">@*android:color/material_deep_teal_500</color>
+    <color name="instant_apps_infobar_close_button_image">@*android:color/material_deep_teal_500</color>
+    <color name="preference_seekbar_summary_color">@*android:color/material_deep_teal_500</color>
+    <color name="promotion_infobar_close_button_tint">@*android:color/material_deep_teal_500</color>
+	<color name="app_banner_infobar_title_text">#ffffffff</color>
+	<color name="app_banner_infobar_body_text">#ffffffff</color>
+	<color name="instant_apps_infobar_title_text">#ffffffff</color>
+	<color name="instant_apps_infobar_body_text">#ffffffff</color>
+	<color name="app_banner_install_button_bg">#ff000000</color>
+	<color name="promotion_infobar_title_text">#e6ffffff</color>
+	<color name="promotion_infobar_button_text">@*android:color/material_deep_teal_500</color>
+	<color name="infobar_accent_blue">@*android:color/material_deep_teal_500</color>
+    <color name="infobar_accent_color">@*android:color/material_deep_teal_500</color>
 </resources>
