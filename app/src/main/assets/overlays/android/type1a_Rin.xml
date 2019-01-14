@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (BakaSai)
+-->
+<resources>
+
+	<!--Accent Colour-->
+    <color name="material_deep_teal_500">#ffeb6228</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#ffeb6228</color>   <!--OG:#ff607d8b-->
+
+	<!--Volume Panel-->
+    <color name="material_deep_teal_200">#ffeb6228</color>    <!--OG:#ff80cbc4-->
+	
+	<!--Samsung related values-->
+	<color name="tw_color_control_activated">#ffeb6228</color>
+	<color name="tw_seekbar_color_control_activated">#ffeb6228</color>
+	<color name="legacy_control_normal">#80eb6228</color>
+	
+</resources>

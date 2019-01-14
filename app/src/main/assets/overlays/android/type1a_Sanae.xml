@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Author: Sai (InFlames03)
+Author: Sai (BakaSai)
 -->
 <resources>
-    <!--Accent Colour-->
-    <color name="material_deep_teal_500">#ff12dc4e</color>   <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#ff12dc4e</color>   <!--OG:#ff607d8b-->
 
-    <!--Volume Panel-->
-    <color name="material_deep_teal_200">#ff12dc4e</color>    <!--OG:#ff80cbc4-->
+	<!--Accent Colour-->
+    <color name="material_deep_teal_500">#ff11cf4a</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#ff11cf4a</color>   <!--OG:#ff607d8b-->
+
+	<!--Volume Panel-->
+    <color name="material_deep_teal_200">#ff11cf4a</color>    <!--OG:#ff80cbc4-->
 	
 	<!--Samsung related values-->
-	<color name="tw_color_control_activated">#ff12dc4e</color>
-	<color name="tw_seekbar_color_control_activated">#ff12dc4e</color>
-	<color name="legacy_control_normal">#8012dc4e</color>
+	<color name="tw_color_control_activated">#ff11cf4a</color>
+	<color name="tw_seekbar_color_control_activated">#ff11cf4a</color>
+	<color name="legacy_control_normal">#8011cf4a</color>
+	
 </resources>
