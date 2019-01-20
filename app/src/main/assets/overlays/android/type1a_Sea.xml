@@ -5,15 +5,15 @@ Author: Sai (BakaSai)
 <resources>
 
 	<!--Accent Colour-->
-    <color name="material_deep_teal_500">#ff66dea</color>   <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#ff66dea</color>   <!--OG:#ff607d8b-->
+    <color name="material_deep_teal_500">#ff66dea4</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#ff66dea4</color>   <!--OG:#ff607d8b-->
 
 	<!--Volume Panel-->
-    <color name="material_deep_teal_200">#ff66dea</color>    <!--OG:#ff80cbc4-->
+    <color name="material_deep_teal_200">#ff66dea4</color>    <!--OG:#ff80cbc4-->
 	
 	<!--Samsung related values-->
-	<color name="tw_color_control_activated">#ff66dea</color>
-	<color name="tw_seekbar_color_control_activated">#ff66dea</color>
-	<color name="legacy_control_normal">#8066dea</color>
+	<color name="tw_color_control_activated">#ff66dea4</color>
+	<color name="tw_seekbar_color_control_activated">#ff66dea4</color>
+	<color name="legacy_control_normal">#8066dea4</color>
 	
 </resources>
