@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SitesActivityTheme2Base" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:checkboxStyle">@*com.sec.android.app.sbrowser:style/SettingsCheckBoxTheme</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionMenuTextColor">@color/bookmark_theme_color</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="*com.sec.android.app.sbrowser:windowActionModeOverlay">true</item>
+        <item name="*com.sec.android.app.sbrowser:actionOverflowMenuStyle">?*android:actionOverflowMenuStyle</item>
+    </style>
+</resources>

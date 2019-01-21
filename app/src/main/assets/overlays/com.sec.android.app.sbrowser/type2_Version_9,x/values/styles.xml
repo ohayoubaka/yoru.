@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.Material">
+	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.DeviceDefault">
 		<item name="android:windowLightStatusBar">false</item>
 	</style>
-	<style name="SettingsThemeForDialogBase" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
-	<style name="HelpIntroTheme" parent="@*android:style/Theme.Material">
+	<style name="AppThemeThemeBaseDayNight" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar" />
+	<style name="AddBookmarkThemeBase" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser:color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/AddBookmarkActionBarStyle</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/bookmark_theme_color</item>
+    </style>
+	<style name="AddBookmarkThemePrivacyBase" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser:color/show_no_bookmarks_layout_background_color</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/AddBookmarkActionBarStylePrivacy</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/bookmark_action_bar_arrow_color_private</item>
+    </style>
+	<style name="BookmarkTheme2Base" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/BookmarkActionBarStyle</item>
+        <item name="android:actionModeBackground">@*com.sec.android.app.sbrowser:color/bookmark_action_bar_color</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.sbrowser:style/CabModeActionButton</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/bookmark_theme_color</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionModeStyle</item>
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+	<style name="BookmarkThemePrivacyBase" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/BookmarkActionBarStylePrivacy</item>
+        <item name="android:actionModeBackground">@*com.sec.android.app.sbrowser:color/bookmark_action_bar_color_private</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.sbrowser:style/CabModeActionButton</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material_privacy</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/bookmark_action_bar_arrow_color_private</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionModeStyle</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/bookmark_color_primary_dark</item>
+        <item name="android:colorAccent">@*com.sec.android.app.sbrowser:color/bookmark_color_accent_secret</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/bookmark_action_bar_color_private</item>
+    </style>
+	<style name="HelpIntroTheme" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowActionBar">false</item>
@@ -13,27 +55,19 @@
         <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
         <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/toolbar_statusbar_color</item>
     </style>
-	<style name="SBrowserActionModeStyle" parent="@*android:style/Widget.Material.ActionMode">
-        <item name="android:background">@*com.sec.android.app.sbrowser:color/toolbar_bg_color</item>
-        <item name="android:height">56.0dp</item>
-    </style>
 	<style name="RobotoCondensedBold">
-        <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="RobotoCondensedRegular">
-        <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="RobotoMedium">
-        <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="RobotoRegular">
-        <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-	<style name="toolbarSwipeTheme" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="toolbarSwipeTheme" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar" />
 	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textSize">18.5sp</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
@@ -41,5 +75,105 @@
 	<style name="SettingsTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textSize">18.5sp</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
+    </style>
+	<style name="SettingsActionBarStyle" parent="@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle">
+        <item name="android:background">#ff000000</item>
+        <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser:style/SettingsTitleTextStyle</item>
+    </style>
+    <style name="SettingsActionModeStyle" parent="@*android:style/Widget.DeviceDefault.ActionMode">
+        <item name="android:background">#ff000000</item>
+        <item name="android:height">@*com.sec.android.app.sbrowser:dimen/sbrowser_action_bar_height</item>
+    </style>
+	<style name="AboutActionBarStyle" parent="@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle">
+        <item name="android:background">#ff000000</item>
+        <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser:style/SettingsTitleTextStyle</item>
+    </style>
+	<style name="SamsungOneUI400">
+        <item name="android:fontFamily">@*com.sec.android.app.sbrowser:string/samsung_one_ui_400</item>
+    </style>
+    <style name="SamsungOneUI500">
+        <item name="android:fontFamily">@*com.sec.android.app.sbrowser:string/samsung_one_ui_500</item>
+    </style>
+    <style name="SamsungOneUI600">
+        <item name="android:fontFamily">@*com.sec.android.app.sbrowser:string/samsung_one_ui_600</item>
+    </style>
+    <style name="SamsungOneUI700">
+        <item name="android:fontFamily">@*com.sec.android.app.sbrowser:string/samsung_one_ui_600</item>
+    </style>
+	<style name="BasicDialog" parent="@*android:style/Theme.DeviceDefault.Dialog.MinWidth">
+        <item name="android:textAppearance">@*com.sec.android.app.sbrowser:style/BasicDialogContent</item>
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/basic_dialog_content_text_color</item>
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser:drawable/basic_dialog_window_background</item>
+        <item name="android:textColor">@*com.sec.android.app.sbrowser:color/basic_dialog_title_text_color_selector</item>
+        <item name="android:itemBackground">@*com.sec.android.app.sbrowser:drawable/context_menu_item_background_ripple</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:colorAccent">@*com.sec.android.app.sbrowser:color/basic_dialog_action_button_text_color</item>
+        <item name="android:buttonBarPositiveButtonStyle">@*com.sec.android.app.sbrowser:style/BasicDialogActionButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@*com.sec.android.app.sbrowser:style/BasicDialogActionButton</item>
+    </style>
+	<style name="SettingsDialogTheme" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+    </style>
+	<style name="SettingsSpinnerItem" parent="@*android:style/Widget.DeviceDefault.TextView.SpinnerItem" />
+    <style name="SettingsSpinnerItemStyle" parent="@*android:style/Widget.DeviceDefault.TextView.SpinnerItem" />
+	<style name="SettingsOverflowButton" parent="@*android:style/Widget.DeviceDefault.ActionButton.Overflow" />
+    <style name="SettingsRadioButtonTheme" parent="@*android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:textColor">@*com.sec.android.app.sbrowser:drawable/settings_custom_checkbox_color</item>
+        <item name="android:buttonTint">@*com.sec.android.app.sbrowser:drawable/settings_custom_checkbox_color</item>
+    </style>
+    <style name="SettingsSpinnerItem" parent="@*android:style/Widget.DeviceDefault.TextView.SpinnerItem" />
+    <style name="SettingsSpinnerItemStyle" parent="@*android:style/Widget.DeviceDefault.TextView.SpinnerItem" />
+	<style name="SBrowserActionButtonStyle" parent="@*android:style/Widget.DeviceDefault.ActionButton" />
+	<style name="DataSaverThemeBase" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:spinnerItemStyle">@*com.sec.android.app.sbrowser:style/SettingsSpinnerItem</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle</item>
+        <item name="android:actionButtonStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@*com.sec.android.app.sbrowser:style/SettingsOverflowButton</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.sbrowser:style/CabModeActionButton</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/settings_action_menu_text_color</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SBrowserActionModeStyle</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+    </style>
+	<style name="SitesActivityTheme2Base" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="*com.sec.android.app.sbrowser:windowActionModeOverlay">true</item>
+        <item name="*com.sec.android.app.sbrowser:actionOverflowMenuStyle">?*android:actionOverflowMenuStyle</item>
+    </style>
+	<style name="SitesContextmenuStyle" parent="@*android:style/Widget.DeviceDefault.ListPopupWindow" />
+	<style name="SitesThemeSecretModeBase" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:checkboxStyle">@*com.sec.android.app.sbrowser:style/SettingsCheckBoxTheme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@*com.sec.android.app.sbrowser:style/SitesActionBarStyleSecretMode</item>
+        <item name="android:actionModeBackground">@*com.sec.android.app.sbrowser:color/secret_mode_sites_action_bar_color</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.sec.android.app.sbrowser:style/CabModeActionButton</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser:drawable/tw_ic_ab_back_material_privacy</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/secret_mode_sites_action_bar_arrow_color</item>
+        <item name="android:actionModeStyle">@*com.sec.android.app.sbrowser:style/SitesActionModeStyleSecretMode</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="*com.sec.android.app.sbrowser:windowActionModeOverlay">true</item>
+        <item name="*com.sec.android.app.sbrowser:actionOverflowMenuStyle">?*android:actionOverflowMenuStyle</item>
+    </style>
+	<style name="TabSyncActivityThemeBase" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:theme">@*android:style/Theme.DeviceDefault.NoActionBar</item>
+        <item name="android:backgroundDimAmount">@*com.sec.android.app.sbrowser:dimen/winset_dim_bg_dim_amount</item>
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser:color/winset_actionbar_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textColor">@*com.sec.android.app.sbrowser:color/winset_actionbar_text</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="*com.sec.android.app.sbrowser:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/winset_actionbar_text</item>
     </style>
 </resources>

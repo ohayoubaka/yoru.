@@ -406,7 +406,7 @@
     <color name="winset_actionbar_button">@*android:color/material_deep_teal_500</color>
     <color name="winset_actionbar_sub_text">@*android:color/material_deep_teal_500</color>
     <color name="winset_actionbar_text">@*android:color/material_deep_teal_500</color>
-    <color name="winset_default_text">@*android:color/material_deep_teal_500</color>
+    <color name="winset_default_text">#ffffffff</color>
     <color name="winset_description_link">@*android:color/material_deep_teal_500</color>
     <color name="winset_description_text">#afffffff</color>
     <color name="winset_expander">#9cffffff</color>
@@ -490,6 +490,5 @@
     <color name="download_item_url_color">#97ffffff</color>
 	<color name="settings_button_background_color">@*android:color/material_deep_teal_500</color>
 	<color name="settings_about_app_version_text_color">#ffffffff</color>
-	<color name="sites_search_item_txt_url">#99ffffff</color>
-	<color name="setings_preference_title_color">#ffffffff</color>
+	<color name="settings_button_background_color">#ebffffff</color>
 </resources>

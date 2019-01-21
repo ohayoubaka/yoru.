@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AboutActionBarStyle" parent="@*com.sec.android.app.sbrowser:style/SBrowserActionBarStyle">
+        <item name="android:background">#ff000000</item>
+        <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser:style/SettingsTitleTextStyle</item>
+    </style>
+	<style name="SettingsCategoryPreferenceStyle" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:layout">@*com.sec.android.app.sbrowser:layout/settings_category_preference</item>
+    </style>
+	<style name="SitesActivityTheme2Base" parent="@*com.sec.android.app.sbrowser:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@*com.sec.android.app.sbrowser:color/text_color_primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:checkboxStyle">@*com.sec.android.app.sbrowser:style/SettingsCheckBoxTheme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@*com.sec.android.app.sbrowser:style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@*com.sec.android.app.sbrowser:color/sites_activity_menu_color</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="*com.sec.android.app.sbrowser:windowActionModeOverlay">true</item>
+        <item name="*com.sec.android.app.sbrowser:actionOverflowMenuStyle">?*android:actionOverflowMenuStyle</item>
+    </style>
+</resources>
