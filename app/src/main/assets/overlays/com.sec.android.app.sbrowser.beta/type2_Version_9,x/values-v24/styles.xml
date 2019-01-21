@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SitesActionBarMenuTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textColor">@*com.sec.android.app.sbrowser.beta:color/sites_search_icon_tint_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="SitesActivityTheme" parent="@*com.sec.android.app.sbrowser.beta:style/SitesActivityTheme2">
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser.beta:color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:textAppearanceLargePopupMenu">@*com.sec.android.app.sbrowser.beta:style/BasicMoreOptionsListTextAppearance</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/tw_ic_ab_back_material</item>
+        <item name="android:actionMenuTextAppearance">@*com.sec.android.app.sbrowser.beta:style/SitesActionBarMenuTextStyle</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

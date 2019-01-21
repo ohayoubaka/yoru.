@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AddBookmarkTheme" parent="@*com.sec.android.app.sbrowser.beta:style/AddBookmarkThemeBase">
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/add_bookmark_action_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="AddBookmarkThemePrivacy" parent="@*com.sec.android.app.sbrowser.beta:style/AddBookmarkThemePrivacyBase">
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/show_no_bookmarks_layout_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="BookmarkTheme2" parent="@*com.sec.android.app.sbrowser.beta:style/BookmarkTheme2Base">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/tw_ic_ab_back_material</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/toolbar_statusbar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="BookmarkThemePrivacy" parent="@*com.sec.android.app.sbrowser.beta:style/BookmarkThemePrivacyBase">
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/bookmark_color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:colorAccent">@*com.sec.android.app.sbrowser.beta:color/color_accent_secret</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/bookmark_action_bar_color_private</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="SitesActivityTheme2" parent="@*com.sec.android.app.sbrowser.beta:style/SitesActivityTheme2Base">
+        <item name="android:windowBackground">@*com.sec.android.app.sbrowser.beta:color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/tw_ic_ab_back_material</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/sites_color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="SitesThemeSecretMode" parent="@*com.sec.android.app.sbrowser.beta:style/SitesThemeSecretModeBase">
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/secret_mode_sites_action_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="TabSyncActivityTheme" parent="@*com.sec.android.app.sbrowser.beta:style/TabSyncActivityThemeBase">
+        <item name="android:homeAsUpIndicator">@*com.sec.android.app.sbrowser.beta:drawable/basic_navigation_up_button</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/winset_actionbar_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+	<style name="HelpIntroTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser.beta:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser.beta:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser.beta:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser.beta:color/help_intro_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="roboto_condensed_light">sans-serif-light</string>
+    <string name="roboto_condensed_regular">sans-serif</string>
+	<string name="roboto_medium_typeface">sans-serif-medium</string>
+	<string name="roboto_regular">sans-serif</string>
+	<string name="samsung_one_ui_400">sans-serif-light</string>
+    <string name="samsung_one_ui_500">sans-serif</string>
+    <string name="samsung_one_ui_600">sans-serif-medium</string>
+</resources>
