@@ -449,7 +449,7 @@
     <color name="basic_edit_app_bar_button_text_color_enabled">@*android:color/material_deep_teal_500</color>
     <color name="basic_list_selected">#14ffffff</color>
     <color name="basic_main_title_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="basic_more_options_list_text">#ff000000</color>
+    <color name="basic_more_options_list_text">#ffffffff</color>
     <color name="basic_navigation_up_button_color">@*android:color/material_deep_teal_500</color>
     <color name="basic_no_result_found_text">#ccffffff</color>
     <color name="basic_ripple_app_bar_button">#14ffffff</color>
@@ -501,4 +501,14 @@
 	<color name="tab_bar_button_tint_color_secret">#ff000000</color>
 	<color name="appbar_bg_secret">#ff000000</color>
 	<color name="navigation_bar_secret_multi_tab_bg_color">#ff000000</color>
+    <color name="custom_tab_button_showbutton_stroke_color">#4dffffff</color>
+    <color name="custom_tab_close_button_color">@*android:color/material_deep_teal_500</color>
+    <color name="custom_tab_light_mode">#ff000000</color>
+    <color name="custom_tab_primary_color_light_theme">@*android:color/material_deep_teal_500</color>
+    <color name="custom_tab_toolbar_background">#ff000000</color>
+    <color name="custom_tab_toolbar_background_dark">#ff000000</color>
+    <color name="custom_tab_url_text_color">#b3ffffff</color>
+    <color name="custom_tab_url_text_color_dark_theme">#99ffffff</color>
+    <color name="custom_tab_url_text_color_light_theme">#99ffffff</color>
+	<color name="tertiary_text">#ffffffff</color>
 </resources>
