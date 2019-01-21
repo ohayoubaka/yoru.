@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="bg_actionbar_red">#ff000000</color>
-	<color name="content_background">#ff000000</color>
-	<color name="bg_drawer">#ff000000</color>
-	<color name="row_divider">#ff000000</color>
-	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
-    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-	<color name="btn_bg_white">#ff000000</color>
-	<color name="primary_text_default_material_light">#deffffff</color>
-    <color name="secondary_text_default_material_light">#8affffff</color>
 </resources>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="card_view_background_dark">#ff000000</color>
-    <color name="main">#ff000000</color>
-    <color name="main_background_dark">#ff000000</color>
-    <color name="main_dark">#ff000000</color>
-	<color name="main_light">#ff1a73e8</color>
-	<color name="divider">#ff000000</color>
-	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
-    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+    <color name="card_view_background_dark">@*android:color/background_floating_material_dark</color>
+    <color name="main">@*android:color/background_floating_material_dark</color>
+    <color name="main_background_dark">@*android:color/primary_material_dark</color>
+    <color name="main_dark">@*android:color/primary_material_dark</color>
 </resources>

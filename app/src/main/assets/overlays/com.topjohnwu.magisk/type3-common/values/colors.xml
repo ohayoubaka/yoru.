@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">@*android:color/material_deep_teal_500</color>
+    <color name="accentFallback">@*android:color/material_deep_teal_500</color>
+    <color name="green500">@*android:color/material_deep_teal_500</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>   <!--OG:@color/material_grey_900-->
+</resources>

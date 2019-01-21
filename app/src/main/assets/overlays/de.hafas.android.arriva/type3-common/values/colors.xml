@@ -1,34 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="haf_bg_ultra_light">#ff000000</color>
-	<color name="haf_color_SCROLLBG">#ff000000</color>
-    <color name="haf_color_SPLASHBG">#ff000000</color>
-    <color name="haf_color_SPLASHFONT">#ffffffff</color>
-	<color name="haf_divider_light">#ff000000</color>
-	<color name="haf_bg_neutral">#ff000000</color>
-	<color name="haf_bg_light">#ff000000</color>
-	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
-    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-	<color name="haf_text_main">#fffafafa</color>
-	<color name="ar_bus">@*android:color/material_deep_teal_500</color>
-	<color name="haf_prod_bus">@*android:color/material_deep_teal_500</color>
-	<color name="haf_message_text">#ffffffff</color>
-	<color name="haf_divider_main">#ff000000</color>
-	<color name="passenger_feedback_confirm_background">#ff000000</color>
-	<color name="haf_color_HEADERBG">#ff000000</color>
-	<color name="haf_color_IMAGEBG">#ff000000</color>
-	<color name="haf_color_MAPBG">#ff000000</color>
-	<color name="haf_color_TICKERHEADBG">#ff000000</color>
-	<color name="haf_color_TITLEBG">#ff000000</color>
-	<color name="haf_background_window">#ff000000</color>
-	<color name="haf_text_main_hint">#99ffffff</color>
-	<color name="haf_bg_ultra_light_transparent">#cc000000</color>
-	<color name="haf_bg_color">#ff000000</color>
-    <color name="haf_bg_dark">#ff000000</color>
-    <color name="haf_bg_main">#ff000000</color>
-    <color name="haf_bg_medium">#ff000000</color>
-	<color name="haf_bargraph_waiting">#ff000000</color>
-    <color name="haf_perl_replacement">#ff000000</color>
-    <color name="haf_text_strong">#ffffffff</color>
-	<color name="haf_primary_text">#ffffffff</color>
 </resources>

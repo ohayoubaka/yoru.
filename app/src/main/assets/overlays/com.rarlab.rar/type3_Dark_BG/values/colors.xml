@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_action_mode">#ff000000</color>
+    <color name="color_primary">#ff000000</color>
+	<color name="color_primary_dark">#ff000000</color>
+	<color name="material_grey_850">#ff000000</color>
+	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+</resources>

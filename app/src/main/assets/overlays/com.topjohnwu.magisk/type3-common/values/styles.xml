@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Dark" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
+        <item name="*com.topjohnwu.magisk:cardStyle">@*com.topjohnwu.magisk:style/CardViewStyle.Dark</item>
+        <item name="*com.topjohnwu.magisk:colorAccent">@*com.topjohnwu.magisk:color/accent</item>
+        <item name="*com.topjohnwu.magisk:imageColorTint">@*android:color/white</item>
+    </style>
+    <style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:style/CardView">
+        <item name="*com.topjohnwu.magisk:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+</resources>

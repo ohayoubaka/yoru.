@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-		<color name="notification_guts_bg_color">@*android:color/transparent</color>
-        <color name="remote_input_hint">#ff999999</color>
-        <color name="remote_input_text_enabled">@*android:color/legacy_long_pressed_highlight</color>
-</resources>

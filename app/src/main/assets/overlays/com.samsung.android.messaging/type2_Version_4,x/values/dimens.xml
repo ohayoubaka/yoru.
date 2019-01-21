@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="searchview_vertical_divider_height">0.0px</dimen>
-    <dimen name="searchview_vertical_divider_width">0.0px</dimen>
-    <dimen name="actionbar_divider_height">0.0px</dimen>
-    <dimen name="w_persistence_search_height">64.0dip</dimen>
-    <dimen name="searchview_margin_end">8.0dip</dimen>
-</resources>

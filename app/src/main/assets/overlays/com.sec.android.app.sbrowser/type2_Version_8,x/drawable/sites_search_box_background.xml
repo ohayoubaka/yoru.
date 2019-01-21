@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@*com.sec.android.app.sbrowser:color/tabhost_title_color_private_selector_state_selected" />
-    <corners android:radius="@*com.sec.android.app.sbrowser:dimen/sites_search_box_background_radius" />
-    <stroke android:width="0.0px" android:color="@*com.sec.android.app.sbrowser:color/sites_search_box_background_stroke" />
-</shape>

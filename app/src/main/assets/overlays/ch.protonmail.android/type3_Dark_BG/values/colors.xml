@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dark_purple">#ff000000</color>
+    <color name="dark_purple_statusbar">#ff000000</color>
+	<color name="rain_gray">#ffffffff</color>
+	<color name="rain_gray_50">#cfffffff</color>
+	<color name="glacier_blue">#ff000000</color>
+	<color name="read_message_gray">#ff000000</color>
+	<color name="message_divider_gray">#ff000000</color>
+	<color name="design_snackbar_background_color">#ff000000</color>
+	<color name="lead_gray">#ff000000</color>
+	<color name="nav_drawer_divider">#ff000000</color>
+	<color name="nav_drawer_divider_bold">#ff000000</color>
+	<color name="black">#ffffffff</color>
+	<color name="blue">#ff1a73e8</color>
+</resources>
