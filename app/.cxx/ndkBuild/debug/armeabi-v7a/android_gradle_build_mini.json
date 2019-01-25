@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "LoadingProcess-debug-armeabi-v7a": {
+      "artifactName": "LoadingProcess",
+      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libLoadingProcess.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libLoadingProcess.so"
+    }
+  }
+}

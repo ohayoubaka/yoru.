@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "LoadingProcess-debug-x86": {
+      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/debug/obj/local/x86/libLoadingProcess.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "LoadingProcess",
+      "files": [
+        {
+          "src": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\LoadingProcess.c",
+          "flags": "-target i686-none-linux-android28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libLoadingProcess.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

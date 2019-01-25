@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "LoadingProcess-release-x86": {
+      "artifactName": "LoadingProcess",
+      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj/local/x86/libLoadingProcess.so",
+      "abi": "x86",
+      "output": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libLoadingProcess.so"
+    }
+  }
+}
