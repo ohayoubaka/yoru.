@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TextAppearance.StatusBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
+		<item name="android:textSize">@*com.android.systemui:dimen/status_bar_clock_size</item>
+        <item name="android:textColor">@*com.android.systemui:color/status_bar_clock_color</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	<style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+		<item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+		<item name="android:textColor">?*android:textColorPrimary</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+		<item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+		<item name="android:textColor">?*android:textColorPrimary</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+</resources>
