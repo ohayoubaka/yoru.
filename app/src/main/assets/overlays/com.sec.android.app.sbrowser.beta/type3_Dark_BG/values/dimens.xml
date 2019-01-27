@@ -86,7 +86,6 @@
 	<dimen name="recents_tab_view_highlight">2.0px</dimen>
     <dimen name="quick_menu_remove_button_view_radius">8.0dip</dimen>
     <dimen name="sites_search_box_background_radius">8.0dip</dimen>
-    <dimen name="toolbar_textfield_radius">8.0dip</dimen>
     <dimen name="app_rating_button_layout_radius">8.0dip</dimen>
     <dimen name="basic_bottom_bar_button_ripple_radius">8.0dip</dimen>
     <dimen name="basic_corner_radius">8.0dip</dimen>

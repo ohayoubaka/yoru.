@@ -132,7 +132,6 @@
 	<color name="quick_menu_seekbar_background_color_night">#66000000</color>
 	<color name="locationbar_divider_high_contrast_color">#00000000</color>
     <color name="locationbar_divider_night_color">#00000000</color>
-	<color name="toolbar_bg_night_color">#ff000000</color>
 	<color name="bottombar_bg_secret_color">#ff000000</color>
     <color name="tab_manager_bottombar_bg_color_secret">#ff000000</color>
 	<color name="bottombar_icon_high_contrast_color">@*android:color/material_deep_teal_500</color>
@@ -186,7 +185,6 @@
     <color name="bottomsheet_icon_tint">@*android:color/material_deep_teal_500</color>
     <color name="bottomsheet_statusbar_color">#ff000000</color>
     <color name="bottomsheet_title_text">@*android:color/material_deep_teal_500</color>
-	<color name="settings_switch_divider">#00000000</color>
 	<color name="media_history_background">#ff000000</color>
 	<color name="history_item_video_divider_shadow">#00000000</color>
 	<color name="payments_section_separator">#ff000000</color>
@@ -222,7 +220,6 @@
 	<color name="zzzz_webselect_color_primary_dark">@*android:color/material_deep_teal_500</color>
     <color name="zzzz_webselect_color_primary_dark_disabled">@*android:color/legacy_control_normal</color>
 	<color name="zzzz_btn_text_color">#ffffffff</color>
-	<color name="quick_ic_internet_bg">@*android:color/legacy_control_normal</color>
 	<color name="task_edge_small_icon_background_color">@*android:color/legacy_control_normal</color>
 	<color name="bookmark_samsung_account_popup_description_text_color">#ffffffff</color>
     <color name="bookmark_samsung_account_popup_donot_show_again_checkbox_text_color">#fffafafa</color>
@@ -241,7 +238,6 @@
 	<color name="data_saver_all_time_divider_shadow_color">#00000000</color>
 	<color name="select_action_popup_divider_color">#00000000</color>
     <color name="select_bookmarks_folder_view_divider_shadow_color2">#00000000</color>
-	<color name="download_item_title_color">#ffffffff</color>
 	<color name="media_history_text_title_color">#ffffffff</color>
 	<color name="history_group_collapsed">#ffffffff</color>
 	<color name="sbrowser_bookmarks_select_all_bg_color">@*android:color/legacy_control_normal</color>
