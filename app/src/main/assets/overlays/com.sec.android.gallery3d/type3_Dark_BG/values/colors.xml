@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="white_color">#ff000000</color>
+    <color name="white_color">@*android:color/primary_material_dark</color>
 	<color name="actionbar_detailview_navigate_up_color">#ffffffff</color>
     <color name="actionbar_menu_text_disabled">#4affffff</color>
     <color name="channel_notification_tab_layout_card_item_title_text_color">#e6ffffff</color>
@@ -55,20 +55,20 @@
     <color name="colorPrimaryDark">@*android:color/material_deep_teal_500</color>
 	<color name="helppage_actionbar_title_color">@*android:color/material_deep_teal_500</color>
 	<color name="fastoptionview_background_color">#bf000000</color>
-    <color name="gallery360viewer_bubble_picker_color">#ff000000</color>
-    <color name="gallery360viewer_shape_rectangle_solid_color">#ff000000</color>
-    <color name="gallery360viewer_shape_rectangle_stroke_color">#ff000000</color>
-    <color name="listview_item_background_color">#ff000000</color>
-    <color name="material_grey_50">#ff000000</color>
-    <color name="moreinfo_edit_normal_color_blur">#ff000000</color>
-    <color name="search_card_bg_color">#ff000000</color>
-    <color name="splitview_background_color_over_30">#ff000000</color>
-    <color name="splitview_cardtype_outline_stroke_color_over_30">#ff000000</color>
-    <color name="splitview_scrollbar_color">#ff000000</color>
-    <color name="tip_card_card_view_background_color">#ff000000</color>
-    <color name="winset_checkbox_off_tint_color_for_mos">#ff000000</color>
-    <color name="winset_checkbox_on_tint_color_for_mos">#ff000000</color>
-    <color name="zoom_in_out_icon_bg_radius_color">#ff000000</color>
+    <color name="gallery360viewer_bubble_picker_color">@*android:color/primary_material_dark</color>
+    <color name="gallery360viewer_shape_rectangle_solid_color">@*android:color/primary_material_dark</color>
+    <color name="gallery360viewer_shape_rectangle_stroke_color">@*android:color/primary_material_dark</color>
+    <color name="listview_item_background_color">@*android:color/primary_material_dark</color>
+    <color name="material_grey_50">@*android:color/primary_material_dark</color>
+    <color name="moreinfo_edit_normal_color_blur">@*android:color/primary_material_dark</color>
+    <color name="search_card_bg_color">@*android:color/primary_material_dark</color>
+    <color name="splitview_background_color_over_30">@*android:color/primary_material_dark</color>
+    <color name="splitview_cardtype_outline_stroke_color_over_30">@*android:color/primary_material_dark</color>
+    <color name="splitview_scrollbar_color">@*android:color/primary_material_dark</color>
+    <color name="tip_card_card_view_background_color">@*android:color/primary_material_dark</color>
+    <color name="winset_checkbox_off_tint_color_for_mos">@*android:color/primary_material_dark</color>
+    <color name="winset_checkbox_on_tint_color_for_mos">@*android:color/primary_material_dark</color>
+    <color name="zoom_in_out_icon_bg_radius_color">@*android:color/primary_material_dark</color>
 	<color name="autoadjust_icon_tint_color">@*android:color/material_deep_teal_500</color>
 	<color name="detail_view_actionbar_favorite_icon_on_color">@*android:color/material_deep_teal_500</color>
 	<color name="gallery360viewer_view_mode_icon_color_selected">@*android:color/material_deep_teal_500</color>
@@ -78,11 +78,11 @@
     <color name="story_sharing_eos_dialog_lower_text_color">@*android:color/material_deep_teal_500</color>
 	<color name="crop_actionbar_background_color">#bf000000</color>
     <color name="crop_background_dim_color">#66000000</color>
-	<color name="gallery_status_bar_background_color">#ff000000</color>
-	<color name="event_notification_background_color">#ff000000</color>
-    <color name="helppage_tip_box_background_color">#ff000000</color>
-    <color name="tip_card_background_color">#ff000000</color>
-	<color name="comments_item_icon_bg_color">#ff000000</color>
-	<color name="notification_setting_title_selector">#ff000000</color>
+	<color name="gallery_status_bar_background_color">@*android:color/primary_material_dark</color>
+	<color name="event_notification_background_color">@*android:color/primary_material_dark</color>
+    <color name="helppage_tip_box_background_color">@*android:color/primary_material_dark</color>
+    <color name="tip_card_background_color">@*android:color/primary_material_dark</color>
+	<color name="comments_item_icon_bg_color">@*android:color/primary_material_dark</color>
+	<color name="notification_setting_title_selector">@*android:color/primary_material_dark</color>
 	<color name="moreinfo_title_color">#d9ffffff</color>
 </resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="background_card_dark">#ff000000</color>
-	<color name="background_drawer_dark">#ff000000</color>
-	<color name="background_drawer_amoled">#ff000000</color>
-	<color name="background_block_amoled">#ff000000</color>
+	<color name="background_card_dark">@*android:color/primary_material_dark</color>
+	<color name="background_drawer_dark">@*android:color/primary_material_dark</color>
+	<color name="background_drawer_amoled">@*android:color/primary_material_dark</color>
+	<color name="background_block_amoled">@*android:color/primary_material_dark</color>
 	<color name="color_accent_amoled">@*android:color/material_deep_teal_500</color>
-	<color name="color_primary_amoled">#ff000000</color>
+	<color name="color_primary_amoled">@*android:color/primary_material_dark</color>
 </resources>

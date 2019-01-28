@@ -36,7 +36,7 @@
         <item name="*com.adguard.android.contentblocker:windowNoTitle">false</item>
     </style>
 	<style name="AlertDialog" parent="@*android:style/Theme.Material.Dialog.FixedSize">
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/primary_material_dark</item>
         <item name="android:textColor">@*com.adguard.android.contentblocker:color/common_text</item>
         <item name="android:colorControlNormal">#ff4caf50</item>
         <item name="android:colorControlActivated">#ff4caf50</item>

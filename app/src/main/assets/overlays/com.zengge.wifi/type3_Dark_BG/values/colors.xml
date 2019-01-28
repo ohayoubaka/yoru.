@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff000000</color>
-    <color name="colorPrimaryDark">#ff000000</color>
-    <color name="dark_colorPrimary">#ff000000</color>
-    <color name="dark_colorPrimaryDark">#ff000000</color>
-    <color name="light_colorPrimary">#ff000000</color>
-    <color name="light_colorPrimaryDark">#ff000000</color>
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
+    <color name="dark_colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="dark_colorPrimaryDark">@*android:color/primary_material_dark</color>
+    <color name="light_colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="light_colorPrimaryDark">@*android:color/primary_material_dark</color>
 	<color name="LightColor">@*android:color/material_deep_teal_500</color>
     <color name="LightTextColor">@*android:color/material_deep_teal_500</color>
     <color name="colorAccent">@*android:color/material_deep_teal_500</color>
@@ -19,12 +19,12 @@
     <color name="light_colorAccent">@*android:color/material_deep_teal_500</color>
 	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-	<color name="ActivityBackground3">#ff000000</color>
-    <color name="dark_ActivityBackground">#ff000000</color>
-    <color name="light_TitleTextColor">#ff000000</color>
-    <color name="material_grey_850">#ff000000</color>
-	<color name="NavHeaderColor">#ff000000</color>
-	<color name="button_material_dark">#ff000000</color>
-    <color name="button_style_pressed_false">#ff000000</color>
+	<color name="ActivityBackground3">@*android:color/primary_material_dark</color>
+    <color name="dark_ActivityBackground">@*android:color/primary_material_dark</color>
+    <color name="light_TitleTextColor">@*android:color/primary_material_dark</color>
+    <color name="material_grey_850">@*android:color/primary_material_dark</color>
+	<color name="NavHeaderColor">@*android:color/primary_material_dark</color>
+	<color name="button_material_dark">@*android:color/primary_material_dark</color>
+    <color name="button_style_pressed_false">@*android:color/primary_material_dark</color>
     <color name="button_style_pressed_true">@*android:color/legacy_control_normal</color>
 </resources>

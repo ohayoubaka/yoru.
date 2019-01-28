@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="common_statusbar">#ff000000</color>
+	<color name="common_statusbar">@*android:color/primary_material_dark</color>
 </resources>

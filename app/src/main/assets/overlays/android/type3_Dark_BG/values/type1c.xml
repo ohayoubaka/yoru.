@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+	<!--Notification dropdown related values-->
+    <color name="notification_action_list">@*android:color/primary_material_dark</color> <!--OG:#ffeeeeee-->
+    <color name="notification_primary_text_color_light">#ffffffff</color>  <!--OG:@color/primary_text_default_material_light(#de000000)-->
+    <color name="notification_secondary_text_color_light">#ffb2b2b2</color> <!--OG:@color/secondary_text_material_light-->
+	<color name="notification_material_background_color">@*android:color/primary_material_dark</color> <!--OG:#fffafafa-->
+	
 </resources>

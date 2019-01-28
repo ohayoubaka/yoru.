@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!--Settings App-->
-    <color name="background_material_dark">#ff000000</color>    <!--OG:@color/material_grey_850-->
-	
-    <!--Volume Panel-->
-    <color name="primary_material_dark">#ff000000</color>    <!--OG:@color/material_grey_900-->
-	
-    <!--Other-->
-    <color name="background_floating_material_dark">#ff000000</color>   <!--OG:@color/material_grey_800-->
-    <color name="bright_foreground_light_disabled">#81000000</color>   <!--OG:##80000000-->
-    <color name="background_holo_dark">#ff000000</color>
-    <color name="user_icon_8">#ffffffff</color>
-	
 	<!--Samsung related values-->
 	<color name="tw_preference_switch_divider_color_light">#00000000</color>
 	<color name="tw_switch_off_mtrl">#ffb9b9b9</color>
@@ -29,7 +16,7 @@
 	<color name="tw_floating_popup_divider_color">@*android:color/tw_preference_switch_divider_color_light</color>
 	<color name="tw_switch_dim_mtrl">@*android:color/tw_switch_off_mtrl</color>
 	<color name="tw_switch_dim_mtrl_dark">@*android:color/tw_switch_off_mtrl</color>
-	<color name="tw_tab_background_color_dark">#ff000000</color>
+	<color name="tw_tab_background_color_dark">@*android:color/primary_material_dark</color>
 	<color name="sem_indexbar_bg_tint_color">@*android:color/tw_tab_background_color_dark</color>
 	
 	<!--Misc. Samsung related values (accent colours)-->
@@ -103,13 +90,13 @@
     <color name="tw_edit_text_text_color_material_light">@*android:color/material_deep_teal_500</color>
     <color name="tw_text_color_title_material_toolbar_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_text_color_title_material_toolbar">@*android:color/material_deep_teal_500</color>
-	<color name="sem_color_picker_selected_color_group_background_color_dark">#ff000000</color>
-    <color name="sem_picker_dialog_window_background_color_dark">#ff000000</color>
-    <color name="sem_tip_popup_background_color_dark">#ff000000</color>
-    <color name="sem_tooltip_background_dark">#ff000000</color>
-    <color name="tw_dialog_circle_background_color_dark">#ff000000</color>
-    <color name="tw_dialog_window_background_color_material_dark">#ff000000</color>
-    <color name="tw_popup_background_material_dark">#ff000000</color>
+	<color name="sem_color_picker_selected_color_group_background_color_dark">@*android:color/primary_material_dark</color>
+    <color name="sem_picker_dialog_window_background_color_dark">@*android:color/primary_material_dark</color>
+    <color name="sem_tip_popup_background_color_dark">@*android:color/primary_material_dark</color>
+    <color name="sem_tooltip_background_dark">@*android:color/primary_material_dark</color>
+    <color name="tw_dialog_circle_background_color_dark">@*android:color/primary_material_dark</color>
+    <color name="tw_dialog_window_background_color_material_dark">@*android:color/primary_material_dark</color>
+    <color name="tw_popup_background_material_dark">@*android:color/primary_material_dark</color>
 	<color name="sem_color_picker_selected_color_group_background_stroke_color">#00000000</color>
     <color name="sem_color_picker_selected_color_group_background_stroke_color_dark">#00000000</color>
     <color name="sem_color_picker_stroke_color">#00000000</color>
@@ -130,9 +117,9 @@
     <color name="tw_searchview_search_icon_color_material_dark">@*android:color/material_deep_teal_500</color>
 	<color name="tw_searchview_voice_icon_color_material">#00000000</color>
 	<color name="tw_searchview_textfiled_stroke_material">#00000000</color>
-    <color name="tw_searchview_textfiled_stroke_material_dark">#ff000000</color>
-	<color name="sem_resolver_bg_color">#ff000000</color>
-    <color name="sem_resolver_bg_color_dark">#ff000000</color>
+    <color name="tw_searchview_textfiled_stroke_material_dark">@*android:color/primary_material_dark</color>
+	<color name="sem_resolver_bg_color">@*android:color/primary_material_dark</color>
+    <color name="sem_resolver_bg_color_dark">@*android:color/primary_material_dark</color>
 	<color name="sem_resolver_bottompanel_button_show_background_color_material_light">@*android:color/legacy_control_normal</color>
     <color name="sem_resolver_bottompanel_button_show_background_stroke_color_material_light">@*android:color/legacy_control_normal</color>
     <color name="sem_resolver_item_sub_text_color">#ff737373</color>
@@ -152,7 +139,7 @@
 	<color name="tw_primary_text_material_dark">#ffffffff</color>
 	<color name="tw_dialog_main_text_color_material_light">#ffffffff</color>
 	<color name="tw_switch_track_on_mtrl">@*android:color/legacy_control_normal</color>
-	<color name="sem_app_bar_bg_color">#ff000000</color>
-	<color name="tw_tab_background_color">#ff000000</color>
+	<color name="sem_app_bar_bg_color">@*android:color/primary_material_dark</color>
+	<color name="tw_tab_background_color">@*android:color/primary_material_dark</color>
 	<color name="tw_searchview_textfiled_normal_material_dark">#10ffffff</color>
 </resources>

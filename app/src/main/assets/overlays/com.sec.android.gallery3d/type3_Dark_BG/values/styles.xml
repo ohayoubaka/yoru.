@@ -9,7 +9,7 @@
     </style>
     <style name="Theme.ICS_White" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:textColorSecondary">@*com.sec.android.gallery3d:color/text_foreground_light</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.sec.android.gallery3d:clearableEditBackground">@*com.sec.android.gallery3d:drawable/efsdk_tw_searchfiled_background_holo_dark</item>
         <item name="*com.sec.android.gallery3d:ListItemTextAppearance">@*com.sec.android.gallery3d:style/TextAppearance.ListItem.White</item>

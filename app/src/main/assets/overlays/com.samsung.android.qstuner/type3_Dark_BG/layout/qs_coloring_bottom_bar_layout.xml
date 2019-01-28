@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
+<LinearLayout android:orientation="vertical" android:background="@*android:color/primary_material_dark" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <View android:background="@*android:color/primary_material_dark" android:layout_width="fill_parent" android:layout_height="2.0px" />
     <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
         <TextView android:id="@*com.samsung.android.qstuner:id/settings_button" android:background="@*com.samsung.android.qstuner:drawable/qs_coloring_btn_ripple" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@*com.samsung.android.qstuner:string/qspanel_coloring_edit_button" android:layout_weight="1.0" style="@*com.samsung.android.qstuner:style/QSColoringBottomBarButton" />
         <TextView android:id="@*com.samsung.android.qstuner:id/apply" android:background="@*com.samsung.android.qstuner:drawable/qs_coloring_btn_ripple" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@*com.samsung.android.qstuner:string/qspanel_coloring_apply_button" android:layout_weight="1.0" style="@*com.samsung.android.qstuner:style/QSColoringBottomBarButton" />

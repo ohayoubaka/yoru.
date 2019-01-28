@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<style name="AboutActionBarStyle" parent="@*com.sec.android.app.sbrowser.beta:style/SBrowserActionBarStyle">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/primary_material_dark</item>
         <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser.beta:style/SettingsTitleTextStyle</item>
     </style>
 	<style name="SettingsCategoryPreferenceStyle" parent="@*android:style/Theme.DeviceDefault">

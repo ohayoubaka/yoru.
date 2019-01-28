@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="status_bar_color">#ff000000</color>
+    <color name="status_bar_color">@*android:color/primary_material_dark</color>
     <color name="title_text_color">@*android:color/material_deep_teal_500</color>
     <color name="divider_color">#00000000</color>
     <color name="divider_vertical_color">#00000000</color>
-    <color name="white">#ff000000</color>
+    <color name="white">@*android:color/primary_material_dark</color>
     <color name="ripple_color_theme">#5effffff</color>
     <color name="ripple_color_master_switch">#1fffffff</color>
     <color name="open_theme_list_divider_color">#00000000</color>

@@ -9,11 +9,11 @@
         <item name="android:colorControlActivated">@*com.samsung.android.qstuner:color/qsc_color_primary</item>
     </style>
 	<style name="Theme.SlimIndicatorActivity" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="systemui_theme_light" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.samsung.android.qstuner:colorControlActivated">@*com.samsung.android.qstuner:color/qsc_color_primary</item>
     </style>

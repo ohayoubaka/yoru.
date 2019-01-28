@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (BakaSai)
+-->
+<resources>
+    <!--Settings App-->
+    <color name="background_material_dark">#081818</color>    <!--OG:@color/material_grey_850-->
+
+    <!--Volume Panel-->
+    <color name="primary_material_dark">#081818</color>    <!--OG:@color/material_grey_900-->
+
+    <!--Other-->
+    <color name="background_floating_material_dark">#0B2020</color>   <!--OG:@color/material_grey_800-->
+    <color name="bright_foreground_light_disabled">#810B2020</color>   <!--OG:##80000000-->
+    <color name="background_holo_dark">#081818</color>   <!--OG:@*android:color/primary_material_dark-->
+    <color name="user_icon_8">#FFFFFF</color>
+</resources>

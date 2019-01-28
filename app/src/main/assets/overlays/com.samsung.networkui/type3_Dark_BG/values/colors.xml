@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="status_bar_color">#ff000000</color>
-    <color name="status_bar_color_mobile_network">#ff000000</color>
+    <color name="status_bar_color">@*android:color/primary_material_dark</color>
+    <color name="status_bar_color_mobile_network">@*android:color/primary_material_dark</color>
 </resources>

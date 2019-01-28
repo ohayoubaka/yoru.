@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff000000</color>
-    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
 	<color name="common_text">#ffffffff</color>
 	<color name="colorAccent">#ff4caf50</color>
-	<color name="material_grey_50">#ff000000</color>
-	<color name="background_common">#ff000000</color>
-    <color name="cardview_light_background">#ff000000</color>
+	<color name="material_grey_50">@*android:color/primary_material_dark</color>
+	<color name="background_common">@*android:color/primary_material_dark</color>
+    <color name="cardview_light_background">@*android:color/primary_material_dark</color>
 	<color name="material_grey_900">#ffffffff</color>
 	<color name="primaryText">#ffffffff</color>
 	<color name="secondaryText">#75ffffff</color>

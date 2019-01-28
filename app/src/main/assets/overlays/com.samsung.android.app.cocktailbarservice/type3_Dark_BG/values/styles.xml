@@ -3,7 +3,7 @@
     <style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowDisablePreview">true</item>
         <item name="android:actionBarStyle">@*com.samsung.android.app.cocktailbarservice:style/AppActionBar</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="SubAppBarText">

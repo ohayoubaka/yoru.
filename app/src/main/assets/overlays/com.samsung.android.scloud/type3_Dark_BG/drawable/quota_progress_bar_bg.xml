@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="oval">
-            <solid android:color="#ff000000" />
+            <solid android:color="@*android:color/primary_material_dark" />
             <size android:height="@*com.samsung.android.scloud:dimen/usage_bar_graph_size" android:width="@*com.samsung.android.scloud:dimen/usage_bar_graph_size" />
         </shape>
     </item>

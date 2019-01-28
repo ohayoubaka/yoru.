@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="statusBarColor">#ff000000</color>
+	<color name="statusBarColor">@*android:color/primary_material_dark</color>
 	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
     <color name="colorPrimary">@*android:color/material_deep_teal_500</color>
     <color name="colorPrimaryDark">@*android:color/material_deep_teal_500</color>
@@ -8,19 +8,19 @@
 	<color name="default_text_color">#ffffffff</color>
     <color name="eq_button_exit_ripple">#ffffffff</color>
     <color name="settings_text_color">#ffffffff</color>
-	<color name="activity_background">#ff000000</color>
-    <color name="material_grey_50">#ff000000</color>
-    <color name="round_bg">#ff000000</color>
-	<color name="settings_item_background">#ff000000</color>
-	<color name="settings_item_switch_background">#ff000000</color>
+	<color name="activity_background">@*android:color/primary_material_dark</color>
+    <color name="material_grey_50">@*android:color/primary_material_dark</color>
+    <color name="round_bg">@*android:color/primary_material_dark</color>
+	<color name="settings_item_background">@*android:color/primary_material_dark</color>
+	<color name="settings_item_switch_background">@*android:color/primary_material_dark</color>
 	<color name="divider_color">#00000000</color>
     <color name="scenario_divider_bg">#00000000</color>
-	<color name="background">#ff000000</color>
+	<color name="background">@*android:color/primary_material_dark</color>
 	<color name="dialog_header">@*android:color/material_deep_teal_500</color>
 	<color name="scenario_1">@*android:color/material_deep_teal_500</color>
     <color name="scenario_2">@*android:color/material_deep_teal_500</color>
     <color name="scenario_3">@*android:color/material_deep_teal_500</color>
 	<color name="knob_btn_shape_big_oval_color">@*android:color/material_deep_teal_500</color>
     <color name="knob_btn_shape_small_oval_color">@*android:color/material_deep_teal_500</color>
-	<color name="cardview_light_background">#ff000000</color>
+	<color name="cardview_light_background">@*android:color/primary_material_dark</color>
 </resources>

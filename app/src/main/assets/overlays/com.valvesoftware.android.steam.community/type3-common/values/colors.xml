@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="title_background">#ff000000</color>
-	<color name="secondary_background">#ff000000</color>
-    <color name="secondary_background_transparent">#ff000000</color>
+    <color name="title_background">@*android:color/primary_material_dark</color>
+	<color name="secondary_background">@*android:color/primary_material_dark</color>
+    <color name="secondary_background_transparent">@*android:color/primary_material_dark</color>
 	<color name="secondary_foreground">@*android:color/material_deep_teal_500</color>
-	<color name="primary_background">#ff000000</color>
+	<color name="primary_background">@*android:color/primary_material_dark</color>
 	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
 	<color name="teal">@*android:color/material_deep_teal_500</color>
-	<color name="primary_foreground_dim">#ff000000</color>
-	<color name="settings_background">#ff000000</color>
-	<color name="twofactorcode_thermometer_background">#ff000000</color>
+	<color name="primary_foreground_dim">@*android:color/primary_material_dark</color>
+	<color name="settings_background">@*android:color/primary_material_dark</color>
+	<color name="twofactorcode_thermometer_background">@*android:color/primary_material_dark</color>
 	<color name="twofactorcode_account_name">@*android:color/material_deep_teal_500</color>
 	<color name="twofactorcode_thermometer_normal">@*android:color/material_deep_teal_500</color>
-	<color name="chat_text_entry_area_background">#ff000000</color>
-	<color name="chat_edittext_background">#ff000000</color>
+	<color name="chat_text_entry_area_background">@*android:color/primary_material_dark</color>
+	<color name="chat_edittext_background">@*android:color/primary_material_dark</color>
 	<color name="button_material_light">@*android:color/material_deep_teal_500</color>
 	<color name="button_material_dark">@*android:color/material_deep_teal_500</color>
 </resources>

@@ -5,7 +5,7 @@
         <item name="android:colorControlActivated">@*com.samsung.android.calendar:color/color_control_activated</item>
         <item name="android:colorPrimary">@*com.samsung.android.calendar:color/primary</item>
         <item name="android:colorPrimaryDark">@*com.samsung.android.calendar:color/primary_dark</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:timePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>
         <item name="android:toolbarStyle">@*com.samsung.android.calendar:style/AppToolBar</item>
         <item name="android:datePickerDialogTheme">@*com.samsung.android.calendar:style/CalendarTheme.Dialog</item>

@@ -2,5 +2,5 @@
 <shape android:shape="rectangle"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:radius="@*com.samsung.android.pluginrecents:dimen/task_view_rounded_corners_radius" />
-    <gradient android:startColor="#ff000000" android:endColor="#ff000000" android:angle="0.0" android:centerColor="#ff000000" />
+    <gradient android:startColor="@*android:color/primary_material_dark" android:endColor="@*android:color/primary_material_dark" android:angle="0.0" android:centerColor="@*android:color/primary_material_dark" />
 </shape>

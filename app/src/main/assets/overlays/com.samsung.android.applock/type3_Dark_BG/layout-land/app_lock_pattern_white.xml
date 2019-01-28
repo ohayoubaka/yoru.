@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@*com.samsung.android.applock:id/whole_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@*com.samsung.android.applock:id/whole_layout" android:background="@*android:color/primary_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@*com.samsung.android.applock:id/content_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="@*com.samsung.android.applock:dimen/landscape_content_layout_height_pattern">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@*com.samsung.android.applock:id/content_layout" android:background="@*android:color/primary_material_dark" android:layout_width="fill_parent" android:layout_height="@*com.samsung.android.applock:dimen/landscape_content_layout_height_pattern">
         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
             <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
                 <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@*com.samsung.android.applock:id/app_infor" android:layout_width="wrap_content" android:layout_height="wrap_content">
@@ -14,7 +14,7 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-        <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@*com.samsung.android.applock:id/pattern_layout" android:background="#ff000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:elevation="12.0dip">
+        <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@*com.samsung.android.applock:id/pattern_layout" android:background="@*android:color/primary_material_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:elevation="12.0dip">
             <com.android.internal.widget.LockPatternView android:id="@*com.samsung.android.applock:id/secretPattern" android:focusable="true" android:layout_width="222.0dip" android:layout_height="220.0dip" android:layout_centerVertical="true" android:layout_marginStart="54.0dip" android:layout_marginEnd="42.0dip" android:layout_alignParentEnd="true" />
             <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@*com.samsung.android.applock:layout/app_lock_emergency_button" />
         </RelativeLayout>

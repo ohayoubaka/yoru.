@@ -25,9 +25,9 @@
     <color name="seekbar_progress_bg">#ffe3e0e0</color>
     <color name="seekbar_progress_primary">#ff56c0e5</color>
     <color name="seekbar_progress_secondary">#ff56c0e5</color>
-    <color name="soundalive_bg">#ff000000</color>
+    <color name="soundalive_bg">@*android:color/primary_material_dark</color>
     <color name="soundalive_system_bg">#33000000</color>
-    <color name="ssw_seekbar_bg_color">#ff000000</color>
+    <color name="ssw_seekbar_bg_color">@*android:color/primary_material_dark</color>
     <color name="tw_progress_color_control_activated">@*android:color/material_deep_teal_500</color>
     <color name="tw_progress_color_control_normal">#ffc9c9c9</color>
     <color name="tw_progress_color_control_secondary">@*android:color/tw_seekbar_color_control_activated</color>

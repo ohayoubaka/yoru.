@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (BakaSai)
+-->
+<resources>
+    <!--Settings App-->
+    <color name="background_material_dark">#81000000</color>    <!--OG:@color/material_grey_850-->
+
+    <!--Volume Panel-->
+    <color name="primary_material_dark">#81000000</color>    <!--OG:@color/material_grey_900-->
+
+    <!--Other-->
+    <color name="background_floating_material_dark">#81000000</color>   <!--OG:@color/material_grey_800-->
+    <color name="bright_foreground_light_disabled">#81000000</color>   <!--OG:##80000000-->
+    <color name="background_holo_dark">#81000000</color>   <!--OG:@*android:color/primary_material_dark-->
+    <color name="user_icon_8">#FFFFFF</color>
+
+    <!--Settings App-->
+    <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
+        <!--Experimental: Translucency-->
+        <item name="android:windowShowWallpaper">true</item>   <!--Nukes navbar fade-out on Android 8.1: No fixes-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>

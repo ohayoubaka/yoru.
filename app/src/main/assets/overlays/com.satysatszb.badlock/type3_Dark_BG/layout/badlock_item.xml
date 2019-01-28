@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:cardBackgroundColor="#ff000000" app:cardCornerRadius="4.0dip"
+<android.support.v7.widget.CardView android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:cardBackgroundColor="@*android:color/primary_material_dark" app:cardCornerRadius="4.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.satysatszb.badlock">
     <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <ImageView android:id="@*com.satysatszb.badlock:id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:src="@*com.satysatszb.badlock:mipmap/ic_launcher" android:adjustViewBounds="true" />

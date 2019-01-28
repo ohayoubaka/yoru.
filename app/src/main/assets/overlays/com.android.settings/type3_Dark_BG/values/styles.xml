@@ -2,7 +2,7 @@
 <resources>
 	<style name="AppBaseTheme" parent="@*android:style/Theme.Material" />
 	<style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault">
-		<item name="android:statusBarColor">#ff000000</item>
+		<item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.ActionBar" parent="@*android:style/Widget.DeviceDefault.ActionBar">
@@ -10,14 +10,14 @@
         <item name="android:contentInsetStart">@*com.android.settings:dimen/actionbar_contentInsetStart</item>
     </style>
 	<style name="Theme.NoActionBar" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.NoActionBar.RestrictedProfile" parent="@*com.android.settings:style/Theme.Settings">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Theme.ScreenModeActionBar" parent="@*com.android.settings:style/Theme.ActionBar">
@@ -27,30 +27,30 @@
         <item name="android:contentInsetStart">0.0dip</item>
     </style>
 	<style name="BiometricsLockSetupStyle" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.ApnSettings" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.android.settings:preferenceTheme">@*com.android.settings:style/PreferenceTheme</item>
     </style>
 	<style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.Settings">
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/primary_material_dark</item>
         <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
         <item name="android:statusBarColor">@*com.android.settings:color/status_bar_color</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="*com.android.settings:preferenceBackgroundColor">#ff000000</item>
+        <item name="*com.android.settings:preferenceBackgroundColor">@*android:color/primary_material_dark</item>
     </style>
 	<style name="Theme.Settings.VzwSetupWizardWifi" parent="@*com.android.settings:style/Theme.Settings">
         <item name="android:windowDisablePreview">true</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.android.settings:wifi_signal">@*com.android.settings:drawable/vzw_wifi_signal</item>
     </style>
 	<style name="Theme.Translucent.NoTitleBar.LightStatusBar" parent="@*android:style/Theme.Translucent.NoTitleBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme_Bixby" parent="@*android:style/Theme.DeviceDefault.NoActionBar">

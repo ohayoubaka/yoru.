@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="setting_clock_pack_edit_app_bar_bg">#ff000000</color>
+    <color name="setting_clock_pack_edit_app_bar_bg">@*android:color/primary_material_dark</color>
 	<color name="setting_clock_pack_edit_app_bar_text_color">@*android:color/material_deep_teal_500</color>
     <color name="settings_custom_tip_card_text_color">@*android:color/material_deep_teal_500</color>
     <color name="text_selected_color">@*android:color/material_deep_teal_500</color>
@@ -12,12 +12,12 @@
     <color name="sub_app_bar_divider_tint">#00000000</color>
 	<color name="theme_24_A">@*android:color/material_deep_teal_500</color>
 	<color name="settings_guide_description_summary">#ffffffff</color>
-	<color name="add_tip_settings_bg_color">#ff000000</color>
-	<color name="time_setting_background_color">#ff000000</color>
+	<color name="add_tip_settings_bg_color">@*android:color/primary_material_dark</color>
+	<color name="time_setting_background_color">@*android:color/primary_material_dark</color>
 	<color name="setting_clock_pack_menu_item_default">#b3ffffff</color>
     <color name="update_button_text_color">#ffffffff</color>
     <color name="version_color">#80ffffff</color>
-	<color name="setting_clock_pack_tab_background">#ff000000</color>
+	<color name="setting_clock_pack_tab_background">@*android:color/primary_material_dark</color>
 	<color name="setting_clock_pack_menu_item_background">#d9000000</color>
     <color name="setting_clock_pack_menu_item_selected">@*android:color/material_deep_teal_500</color>
 	<color name="setting_clock_pack_tab_bar">#d9000000</color>

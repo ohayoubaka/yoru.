@@ -2,7 +2,7 @@
 <resources>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="action_bar_shadow">#bf000000</color>
-    <color name="actionbar_separator_bar_color">#ff000000</color>
+    <color name="actionbar_separator_bar_color">@*android:color/primary_material_dark</color>
     <color name="actionbar_title_color_normal">@*android:color/material_deep_teal_500</color>
     <color name="black">#ffffffff</color>
     <color name="body_text_color">#ffffffff</color>
@@ -18,7 +18,7 @@
     <color name="secondary_text_default_material_light">#8affffff</color>
     <color name="sub_app_bar_divider_color">#00000000</color>
     <color name="sub_app_bar_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="tw_ab_bottom_transparent_mtrl">#ff000000</color>
-    <color name="tw_sub_action_bar_bg_mtrl">#ff000000</color>
-    <color name="white">#ff000000</color>
+    <color name="tw_ab_bottom_transparent_mtrl">@*android:color/primary_material_dark</color>
+    <color name="tw_sub_action_bar_bg_mtrl">@*android:color/primary_material_dark</color>
+    <color name="white">@*android:color/primary_material_dark</color>
 </resources>

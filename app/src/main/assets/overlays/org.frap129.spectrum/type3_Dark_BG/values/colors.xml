@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryDark">#ff000000</color>
-	<color name="colorPrimary">#ff000000</color>
-	<color name="splash_background">#ff000000</color>
-	<color name="background_material_dark">#ff000000</color>
-	<color name="background_floating_material_dark">#ff000000</color>
-	<color name="cardview_dark_background">#ff000000</color>
-	<color name="design_snackbar_background_color">#ff000000</color>
+    <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
+	<color name="colorPrimary">@*android:color/primary_material_dark</color>
+	<color name="splash_background">@*android:color/primary_material_dark</color>
+	<color name="background_material_dark">@*android:color/primary_material_dark</color>
+	<color name="background_floating_material_dark">@*android:color/primary_material_dark</color>
+	<color name="cardview_dark_background">@*android:color/primary_material_dark</color>
+	<color name="design_snackbar_background_color">@*android:color/primary_material_dark</color>
 </resources>

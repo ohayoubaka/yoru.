@@ -77,15 +77,15 @@
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
     </style>
 	<style name="SettingsActionBarStyle" parent="@*com.sec.android.app.sbrowser.beta:style/SBrowserActionBarStyle">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/primary_material_dark</item>
         <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser.beta:style/SettingsTitleTextStyle</item>
     </style>
     <style name="SettingsActionModeStyle" parent="@*android:style/Widget.DeviceDefault.ActionMode">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/primary_material_dark</item>
         <item name="android:height">@*com.sec.android.app.sbrowser.beta:dimen/sbrowser_action_bar_height</item>
     </style>
 	<style name="AboutActionBarStyle" parent="@*com.sec.android.app.sbrowser.beta:style/SBrowserActionBarStyle">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/primary_material_dark</item>
         <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser.beta:style/SettingsTitleTextStyle</item>
     </style>
 	<style name="SamsungOneUI400">

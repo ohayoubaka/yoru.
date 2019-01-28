@@ -2,8 +2,8 @@
 <resources>
 	<style name="Chan.Theme.Dark" parent="@*org.floens.chan:style/Theme.AppCompat.NoActionBar">
         <item name="android:textColor">#ffffffff</item>
-        <item name="*org.floens.chan:backcolor">#ff000000</item>
-        <item name="*org.floens.chan:backcolor_secondary">#ff000000</item>
+        <item name="*org.floens.chan:backcolor">@*android:color/primary_material_dark</item>
+        <item name="*org.floens.chan:backcolor_secondary">@*android:color/primary_material_dark</item>
         <item name="*org.floens.chan:divider_color">#00000000</item>
         <item name="*org.floens.chan:divider_split_color">#00000000</item>
         <item name="*org.floens.chan:dropdown_dark_color">#ffffffff</item>
@@ -14,7 +14,7 @@
         <item name="*org.floens.chan:post_id_background_light">#00000000</item>
         <item name="*org.floens.chan:post_link_color">@*android:color/material_deep_teal_500</item>
         <item name="*org.floens.chan:post_saved_reply_color">#ff5c5c5c</item>
-        <item name="*org.floens.chan:post_spoiler_color">#ff000000</item>
+        <item name="*org.floens.chan:post_spoiler_color">@*android:color/primary_material_dark</item>
         <item name="*org.floens.chan:post_subject_color">@*android:color/material_deep_teal_500</item>
         <item name="*org.floens.chan:setting_description_bottom">@*org.floens.chan:drawable/setting_description_bottom_dark</item>
         <item name="*org.floens.chan:setting_description_top">@*org.floens.chan:drawable/setting_description_top_dark</item>
@@ -23,8 +23,8 @@
         <item name="*org.floens.chan:text_color_secondary">#b2ffffff</item>
     </style>
 	<style name="Chan.Theme.Black" parent="@*org.floens.chan:style/Chan.Theme.Dark">
-        <item name="*org.floens.chan:backcolor">#ff000000</item>
-        <item name="*org.floens.chan:backcolor_secondary">#ff000000</item>
+        <item name="*org.floens.chan:backcolor">@*android:color/primary_material_dark</item>
+        <item name="*org.floens.chan:backcolor_secondary">@*android:color/primary_material_dark</item>
         <item name="*org.floens.chan:post_spoiler_color">#ff2c2c2c</item>
     </style>
 </resources>

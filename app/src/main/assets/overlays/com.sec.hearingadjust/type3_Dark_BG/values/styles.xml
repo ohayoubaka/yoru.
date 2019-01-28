@@ -6,7 +6,7 @@
     </style>
     <style name="DeviceTheme" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:actionBarStyle">@*com.sec.hearingadjust:style/ActionBarStyle</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Listview_divider">

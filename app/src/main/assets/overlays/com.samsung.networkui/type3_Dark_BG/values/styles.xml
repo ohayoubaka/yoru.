@@ -17,7 +17,7 @@
         <item name="android:windowDisablePreview">false</item>
         <item name="android:windowCloseOnTouchOutside">false</item>
         <item name="android:colorAccent">@*com.samsung.networkui:color/dialer_theme_color</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 	<style name="Theme.Settings_MobileNetwork" parent="@*android:style/Theme.DeviceDefault">
