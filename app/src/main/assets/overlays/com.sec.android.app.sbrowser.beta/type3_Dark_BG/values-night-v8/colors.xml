@@ -9,11 +9,11 @@
     <color name="locationbar_divider_color">#00000000</color>
     <color name="toolbar_url_hint_text_color">@*android:color/material_deep_teal_500</color>
     <color name="toolbar_url_text_color">@*android:color/material_deep_teal_500</color>
-    <color name="toolbar_bg_color">@*android:color/primary_material_dark</color>
-	<color name="toolbar_bg_night_color">@*android:color/primary_material_dark</color>
-    <color name="toolbar_bg_reader_black_color">@*android:color/primary_material_dark</color>
-    <color name="toolbar_bg_reader_sepia_color">#ffebdfd1</color>
-	<color name="toolbar_bg_secret_color">#ff636363</color>
+    <color name="toolbar_bg_color">@*android:color/background_floating_material_dark</color>
+	<color name="toolbar_bg_night_color">@*android:color/background_floating_material_dark</color>
+    <color name="toolbar_bg_reader_black_color">@*android:color/background_floating_material_dark</color>
+    <color name="toolbar_bg_reader_sepia_color">@*android:color/background_floating_material_dark</color>
+	<color name="toolbar_bg_secret_color">@*android:color/background_floating_material_dark</color>
     <color name="toolbar_statusbar_color">@*android:color/primary_material_dark</color>
     <color name="toolbar_statusbar_color_dark">@*android:color/primary_material_dark</color>
 	<color name="toolbar_statusbar_reader_black_color">@*android:color/primary_material_dark</color>
@@ -49,7 +49,7 @@
     <color name="tab_manager_actionbar_menu_text_color">@*android:color/material_deep_teal_500</color>
     <color name="tab_manager_actionbar_title_text_color">@*android:color/material_deep_teal_500</color>
     <color name="tab_manager_bottom_divider">#00000000</color>
-    <color name="tab_manager_bottombar_bg_color">@*android:color/primary_material_dark</color>
+    <color name="tab_manager_bottombar_bg_color">@*android:color/background_floating_material_dark</color>
     <color name="tab_manager_bottombar_text_color">#80ffffff</color>
     <color name="toolbar_option_menu_list_text_color">@*android:color/material_deep_teal_500</color>
     <color name="no_result_bg_color">#cc000000</color>
@@ -132,7 +132,7 @@
 	<color name="quick_menu_seekbar_background_color_night">#66000000</color>
 	<color name="locationbar_divider_high_contrast_color">#00000000</color>
     <color name="locationbar_divider_night_color">#00000000</color>
-	<color name="bottombar_bg_secret_color">@*android:color/primary_material_dark</color>
+	<color name="bottombar_bg_secret_color">@*android:color/background_floating_material_dark</color>
     <color name="tab_manager_bottombar_bg_color_secret">@*android:color/primary_material_dark</color>
 	<color name="bottombar_icon_high_contrast_color">@*android:color/material_deep_teal_500</color>
     <color name="bottombar_icon_night_color">@*android:color/material_deep_teal_500</color>
@@ -508,4 +508,6 @@
     <color name="custom_tab_url_text_color_dark_theme">#99ffffff</color>
     <color name="custom_tab_url_text_color_light_theme">#99ffffff</color>
 	<color name="tertiary_text">#ffffffff</color>
+	<color name="color_black">@*android:color/primary_material_dark</color>
+	<color name="tip_card_color">@*android:color/material_deep_teal_500</color>
 </resources>
