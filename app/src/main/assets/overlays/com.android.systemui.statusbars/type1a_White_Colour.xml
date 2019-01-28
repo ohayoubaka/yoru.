@@ -12,4 +12,5 @@
     <color name="status_bar_battery_level_background_light_color">#4dffffff</color>
 	<color name="status_bar_battery_frame_dark_color">#e6000000</color>
 	<color name="status_bar_date_clock_color">#ffffffff</color>
+	<color name="qs_detail_header_text_color">#ffffffff</color>
 </resources>

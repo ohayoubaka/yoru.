@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@*com.android.systemui:id/quick_status_bar_system_icons" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@*com.android.systemui:dimen/status_bar_height" android:paddingStart="@*com.android.systemui:dimen/status_bar_padding_start" android:paddingEnd="@*com.android.systemui:dimen/status_bar_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/com.android.systemui">
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@*com.android.systemui:id/quick_status_bar_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.policy.NetspeedView android:textStyle="bold" android:gravity="center" android:id="@*com.android.systemui:id/networkSpeed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@*com.android.systemui:dimen/netspeed_line_space_extra" android:importantForAccessibility="no" android:fontFamily="roboto-regular" android:layout_marginEnd="@*com.android.systemui:dimen/battery_level_padding_start" />
+        <com.android.systemui.statusbar.phone.StatusIconContainer android:id="@*com.android.systemui:id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="3.0dip" />
+        <com.android.systemui.BatteryMeterView android:gravity="end|center" android:id="@*com.android.systemui:id/battery" android:tag="qs_status_bar_battery" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="3.5dip" />
+    </LinearLayout>
+</LinearLayout>
