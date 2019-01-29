@@ -1,23 +1,23 @@
 {
   "buildFiles": [
-    "C:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\src\\main\\jni\\Android.mk"
+    "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk"
   ],
   "cleanCommands": [
-    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dC:/Users/ohayoubaka/Desktop/Android/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
   ],
   "libraries": {
     "LoadingProcess-release-armeabi-v7a": {
-      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dC:/Users/ohayoubaka/Desktop/Android/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/ohayoubaka/Desktop/Android/yoru/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libLoadingProcess.so",
+      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libLoadingProcess.so",
       "toolchain": "toolchain-armeabi-v7a",
       "abi": "armeabi-v7a",
       "artifactName": "LoadingProcess",
       "files": [
         {
-          "src": "C:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\src\\main\\jni\\LoadingProcess.c",
-          "flags": "-target armv7-none-linux-androideabi28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -mfpu\u003dvfpv3-d16 -mthumb -Oz -DNDEBUG -mfpu\u003dneon -IC:/Users/ohayoubaka/Desktop/Android/yoru/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+          "src": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\src\\main\\jni\\LoadingProcess.c",
+          "flags": "-target armv7-none-linux-androideabi28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -mfpu\u003dvfpv3-d16 -mthumb -Oz -DNDEBUG -mfpu\u003dneon -ID:/Users/ohayoubaka/Desktop/AndroidStudio/yoru/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
         }
       ],
-      "output": "C:\\Users\\ohayoubaka\\Desktop\\Android\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libLoadingProcess.so"
+      "output": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\yoru\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libLoadingProcess.so"
     }
   },
   "toolchains": {

@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 LOCAL_PATH := $(call my-dir)
+APP_BUILD_SCRIPT := $(LOCAL_PATH)/Android.mk
 
 include $(CLEAR_VARS)
 
