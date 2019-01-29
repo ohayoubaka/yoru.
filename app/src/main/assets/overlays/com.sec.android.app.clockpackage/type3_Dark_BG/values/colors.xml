@@ -83,8 +83,8 @@
     <color name="alert_text_color">#ffffffff</color>
     <color name="background_floating_material_dark">#000000</color>
     <color name="background_floating_material_light">#000000</color>
-    <color name="background_material_dark">@*android:color/black</color>
-    <color name="background_material_light">@*android:color/black</color>
+    <color name="background_material_dark">@*android:color/primary_material_dark</color>
+    <color name="background_material_light">@*android:color/primary_material_dark</color>
     <color name="black">#ffffffff</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80ffffff</color>

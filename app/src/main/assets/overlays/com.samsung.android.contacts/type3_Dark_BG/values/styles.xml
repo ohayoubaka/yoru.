@@ -194,7 +194,7 @@
         <item name="*com.samsung.android.contacts:actionBarWidgetTheme">@null</item>
         <item name="*com.samsung.android.contacts:listChoiceBackgroundIndicator">@*com.samsung.android.contacts:drawable/abc_list_selector_holo_dark</item>
         <item name="*com.samsung.android.contacts:colorPrimary">#ff212121</item>
-        <item name="*com.samsung.android.contacts:colorPrimaryDark">@*android:color/black</item>
+        <item name="*com.samsung.android.contacts:colorPrimaryDark">@*android:color/primary_material_dark</item>
     </style>
     <style name="AlertDialog.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Base.AlertDialog.AppCompat" />
     <style name="Platform.ThemeOverlay.AppCompat.Light" parent="@*com.samsung.android.contacts:style/Platform.ThemeOverlay.AppCompat">
