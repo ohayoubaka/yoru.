@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@*ch.protonmail.android:color/silver_gray" />
+    <item android:drawable="@*android:color/primary_material_dark" />
+</selector>

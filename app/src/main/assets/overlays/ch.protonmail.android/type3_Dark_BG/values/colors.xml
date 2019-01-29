@@ -8,9 +8,25 @@
 	<color name="read_message_gray">@*android:color/primary_material_dark</color>
 	<color name="message_divider_gray">@*android:color/primary_material_dark</color>
 	<color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
-	<color name="lead_gray">@*android:color/primary_material_dark</color>
+	<color name="lead_gray">#ffffffff</color>
 	<color name="nav_drawer_divider">@*android:color/primary_material_dark</color>
 	<color name="nav_drawer_divider_bold">@*android:color/primary_material_dark</color>
 	<color name="black">#ffffffff</color>
 	<color name="blue">@*android:color/material_deep_teal_500</color>
+	<color name="icon_purple">@*android:color/material_deep_teal_500</color>
+	<color name="switch_settings_item">@*android:color/material_deep_teal_500</color>
+	<color name="background_material_dark">@*android:color/primary_material_dark</color>
+	<color name="background_material_light">@*android:color/primary_material_dark</color>
+	<color name="foreground_material_light">#ffffffff</color>
+	<color name="label_buttons">@*android:color/material_deep_teal_500</color>
+    <color name="upgrade_section">@*android:color/material_deep_teal_500</color>
+	<color name="ice_gray">@*android:color/material_deep_teal_500</color>
+	<color name="deep_blue">@*android:color/background_floating_material_dark</color>
+	<color name="switch_background">@*android:color/primary_material_dark</color>
+	<color name="silver_gray">#e8ffffff</color>
+	<color name="dark_silver_gray">#cfffffff</color>
+	<color name="iron_gray">#ffffffff</color>
+	<color name="iron_gray_70">#b3ffffff</color>
+	<color name="chateau_gray">#a4ffffff</color>
+	<color name="fog_gray">#00000000</color>
 </resources>

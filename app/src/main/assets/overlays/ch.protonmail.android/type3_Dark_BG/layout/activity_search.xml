@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/primary_material_dark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@*ch.protonmail.android:id/toolbar" layout="@*ch.protonmail.android:layout/toolbar" />
+    <android.support.v7.widget.RecyclerView android:id="@*ch.protonmail.android:id/messages_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_below="@*ch.protonmail.android:id/toolbar" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@*ch.protonmail.android:id/no_messages" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@*ch.protonmail.android:string/no_search_results" style="@*ch.protonmail.android:style/NoMessagesText" />
+    <ProgressBar android:id="@*ch.protonmail.android:id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <View android:background="@*ch.protonmail.android:drawable/actionbar_shadow" android:layout_width="fill_parent" android:layout_height="@*ch.protonmail.android:dimen/shadow_height" android:layout_below="@*ch.protonmail.android:id/toolbar" />
+</RelativeLayout>

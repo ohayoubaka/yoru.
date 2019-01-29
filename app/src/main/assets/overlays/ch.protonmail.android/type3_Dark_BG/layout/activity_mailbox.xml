@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@*ch.protonmail.android:id/drawer_layout" android:background="@*android:color/primary_material_dark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/ch.protonmail.android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@*ch.protonmail.android:id/toolbar" layout="@*ch.protonmail.android:layout/toolbar" />
+        <ch.protonmail.android.views.alerts.StorageLimitAlert android:id="@*ch.protonmail.android:id/storageLimitAlert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@*ch.protonmail.android:id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@*ch.protonmail.android:id/messages_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <FrameLayout android:id="@*ch.protonmail.android:id/layout_sync" android:background="@*ch.protonmail.android:color/rain_gray_50" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ch.protonmail.android.views.CustomFontTextView android:textStyle="italic" android:textColor="@*ch.protonmail.android:color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*ch.protonmail.android:string/syncing_messages" app:fontName="Roboto-Light.ttf" />
+        </FrameLayout>
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@*ch.protonmail.android:id/spinner_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_gravity="center" android:id="@*ch.protonmail.android:id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@*ch.protonmail.android:id/no_messages_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:layout_gravity="center" android:id="@*ch.protonmail.android:id/no_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*ch.protonmail.android:string/no_messages" />
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <View android:background="@*ch.protonmail.android:drawable/actionbar_shadow" android:layout_width="fill_parent" android:layout_height="@*ch.protonmail.android:dimen/shadow_height" />
+        <TextView android:id="@*ch.protonmail.android:id/move_to_trash" android:background="@*android:color/transparent" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:text="@*ch.protonmail.android:string/trash_icon" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@*ch.protonmail.android:id/layout_no_connectivity_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ch.protonmail.android.views.ScrimInsetsFrameLayout android:layout_gravity="start" android:background="@*ch.protonmail.android:color/dark_purple" android:layout_width="@*ch.protonmail.android:dimen/navdrawer_width" android:layout_height="fill_parent" app:pmInsetForeground="#44000000">
+        <ListView android:id="@*ch.protonmail.android:id/left_drawer" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+    </ch.protonmail.android.views.ScrimInsetsFrameLayout>
+</android.support.v4.widget.DrawerLayout>

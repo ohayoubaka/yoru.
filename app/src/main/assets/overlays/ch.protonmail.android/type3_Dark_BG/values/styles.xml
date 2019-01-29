@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="@*ch.protonmail.android:style/Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@*android:color/primary_material_dark</item>
+        <item name="android:autoCompleteTextViewStyle">@*ch.protonmail.android:style/PMAutoCompleteView</item>
+        <item name="android:checkboxStyle">@*ch.protonmail.android:style/CustomCheckBox</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHint">@*ch.protonmail.android:color/ice_gray</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionModeBackground">@*ch.protonmail.android:color/deep_blue</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="*ch.protonmail.android:actionBarPopupTheme">@*ch.protonmail.android:style/ThemeOverlay.AppCompat</item>
+		<item name="*ch.protonmail.android:actionModeBackground">@*ch.protonmail.android:color/deep_blue</item>
+        <item name="*ch.protonmail.android:actionModeStyle">@*ch.protonmail.android:style/ActionModeStyle</item>
+		<item name="*ch.protonmail.android:colorAccent">@*android:color/material_deep_teal_500</item>
+		<item name="*ch.protonmail.android:colorControlActivated">@*android:color/material_deep_teal_500</item>
+        <item name="*ch.protonmail.android:colorControlHighlight">@*android:color/material_deep_teal_500</item>
+		<item name="*ch.protonmail.android:colorControlNormal">@*android:color/material_deep_teal_500</item>
+        <item name="*ch.protonmail.android:colorPrimary">@*ch.protonmail.android:color/dark_purple</item>
+        <item name="*ch.protonmail.android:colorPrimaryDark">@*ch.protonmail.android:color/dark_purple_statusbar</item>
+		<item name="*ch.protonmail.android:searchViewStyle">@*ch.protonmail.android:style/SearchViewStyle</item>
+		<item name="*ch.protonmail.android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
