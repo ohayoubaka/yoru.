@@ -5,8 +5,15 @@
 	<color name="locationbar_bg_dark_theme_color">@*android:color/primary_material_dark</color>
 	<color name="locationbar_bg_light_theme_color">@*android:color/primary_material_dark</color>
 	<color name="locationbar_bg_tablet_color">@*android:color/primary_material_dark</color>
+	<color name="locationbar_high_contrast_bg_color">@*android:color/primary_material_dark</color>
+	<color name="locationbar_secret_bg_color">@*android:color/primary_material_dark</color>
     <color name="locationbar_stroke_color">#00000000</color>
     <color name="locationbar_divider_color">#00000000</color>
+	<color name="locationbar_divider_high_contrast_color">#00000000</color>
+    <color name="locationbar_divider_night_color">#00000000</color>
+    <color name="locationbar_divider_reader_black_color">#00000000</color>
+    <color name="locationbar_divider_reader_sepia_color">#00000000</color>
+    <color name="locationbar_divider_secret_color">#00000000</color>
     <color name="toolbar_url_hint_text_color">@*android:color/material_deep_teal_500</color>
     <color name="toolbar_url_text_color">@*android:color/material_deep_teal_500</color>
     <color name="toolbar_bg_color">@*android:color/background_floating_material_dark</color>
@@ -100,17 +107,17 @@
 	<color name="dim_foreground_material_dark">#00000000</color>
     <color name="dim_foreground_material_light">#00000000</color>
 	<color name="dim_layer_color">#00000000</color>
-	<color name="reader_toolbar_background_night">@*android:color/primary_material_dark</color>
-	<color name="reader_toolbar_shadow_night_color">@*android:color/primary_material_dark</color>
-	<color name="design_snackbar_background_color">@*android:color/primary_material_dark</color>
+	<color name="reader_toolbar_background_night">@*android:color/background_floating_material_dark</color>
+	<color name="reader_toolbar_shadow_night_color">@*android:color/background_floating_material_dark</color>
+	<color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
 	<color name="new_tab_content_page_background_high_contrast_mode">@*android:color/primary_material_dark</color>
     <color name="new_tab_content_page_background_night_mode">@*android:color/primary_material_dark</color>
 	<color name="quickaccess_suggestion_popup_background_solid_high_contrast_color">@*android:color/primary_material_dark</color>
 	<color name="quickaccess_view_background_high_contrast_mode">@*android:color/primary_material_dark</color>
     <color name="quickaccess_view_background_night_mode">@*android:color/primary_material_dark</color>
 	<color name="quickaccess_view_title_color">@*android:color/material_deep_teal_500</color>
-	<color name="tab_bar_night_mode_tint_color">@*android:color/primary_material_dark</color>
-	<color name="toolbar_bg_border_bottom_night_color">@*android:color/primary_material_dark</color>
+	<color name="tab_bar_night_mode_tint_color">@*android:color/background_floating_material_dark</color>
+	<color name="toolbar_bg_border_bottom_night_color">@*android:color/background_floating_material_dark</color>
 	<color name="toolbar_statusbar_night_color">@*android:color/primary_material_dark</color>
 	<color name="locationbar_night_bg_color">@*android:color/primary_material_dark</color>
 	<color name="navigation_bar_night_bg_color">@*android:color/primary_material_dark</color>
@@ -130,8 +137,6 @@
     <color name="quickaccess_icon_view_item_night_mode_background_stroke_color">@*android:color/primary_material_dark</color>
 	<color name="quick_menu_button_view_background_night">#d9000000</color>
 	<color name="quick_menu_seekbar_background_color_night">#66000000</color>
-	<color name="locationbar_divider_high_contrast_color">#00000000</color>
-    <color name="locationbar_divider_night_color">#00000000</color>
 	<color name="bottombar_bg_secret_color">@*android:color/primary_material_dark</color>
     <color name="tab_manager_bottombar_bg_color_secret">@*android:color/background_floating_material_dark</color>
 	<color name="bottombar_icon_high_contrast_color">@*android:color/material_deep_teal_500</color>
@@ -325,14 +330,14 @@
 	<color name="webapp_default_bg">@*android:color/primary_material_dark</color>
 	<color name="webapp_url_bar_bg">@*android:color/primary_material_dark</color>
 	<color name="payments_section_background">@*android:color/primary_material_dark</color>
-	<color name="payments_tool_bar_background_color">@*android:color/primary_material_dark</color>
+	<color name="payments_tool_bar_background_color">@*android:color/background_floating_material_dark</color>
 	<color name="multi_tab_list_item_bg_color">@*android:color/primary_material_dark</color>
 	<color name="help_intro_background">@*android:color/primary_material_dark</color>
 	<color name="download_dialog_statusbar_color">@*android:color/primary_material_dark</color>
 	<color name="data_saver_data_graph_background_color">@*android:color/primary_material_dark</color>
 	<color name="content_blocker_promotion_infobar_background">@*android:color/primary_material_dark</color>
 	<color name="airview_background">@*android:color/primary_material_dark</color>
-	<color name="authenticator_tool_bar_background_color">@*android:color/primary_material_dark</color>
+	<color name="authenticator_tool_bar_background_color">@*android:color/background_floating_material_dark</color>
 	<color name="bookmark_folder_list_background_color">@*android:color/primary_material_dark</color>
 	<color name="action_popup_background_color">@*android:color/primary_material_dark</color>
 	<color name="bookmark_widget_item_favicon_text_color_light">#ffffffff</color>
@@ -502,7 +507,7 @@
     <color name="custom_tab_close_button_color">@*android:color/material_deep_teal_500</color>
     <color name="custom_tab_light_mode">@*android:color/primary_material_dark</color>
     <color name="custom_tab_primary_color_light_theme">@*android:color/material_deep_teal_500</color>
-    <color name="custom_tab_toolbar_background">@*android:color/primary_material_dark</color>
+    <color name="custom_tab_toolbar_background">@*android:color/background_floating_material_dark</color>
     <color name="custom_tab_toolbar_background_dark">@*android:color/background_floating_material_dark</color>
     <color name="custom_tab_url_text_color">#b3ffffff</color>
     <color name="custom_tab_url_text_color_dark_theme">#99ffffff</color>
@@ -514,7 +519,6 @@
     <color name="primary_dark_material_dark">@*android:color/primary_material_dark</color>
 	<color name="appbar_bg">@*android:color/background_floating_material_dark</color>
     <color name="appbar_bg_high_contrast">@*android:color/background_floating_material_dark</color>
-    <color name="locationbar_divider_reader_black_color">#00000000</color>
     <color name="most_visited_icon_view_item_selection_background_solid_color">@*android:color/primary_material_dark</color>
     <color name="navigation_bar_fullscreen_bg_color">@*android:color/primary_material_dark</color>
     <color name="primary_text">#ffffffff</color>
@@ -536,4 +540,5 @@
     <color name="tertiary_text">#ffffffff</color>
     <color name="toolbarswipe_background_color">@*android:color/background_floating_material_dark</color>
     <color name="tw_dialog_btn_show_default_ripple_mtrl_shape_infobar_color">@*android:color/primary_material_dark</color>
+	<color name="setting_seekbar_background_color">#59ffffff</color>
 </resources>
