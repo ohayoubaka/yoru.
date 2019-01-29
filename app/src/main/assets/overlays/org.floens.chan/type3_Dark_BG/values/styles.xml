@@ -2,7 +2,7 @@
 <resources>
 	<style name="Chan.Theme.Dark" parent="@*org.floens.chan:style/Theme.AppCompat.NoActionBar">
         <item name="android:textColor">#ffffffff</item>
-        <item name="*org.floens.chan:backcolor">@*android:color/primary_material_dark</item>
+        <item name="*org.floens.chan:backcolor">@*android:color/background_floating_material_dark</item>
         <item name="*org.floens.chan:backcolor_secondary">@*android:color/primary_material_dark</item>
         <item name="*org.floens.chan:divider_color">#00000000</item>
         <item name="*org.floens.chan:divider_split_color">#00000000</item>
@@ -23,7 +23,7 @@
         <item name="*org.floens.chan:text_color_secondary">#b2ffffff</item>
     </style>
 	<style name="Chan.Theme.Black" parent="@*org.floens.chan:style/Chan.Theme.Dark">
-        <item name="*org.floens.chan:backcolor">@*android:color/primary_material_dark</item>
+        <item name="*org.floens.chan:backcolor">@*android:color/background_floating_material_dark</item>
         <item name="*org.floens.chan:backcolor_secondary">@*android:color/primary_material_dark</item>
         <item name="*org.floens.chan:post_spoiler_color">#ff2c2c2c</item>
     </style>

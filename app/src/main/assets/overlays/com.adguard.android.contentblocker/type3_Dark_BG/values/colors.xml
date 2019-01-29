@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimary">@*android:color/background_floating_material_dark</color>
     <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
 	<color name="common_text">#ffffffff</color>
 	<color name="colorAccent">#ff4caf50</color>

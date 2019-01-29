@@ -6,5 +6,5 @@
     <color name="browser_actions_divider_color">#00000000</color>
 	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-	<color name="design_snackbar_background_color">@*android:color/primary_material_dark</color>
+	<color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
 </resources>

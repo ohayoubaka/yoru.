@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="cardview_dark_background">@*android:color/primary_material_dark</color>
-	<color name="kustom_dark_primary">@*android:color/primary_material_dark</color>
+	<color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
+	<color name="kustom_dark_primary">@*android:color/background_floating_material_dark</color>
 	<color name="kustom_dark_primary_dark">@*android:color/primary_material_dark</color>
 	<color name="kustom_dark_preview_background">@*android:color/primary_material_dark</color>
 	<color name="kustom_dark_background">@*android:color/primary_material_dark</color>

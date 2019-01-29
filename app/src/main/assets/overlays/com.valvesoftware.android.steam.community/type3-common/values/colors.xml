@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="title_background">@*android:color/primary_material_dark</color>
+    <color name="title_background">@*android:color/background_floating_material_dark</color>
 	<color name="secondary_background">@*android:color/primary_material_dark</color>
     <color name="secondary_background_transparent">@*android:color/primary_material_dark</color>
 	<color name="secondary_foreground">@*android:color/material_deep_teal_500</color>

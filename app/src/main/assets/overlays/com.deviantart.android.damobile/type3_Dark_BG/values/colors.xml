@@ -8,7 +8,7 @@
     <color name="dark_background_40pct_opacity">@*android:color/primary_material_dark</color>
     <color name="dark_gray">@*android:color/primary_material_dark</color>
 	<color name="grey_background">@*android:color/primary_material_dark</color>
-	<color name="light_theme_actionbar_bg">@*android:color/primary_material_dark</color>
+	<color name="light_theme_actionbar_bg">@*android:color/background_floating_material_dark</color>
 	<color name="home_navbar_bg">@*android:color/primary_material_dark</color>
     <color name="home_navbar_bg_border">@*android:color/primary_material_dark</color>
 	<color name="grey_button_bg">@*android:color/primary_material_dark</color>

@@ -6,7 +6,7 @@
 	<color name="row_divider">@*android:color/primary_material_dark</color>
 	<color name="material_deep_teal_200">@*android:color/material_deep_teal_500</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-	<color name="btn_bg_white">@*android:color/primary_material_dark</color>
+	<color name="btn_bg_white">@*android:color/background_floating_material_dark</color>
 	<color name="primary_text_default_material_light">#deffffff</color>
     <color name="secondary_text_default_material_light">#8affffff</color>
 </resources>

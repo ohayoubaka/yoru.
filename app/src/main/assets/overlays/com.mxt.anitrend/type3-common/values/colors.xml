@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorDarker">@*android:color/primary_material_dark</color>
+	<color name="colorDarker">@*android:color/background_floating_material_dark</color>
 	<color name="colorPrimaryDarker">@*android:color/primary_material_dark</color>
 	<color name="colorAccent">@*android:color/material_deep_teal_500</color>
     <color name="colorAccentDark">@*android:color/material_deep_teal_500</color>
 	<color name="highlighted_text_material_light">#66000000</color>
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
     <color name="teal">@*android:color/material_deep_teal_500</color>
-	<color name="cardview_dark_background">@*android:color/primary_material_dark</color>
+	<color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="colorTextDark">@*android:color/primary_material_dark</color>
     <color name="material_grey_800">@*android:color/primary_material_dark</color>
     <color name="notification_material_background_media_default_color">@*android:color/primary_material_dark</color>
