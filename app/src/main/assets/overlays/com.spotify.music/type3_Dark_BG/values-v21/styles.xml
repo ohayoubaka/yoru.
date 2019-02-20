@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V21.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">@null</item>
+        <item name="android:textColorHint">@null</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:textColorHintInverse">@null</item>
+        <item name="android:textColorHint">@null</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+    <style name="TextAppearance.Cat.Dialog" parent="">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHighlight">@null</item>
+        <item name="android:textColorLink">@null</item>
+    </style>
+    <style name="Widget.Paste.Base.Button" parent="@*android:style/Widget.Holo.Button">
+        <item name="android:backgroundTint">@null</item>
+    </style>
+    <style name="Theme.Glue.NoActionBar.Login" parent="">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:dialogTheme">@null</item>
+        <item name="android:datePickerStyle">@null</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+    <style name="TextAppearance.Cat.Label" parent="">
+        <item name="android:textSize">9.0sp</item>
+        <item name="android:textColor">@null</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Widget.Glue.EditText.Dialog" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHint">@null</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>

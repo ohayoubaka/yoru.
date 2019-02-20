@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_card_bg_normal">@*android:color/background_floating_material_dark</color>
+    <color name="share_edit_text_bg">@*android:color/background_floating_material_dark</color>
+    <color name="background_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="bg_filter">@*android:color/background_floating_material_dark</color>
+    <color name="cat_dialog_button_background_negative_default">@*android:color/background_floating_material_dark</color>
+    <color name="cat_dialog_button_bar_background">@*android:color/transparent</color>
+    <color name="txt_dialog_text">#ffcecece</color>
+    <color name="txt_button_light_disabled">#ff666666</color>
+    <color name="txt_button_light_normal">#ffaaaaaa</color>
+    <color name="cat_grayscale_12">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_15">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_15_40">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_20">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_20_90">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_25">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_25_40">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_25_90">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_55">#ff88898c</color>
+    <color name="cat_grayscale_55_40">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_8">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_8_90">#e6000000</color>
+    <color name="glue_gray_10">@*android:color/background_floating_material_dark</color>
+    <color name="glue_gray_15">@*android:color/background_floating_material_dark</color>
+    <color name="glue_gray_7">@*android:color/background_floating_material_dark</color>
+    <color name="glue_gray_7_50">#7f000000</color>
+    <color name="glue_gray_background">@*android:color/background_floating_material_dark</color>
+    <color name="glue_gray_background_30">#4d000000</color>
+    <color name="glue_gray_background_90">#e6000000</color>
+    <color name="data_saver_dark">@*android:color/background_floating_material_dark</color>
+    <color name="data_saver_dark_20">#32000000</color>
+    <color name="free_tier_data_saver_dark">@*android:color/background_floating_material_dark</color>
+    <color name="free_tier_data_saver_dark_20">#32000000</color>
+</resources>
