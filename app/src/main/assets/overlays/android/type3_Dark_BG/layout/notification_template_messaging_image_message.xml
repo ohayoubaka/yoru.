@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.MessagingImageMessage android:id="@*android:id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@*android:dimen/messaging_image_extra_spacing" android:scaleType="fitStart"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

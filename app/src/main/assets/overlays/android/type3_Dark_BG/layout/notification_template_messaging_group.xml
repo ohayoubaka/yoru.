@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.MessagingGroup android:orientation="horizontal" android:id="@*android:id/status_bar_latest_event_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@*android:id/message_icon" android:layout_width="@*android:dimen/messaging_avatar_size" android:layout_height="@*android:dimen/messaging_avatar_size" android:scaleType="centerCrop" android:importantForAccessibility="no" android:layout_marginEnd="12.0dip" />
+    <com.android.internal.widget.RemeasuringLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.android.internal.widget.ImageFloatingTextView android:id="@*android:id/message_name" android:layout_width="wrap_content" android:textAlignment="viewStart" style="@*android:style/Widget.Material.Notification.MessagingName" />
+        <com.android.internal.widget.MessagingLinearLayout android:id="@*android:id/group_message_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@*android:dimen/notification_text_margin_top" android:spacing="2.0dip" />
+    </com.android.internal.widget.RemeasuringLinearLayout>
+    <FrameLayout android:id="@*android:id/messaging_group_icon_container" android:visibility="gone" android:layout_width="@*android:dimen/messaging_avatar_size" android:layout_height="@*android:dimen/messaging_avatar_size" android:layout_marginStart="12.0dip" />
+    <FrameLayout android:layout_gravity="top" android:id="@*android:id/messaging_group_sending_progress_container" android:visibility="gone" android:layout_width="@*android:dimen/messaging_group_sending_progress_size" android:layout_height="@*android:dimen/messaging_avatar_size" android:layout_marginStart="12.0dip">
+        <ProgressBar android:layout_gravity="center" android:id="@*android:id/messaging_group_sending_progress" android:layout_width="@*android:dimen/messaging_group_sending_progress_size" android:layout_height="@*android:dimen/messaging_group_sending_progress_size" android:indeterminate="true" style="?*android:progressBarStyleSmall" />
+    </FrameLayout>
+</com.android.internal.widget.MessagingGroup>
