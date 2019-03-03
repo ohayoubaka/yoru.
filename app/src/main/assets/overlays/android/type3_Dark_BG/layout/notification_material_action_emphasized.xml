@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.EmphasizedNotificationButton android:textColor="@*android:color/notification_default_color" android:ellipsize="end" android:gravity="center" android:id="@*android:id/action0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="12.0dip" style="@*android:style/NotificationEmphasizedAction"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
